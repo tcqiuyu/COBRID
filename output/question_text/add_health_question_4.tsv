@@ -1,0 +1,925 @@
+AID	RESPONDENT IDENTIFIER
+IMONTH4	Month of Wave IV interview
+IDAY4	Day of Wave IV interview
+IYEAR4	Year of Wave IV interview
+BIO_SEX4	Respondent's gender
+VERSION4	Version number of the instrument administered
+BREAK_Q	Breakoff questions asked? *
+PRYEAR4	Previous interview year
+PRETEST4	Pretest interview *
+PRISON4	Interview conducted in prison *
+H4OD1M	Respondent's date of birth – month*
+H4OD1Y	Respondent's date of birth – year*
+H4OD2A	English
+H4OD2B	Spanish
+H4OD2C	Chinese
+H4OD2D	an other European language
+H4OD2E	an other Asian language
+H4OD2F	an other language
+H4OD3	What language do you use most with your family and close relatives?
+H4OD4	Were you born a US citizen?
+H4OD5	Have you become a US citizen?
+H4OD6Y	In what year did you become a citizen? [year] NOTE: Smallest 5 and largest 5 values are displayed.
+H4OD7	Are you trying to become a US citizen?
+H4WP1	Is your biological mother still alive?
+H4WP2Y	In what year did your biological mother die? NOTE: Smallest 5 and largest 5 values are displayed.
+H4WP3	(Has/did) your biological mother ever (spent/spend) time in jail or
+H4WP4	How many times (has/did) your biological mother (spent/spend) time in jail or prison?*
+H4WP5	How old were you when your biological mother went to jail or prison (the first time)? [years]
+H4WP6	How old were you when your biological mother was released from jail or prison (most recently)? [years]
+H4WP7	Is your biological father still alive?
+H4WP8Y	In what year did you biological father die?
+H4WP9	(Has/did) your biological father ever (spent/spend) time in jail or prison?
+H4WP10	How many times (has/did) your biological father (spent/spend) time in jail or prison?*
+H4WP11	How old were you when your biological father went to jail or prison (the first time)? [years]
+H4WP12	How old were you when your biological father was released from jail or prison (most recently)? [years]*
+H4WP13	What is this person's relationship to you?
+H4WP14	Is your (mother figure) still alive?
+H4WP15Y	In what year did your (mother figure) die?
+H4WP16	(Has/did) your (mother figure) ever (spent/spend) time in jail or prison?
+H4WP17	How many times (has/did) your (mother figure) (spent/spend) time in jail or prison?*
+H4WP18	How old were you when your (mother figure) went to jail or prison (the first time)? [years]
+H4WP19	How old were you when your (mother figure) was released from jail or prison (most recently)? [years]
+H4WP20	How far do you and your (mother figure) live from one another?
+H4WP21	How often do you and your (mother figure) see each other?
+H4WP22	How often do you and your (mother figure) talk on the telephone, exchange letters, or exchange email?
+H4WP23	You are satisfied with the way your (mother figure) and you communicate with each other.
+H4WP24	How close do you feel to your (mother figure)?
+H4WP25	How many times has your (mother figure) paid your living expenses or given you $50 or more to pay living expenses during the past 12 months?*
+H4WP26	How many times have you paid your (mother figure's) living expenses or given her more than $50 to pay living expenses during the past 12 months?*
+H4WP27	What is this person's relationship to you?
+H4WP28	Is your (father figure) still alive?
+H4WP29Y	In what year did your (father figure) die?
+H4WP30	(Has/did) your (father figure) ever (spent/spend) time in jail or prison?
+H4WP31	How many times (has/did) your (father figure) (spent/spend) time in jail or prison?*
+H4WP32	How old were you when your (father figure) went to jail or prison (the first time)? [years]
+H4WP33	How old were you when your (father figure) was released from jail or prison (most recently)? [years]
+H4WP34	How far do you and your (father figure) live from one another?
+H4WP35	How often do you and your (father figure) see each other?
+H4WP36	How often do you and your (father figure) talk on the telephone, exchange letters, or exchange email?
+H4WP37	You are satisfied with the way your (father figure) and you communicate with each other.
+H4WP38	How close do you feel to your (father figure)?
+H4WP39	How many times has your (father figure) paid your living expenses or given you $50 or more to pay living expenses during the past 12 months?*
+H4WP40	How many times have you paid your (father figure's) living expenses or given him more than $50 to pay living expenses during the past 12 months?*
+H4WS1	How many brothers and sisters do you have, both living and deceased? Include biologically related, adoptive, and step-brothers or sisters.*
+H4WS2	How many have died?
+H4WS4	How many close friends do you have? (Close friends include people whom you feel at ease with, can talk to about private matters, and can call on for help.)
+H4WS5	What race are you close friends?
+H4GH1	In general, how is your health?
+H4GH2	In the past 30 days, how often did a health problem cause you to miss a day of school or work?
+H4GH3M	What is the date your last menstrual period began? [Month]
+H4GH3D	What is the date when your last menstrual period began? [Day] NOTE: Smallest 5 and largest 5 values are displayed.
+H4GH3Y	What is the date when your last menstrual period began? [Year]
+H4GH4A	What is your best guess about how long ago your last menstrual period began? [Number of days, weeks, or months]
+H4GH4B	What is your best guess about how long ago your last menstrual period began? [Days, weeks, or months]
+H4GH5F	How tall are you in feet?
+H4GH5I	How tall are you in inches?
+H4GH6	What is your current weight in pounds?*
+H4GH7	How do you think of yourself in terms of weight?
+H4GH8	How many times in the past seven days did you eat food from a fast food restaurant, such as McDonald's, Burger King, Wendy's, Arby's, Pizza Hut, Taco Bell, or Kentucky Fried Chicken or a local fast food restaurant? (Enter 99 for 99 or more times.)
+H4GH9	In the past 7 days, how many regular (non-diet) sweetened drinks did you have? Include regular soda, juice drinks, sweetened tea or coffee, energy drinks, flavored water, or other sweetened drinks. (Enter 99 for 99 or more.)
+H4GH10	In the past 7 days, how many diet or low-calorie drinks did you have? Include diet sodas, unsweetened tea or coffee, or other drinks sweetened with artificial sweeteners. (Enter 99 for 99 or more.) NOTE: Smallest 5 and largest 5 values are displayed.
+H4GH11H	At what time did you last eat or drink anything other than water, including sugar-containing candy or gum? [Hour]
+H4GH11M	At what time did you last eat or drink anything other than water, including sugar-containing candy or gum? [Minute]
+H4GH11T	At what time did you last eat or drink anything other than water, including sugar-containing candy or gum? [am/pm]
+H4GH12	Did you drink a caffeinated beverage (e.g., coffee, tea or soda) in the past 24 hours?
+H4GH13H	At what time did you last drink a caffeinated beverage? [Hour]
+H4GH13M	At what time did you last drink a caffeinated beverage? [Minute] NOTE: Smallest 5 and largest 5 values are displayed.
+H4GH13T	At what time did you last drink a caffeinated beverage? [am/pm]
+H4HS1	Which of the following best describes your current health insurance situation?
+H4HS2A	You are not offered health insurance through work or school.
+H4HS2B	It is too expensive.
+H4HS2C	You do not need or want health insurance.
+H4HS2D	You were denied health insurance.
+H4HS3	Over the past 12 months, how many months did you have health insurance?
+H4HS4	Has there been a time in the past 12 months when you thought you should get medical care, but you did not?
+H4HS5	In the past 12 months, did a health problem get worse because you did not get care when you thought you should?
+H4HS6	Where do you usually go when you are sick or need health care?
+H4HS7	How long ago did you last have a routine check-up?
+H4HS8	In the past 12 months have you had a dental examination by a dentist or dental hygienist?
+H4HS9	In the past 12 months have you received psychological or emotional counseling?
+H4ID1	The following questions are about activities you might do during a typical day. How much does your health now limit you in these activities: moderate activities, such as moving a table, pushing a vacuum cleaner, bowling, playing golf?
+H4ID2	How much does your health now limit you in: climbing several flights of stairs?
+H4ID3	Is your limitation in activities caused by a condition that has lasted more than a year, or by a condition that has developed recently?
+H4ID4	Do you use a brace, cane, wheelchair or other device because of a physical condition?
+H4ID5A	Has a doctor, nurse or other health care provider ever told you that you have or had: cancer or lymphoma or leukemia? Don't include skin cancer, except melanoma?
+H4ID5B	Has a doctor, nurse or other health care provider ever told you that you have or had: high blood cholesterol or triglycerides or lipids?
+H4ID5C	Has a doctor, nurse or other health care provider ever told you that you have or had: high blood pressure or hypertension {if female add, when you were not pregnant}?
+H4ID5D	Has a doctor, nurse or other health care provider ever told you that you have or had: high blood sugar or diabetes {if female add, when  you were not pregnant}?
+H4ID5E	Has a doctor, nurse or other health care provider ever told you that you have or had: heart disease?
+H4ID5F	Has a doctor, nurse or other health care provider ever told you that you have or had: asthma, chronic bronchitis or emphysema?
+H4ID5G	Has a doctor, nurse or other health care provider ever told you that you have or had: migraine headaches?
+H4ID5H	Has a doctor, nurse or other health care provider ever told you that you have or had: depression?
+H4ID5I	Has a doctor, nurse or other health care provider ever told you that you have or had: post-traumatic stress disorder or PTSD?
+H4ID5J	Has a doctor, nurse or other health care provider ever told you that you have or had: anxiety or panic disorder?
+H4ID5K	Has a doctor, nurse or other health care provider ever told you that you have or had: epilepsy or another seizure disorder?
+H4ID5L	as a doctor, nurse or other health care provider ever told you that you have or had: attention problems or ADD or ADHD?
+H4ID5N	Has a doctor, nurse or other health care provider ever told you that you have or had: Hepatitis C?
+H4ID7	In the past 12 months, have you suffered any serious injuries? For example, broken bones, cuts or lacerations, burns, torn muscles, tendons or ligaments, or other injuries that interfered with your ability to perform daily tasks.
+H4ID8	In the past 12 months, were you involved in a motor vehicle accident?
+H4ID9A	Have you had gum disease (gingivitis; periodontal disease) or tooth loss because of cavities, Gum disease (gingivitis; periodontal disease) or tooth loss because of cavities in the last four weeks?*
+H4ID9B	Have you had active infection in the last four weeks?*
+H4ID9C	Have you had injury in the last four weeks?*
+H4ID9D	Have you had acute illness in the last four weeks?*
+H4ID9E	Have you had surgery in the last four weeks?*
+H4ID9F	Have you had active seasonal allergies (hay fever) in last four weeks?*
+H4ID9G	Have you had none of the above in the last four weeks?*
+H4ID10A	Have you had cold or flu-like symptoms such as sore throat,
+H4ID10B	Have you had fever in the last two weeks?*
+H4ID10C	Have you had night sweats in the last two weeks?*
+H4ID10D	Have you had nausea or vomiting or diarrhea in the last two weeks?*
+H4ID10E	Have you had blood in stool (feces) or in urine in the last two weeks?*
+H4ID10F	Have you had frequent urination in the last two weeks?*
+H4ID10G	Have you had skin rash or abscess in the last two weeks?*
+H4ID10H	Have you had none of the above in the last two weeks?*
+H4ID11	Regarding your current medication use: In the past 24 hours, have you taken aspirin or aspirin-containing medications including cold and allergy medications or headache powders? Do not include acetaminophen for example, Tylenol, or ibuprofen, for example, Advil, Motrin or Nuprin. Some examples of aspirin-containing medications include: Anacin, Aspirin, B.C. Backache Relief Extra Strength, Bayer, Excedrin, Goody’s™, Pain Relief, Pain Reliever Added Strength, Vanquish
+H4ID12	In the past 24 hours, have you taken other anti-inflammatory medications? Do not include acetaminophen, for example, Tylenol or aspirin-containing medications. Some examples of those include: Advil, Aleve, Ibuprofen, Motrin, Naproxen, Nuprin
+H4ID13	Do you have total blindness in one or both eyes?
+H4ID14	Do you use eyeglasses, contact lenses, both, or neither for vision correction?
+H4ID15	With eyeglasses or contact lenses, how is your eyesight?
+H4ID16	Have you ever worn a hearing aid?
+H4ID17	Which statement best describes your hearing without a hearing aid or other assistive devices?
+H4ID18	Do you have a problem with stuttering or stammering?
+H4ID19	How would you describe your stuttering or stammering at this time?
+H4ID20	In the past 12 months have you been bothered by ringing, roaring, or buzzing in your ears or head (tinnitus) that lasts for 5 minutes or more?
+H4ID21	How long have you been bothered by this ringing, roaring, or buzzing in your ears or head?
+H4ID22	In the past 12 months, how often have you had this ringing, roaring, or buzzing in your ears or head?
+H4ID23	In the past 12 months, have you had any problem with your voice? By any problem, we mean was there any time when your voice was hoarse, raspy, breathy, weak, or, generally, did not work, perform, or sound as you feel it normally would?*
+H4ID24	In the past 12 months, how often has your voice been hoarse, raspy, or breathy?*
+H4ID25	In the past 12 months, how often have you had difficulty being heard or trouble projecting your voice?*
+H4ID26	How often does a problem with your voice affect your personal, social, or working (professional) life?*
+PRETEST	MAIN
+H4SP1H	On the days you go to work, school or similar activities, what time do you usually wake up? [Hour]
+H4SP1M	On the days you go to work, school or similar activities, what time do you usually wake up? [Minute]
+H4SP1T	On the days you go to work, school or similar activities, what time do you usually wake up? [am/pm]
+H4SP2H	On those days, what time do you usually go to sleep the night or day before? [Hour]
+H4SP2M	On those days, what time do you usually go to sleep the night or day before? [Minute]
+H4SP2T	On those days, what time do you usually go to sleep the night or day before? [am/pm]
+H4SP3H	On the days that you don't have to get up at a certain time, what time do you usually wake up? [Hour]
+H4SP3M	On the days that you don't have to get up at a certain time, what time do you usually wake up? [Minute]
+H4SP3T	On the days that you don't have to get up at a certain time, what time do you usually wake up? [am/pm]
+H4SP4H	On those days, what time do you usually go to sleep the night or day before? [Hour]
+H4SP4M	On those days, what time do you usually go to sleep the night or day before? [Minute]
+H4SP4T	On those days, what time do you usually go to sleep the night or day before? [am/pm]
+H4SP5	How often did you have trouble falling asleep?
+H4SP6	How often did you have trouble staying asleep throughout the night? For example, you woke up several times at night or woke up earlier
+H4SP7	Based on what you have noticed or what others have told you, are there times when you snore or you stop breathing during your sleep?
+H4HR1	Where do you live now? That is, where do you stay most often?
+H4HR2	What kind of group quarters are you living in?
+H4HR3	Do you live alone or with others?
+H4HR4	How many people live with you? Don't count yourself. If someone usually lives with you but is away temporarily include him or her.
+H4HR5A	Is {INITIALS} male or female?*
+H4HR6A	How old is {INITIALS}? {Allow 0-120}*
+H4HR7A	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8A	What is {INITIAL'S} relationship to you?*
+H4HR9A	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5B	Is {INITIALS} male or female?*
+H4HR6B	How old is {INITIALS}? {Allow 0-120}*
+H4HR7B	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8B	What is {INITIAL'S} relationship to you?*
+H4HR9B	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5C	Is {INITIALS} male or female?*
+H4HR6C	How old is {INITIALS}? {Allow 0-120}*
+H4HR7C	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8C	What is {INITIAL'S} relationship to you?*
+H4HR9C	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5D	Is {INITIALS} male or female?*
+H4HR6D	How old is {INITIALS}? {Allow 0-120}*
+H4HR7D	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8D	What is {INITIAL'S} relationship to you?*
+H4HR9D	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5E	Is {INITIALS} male or female?*
+H4HR6E	How old is {INITIALS}? {Allow 0-120}*
+H4HR7E	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8E	What is {INITIAL'S} relationship to you?*
+H4HR9E	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5F	Is {INITIALS} male or female?*
+H4HR6F	How old is {INITIALS}? {Allow 0-120}*
+H4HR7F	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8F	What is {INITIAL'S} relationship to you?*
+H4HR9F	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5G	Is {INITIALS} male or female?*
+H4HR6G	How old is {INITIALS}? {Allow 0-120}*
+H4HR7G	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8G	What is {INITIAL'S} relationship to you?*
+H4HR9G	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5H	Is {INITIALS} male or female?*
+H4HR6H	How old is {INITIALS}? {Allow 0-120}*
+H4HR7H	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8H	What is {INITIAL'S} relationship to you?*
+H4HR9H	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5I	Is {INITIALS} male or female?*
+H4HR6I	How old is {INITIALS}? {Allow 0-120}*
+H4HR7I	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8I	What is {INITIAL'S} relationship to you?*
+H4HR9I	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5J	Is {INITIALS} male or female?*
+H4HR6J	How old is {INITIALS}? {Allow 0-120}*
+H4HR7J	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8J	What is {INITIAL'S} relationship to you?*
+H4HR9J	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5K	Is {INITIALS} male or female?*
+H4HR6K	How old is {INITIALS}? {Allow 0-120}*
+H4HR7K	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8K	What is {INITIAL'S} relationship to you?*
+H4HR9K	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5L	Is {INITIALS} male or female?*
+H4HR6L	How old is {INITIALS}? {Allow 0-120}*
+H4HR7L	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8L	What is {INITIAL'S} relationship to you?*
+H4HR9L	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5M	Is {INITIALS} male or female?*
+H4HR6M	How old is {INITIALS}? {Allow 0-120}*
+H4HR7M	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8M	What is {INITIAL'S} relationship to you?*
+H4HR9M	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5N	Is {INITIALS} male or female?*
+H4HR6N	How old is {INITIALS}? {Allow 0-120}*
+H4HR7N	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8N	What is {INITIAL'S} relationship to you?*
+H4HR9N	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5O	Is {INITIALS} male or female?*
+H4HR6O	How old is {INITIALS}? {Allow 0-120}*
+H4HR7O	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8O	What is {INITIAL'S} relationship to you?*
+H4HR9O	Which description best fits {INITIAL}'s relationship to you?*
+H4HR5P	Is {INITIALS} male or female?*
+H4HR6P	How old is {INITIALS}? {Allow 0-120}*
+H4HR7P	About how old is {INITIALS}? {Allow 0-120}*
+H4HR8P	What is {INITIAL'S} relationship to you?*
+H4HR9P	Which description best fits {INITIAL}'s relationship to you?*
+H4HR10	Have you continuously lived in {CURRENT STATE} since {LAST INTERVIEW: 1995/1996/2001/2002}?
+H4HR11YA	In what year did you move to {STATE}?
+H4HR11YB	In what year did you move to {STATE}?
+H4HR11YC	In what year did you move to {STATE}?
+H4HR11YD	In what year did you move to {STATE}?
+H4HR11YE	In what year did you move to {STATE}?
+H4HR11YF	In what year did you move to {STATE}?
+H4HR11YG	In what year did you move to {STATE}?
+H4HR11YH	In what year did you move to {STATE}?
+H4HR11YI	In what year did you move to {STATE}?
+H4HR11YJ	In what year did you move to {STATE}?
+H4HR11YK	In what year did you move to {STATE}?
+H4HR11YL	In what year did you move to {STATE}?
+H4HR11YM	In what year did you move to {STATE}?
+H4HR11YN	In what year did you move to {STATE}?
+H4HR11YO	In what year did you move to {STATE}?
+H4ED1	What is your high school graduation status?
+H4ED2	What is the highest level of education that you have achieved to date?
+H4ED3A	What is the most recent degree you have received?
+H4ED3B	What is the second most recent degree you have received?
+H4ED3C	What is the third most recent degree you have received?
+H4ED3D	What is the fourth most recent degree you have received?
+H4ED3E	What is the fifth most recent degree you have received?
+H4ED3F	What is the sixth most recent degree you have received?
+H4ED3G	What is the seventh most recent degree you have received?
+H4ED3H	What is the eighth most recent degree you have received?
+H4ED4A	In what year did you receive your most recent degree/certificate?
+H4ED4B	In what year did you receive your next most recent degree/certificate?
+H4ED4C	In what year did you receive your next most recent degree/certificate?
+H4ED4D	In what year did you receive your next most recent degree/certificate?
+H4ED4E	In what year did you receive your next most recent degree/certificate?
+H4ED4F	In what year did you receive your next most recent degree/certificate?
+H4ED4G	In what year did you receive your next most recent degree/certificate?
+H4ED4H	In what year did you receive your next most recent degree/certificate?
+H4ED5A	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED5B	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED5C	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED5D	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED5E	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED5F	Have you received any other degrees or certificates from a
+H4ED5G	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED5H	Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+H4ED6	Are you currently attending a college, university, or vocational/technical school where you take courses for academic credit? If you are enrolled but on school break or vaction, count this as attending.
+H4ED7	In the past 12 months, have any relatives, including your parents or in-laws, helped you out by paying some of your educational expenses, such as tuition and books?
+H4ED8	Which of the following best describes your desired level of education? Please listen to all options before responding.
+H4ED9	What is the highest level of education you ever expect to complete?
+H4MI1	Have you ever been in the military?
+H4MI2	Was your military service in the US, outside the US, or both?
+H4MI3	Are you currently serving in the military?
+H4MI4A	Army
+H4MI4B	Air Force
+H4MI4C	Marine Corps
+H4MI4D	Navy
+H4MI4E	Coast Guard
+H4MI5	In which branch are you currently serving?
+H4MI6A	active duty
+H4MI6B	reserves
+H4MI6C	National Guard
+H4MI7	In which component are you currently serving?
+H4MI8Y	In what year did your first military service begin? [Year]*
+H4MI9Y	In what year did your most recent military service end? [Year]*
+H4MI10	What is the highest military rank you have achieved?
+H4MI11Y	What is the total amount of time you (have) served on active duty? [Years]*
+H4MI11M	What is the total amount of time you (have) served on active duty? [Months]*
+H4MI12Y	What is the total amount of time you (have) served in a combat zone? [Years]*
+H4MI12M	What is the total amount of time you (have) served in a combat zone? [Months]*
+H4MI13	During your combat deployment, how many times did you engage the enemy in a firefight?
+H4MI14	During your combat deployment, did you ever kill or think you killed someone?
+H4MI15	During your combat deployment, were you wounded or injured?
+H4MI16A	Yes, coalition or ally
+H4MI16B	Yes, enemy
+H4MI16C	Yes, civilian
+H4MI16D	No
+H4MI17	Would you provide your social security number?
+C_ACTIDUTY	Value is 1 if respondent is currently on active duty military service: H4MI3=yes and ((H4MI6A=Active Duty ONLY and H4MI7=blank) or (H4MI7=Active Duty))
+C_TOTMIL	Sum of counts of: H4MI4A, H4MI4B, H4MI4C, H4MI4D, H4MI4E
+C_TOTCOM	Sum of counts of: H4MI6A, H4MI6B, H4MI6C
+C_TOTTIM	Number of months + number of years (converted to months) in a combat zone: H4MI12M + H4MI12Y
+H4LM1	Have you ever worked full time at least 35 hours a week at a paying job while you were not primarily a student? Do not include summer work.
+H4LM2	Have you ever worked for 9 weeks or more at a paying job that was at least 10 hours a week? Do not include military service.
+H4LM3	Thinking back over the period from 2001 to the previous year how many total jobs have you had? Include only paying jobs that lasted 9 weeks or more and were at least 10 hours a week.
+H4LM4	Thinking back over the period from 2001 to the previous year, how many times have you been fired, let go or laid off from a job?
+H4LM5	How old were you when you first began working full time (at least 35 hours a week) at a paying job while you were not primarily a student? NOTE: Smallest 5 and largest 5 values are displayed.
+H4LM6	Are you still at your first full-time job at least 10 hours per week?
+H4LM7	Since you left your first full-time job, have you had another paying job that was at least 10 hours per week? Do not include military service.
+H4LM8	Next I'd like to record a description of your first full-time job. When you see the list of categories, please tell me which best describes what you did at your first full time job.*
+H4LM9M	How long did you work at your first full time job? [months]
+H4LM9Y	How long did you work at your first full time job? [years]
+H4LM10	Which of the following best describes your first full time job?
+H4LM11	Are you currently working for pay at least 10 hours a week?
+H4LM12	On how many jobs are you currently working for pay at least 10 hours a week?
+H4LM13	How many total hours a week do you usually spend at these jobs?* NOTE: Smallest 5 and largest 5 values are displayed.
+H4LM14	Which one of the following categories best describes what you're doing now?
+H4LM15Y	In what year did you begin your (current/most recent) primary job? [year]
+H4LM16Y	In what year did you last work at this job? [year]
+H4LM17	What is the main reason you left your most recent job?
+H4LM18	Now I'd like to record a description of your (current/most recent) job. When you see the list of categories, please tell me which best describes what you (do/did) at your (current/most recent) job.* NOTE: Smallest 5 and largest 5 values are displayed.
+H4LM19	How many hours a week (do/did) you usually work at this job?* NOTE: Smallest 5 and largest 5 values are displayed.
+H4LM20	Which one of these categories best describes the hours you (work/worked) at this job?
+H4LM21A	health insurance?
+H4LM21B	retirement benefits (such as 401k, 403b, or a company pension plan)?
+H4LM21C	paid vacation or sick leave?
+H4LM22	In your current primary job, do you spend most of your time
+H4LM23	Overall, how often (do/did) you have the freedom to make important decisions about what you (do/did) at work and how you (do/did) it?
+H4LM24	How much of the time (do/did) you do the same things repeatedly, that is over and over?
+H4LM25	Thinking about your official job duties, which of the following statements best describes your supervisory responsibilities at your (current/most recent) primary job?
+H4LM26	How satisfied (are/were) you with this job, as a whole?
+H4LM27	Which one of the following best describes your (current/most recent) primary job?
+H4LM28	Indicate how much you would agree or disagree with this statement: Family responsibilities have interfered with my ability to work.
+H4LM29	(In the past 12 months/Since you started your current job/In the last year of your most recent job), how often on your primary job (have you had/have you had/did you have) to cut back your hours or turn down overtime because of your family responsibilities?
+H4LM30	(In the past 12 months/Since you started your current job/In the last year of your most recent job), how often on your primary job (have you spent/have you spent/did you spend) less time with your family than you wanted to because of work responsibilities?
+H4EC1	Thinking about your income and the income of everyone who lives in your household and contributes to the household budget, what was the total household income before taxes and deductions in
+H4EC2	Now think about your personal earnings. In {2006/2007/2008}, how much income did you receive from personal earnings before
+H4EC3	What is your best guess of your personal earnings before taxes? (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+H4EC4	Is your house, apartment, or residence owned or being bought by
+H4EC5	About how much do {YOU AND/OR YOUR SPOUSE/PARTNER} you owe on the mortgage for your house, apartment, or residence? NOTE: Smallest 5 and largest 5 values are displayed.
+H4EC6	Have {YOU/YOUR SPOUSE/PARTNER} ever received any financial gifts or loans from your parents, in-laws, or relatives to help you buy, remodel, build or furnish a home or condominium?
+H4EC7	What is your best estimate of the total value of your assets and the assets of everyone who lives in your household and contributes to the household budget? Include all assets, such as bank accounts, retirement plans and stocks. Do not include equity in your home. (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+H4EC8	Now, think about your debts besides any mortgage on your home. How much do you and others in your household owe altogether? Include all debts, including all types of loans, credit card debt, medical or legal bills, etc.
+H4EC9	Suppose you and others in your household were to sell all of your major possessions (including your home), turn all of your investments and other assets into cash, and pay off all of your debts. Would you have something left over, break even, or be in debt?
+H4EC10	In the past 12 months, was there a time when {YOU/YOUR HOUSEHOLD} was without phone service because you didn't have enough money?
+H4EC11	In the past 12 months, was there a time when {YOU/YOUR HOUSEHOLD} didn't pay the full amount of the rent or mortgage because you didn't have enough money?
+H4EC12	In the past 12 months, was there a time when {YOU/YOUR HOUSEHOLD} were evicted from your house or apartment for not paying the rent or mortgage?
+H4EC13	In the past 12 months, was there a time when {YOU/YOUR HOUSEHOLD} didn't pay the full amount of a gas, electricity, or oil bill because you didn't have enough money?
+H4EC14	In the past 12 months, was there a time when {YOU/YOUR HOUSEHOLD} had the service turned off by the gas or electric company, or the oil company wouldn't deliver, because payments were not made?
+H4EC15	In the past 12 months, was there a time when {YOU/YOUR HOUSEHOLD WERE/WAS} worried whether food would run out before you would get money to buy more?
+H4EC16	Before you were 18 years old, did anyone in your household ever receive public assistance, welfare payments, or food stamps?
+H4EC17	During how much of the time before you were 18 years old did anyone in your household receive this kind of help?
+H4EC18	Between {1995/2002} and {2006/2007/2008}, did you or others in your household receive any public assistance, welfare payments, or food stamps?
+H4EC19	Think of this ladder as representing where people stand in the United States. At the top of the ladder (step 10) are the people who have the most money and education, and the most respected jobs. At the bottom of the ladder (step 1) are the people who have the least money and education, and the least respected jobs or no job.
+H4RE1	What is your present religion?
+H4RE2	Is that a Christian religion?
+H4RE3	Are you fundamentalist, evangelical, mainline, liberal, Pentecostal, or none of these?
+H4RE4	Are you traditional, moderate, liberal, or none of these?
+H4RE5	Are you Orthodox, Conservative, Reform, or none of these?
+H4RE6	What is your denomination?
+H4RE7	How often have you attended church, synagogue, temple, mosque, or religious services in the past 12 months?
+H4RE8	Many churches, synagogues, and other places of worship have special activities outside of regular worship services--such as classes, retreats, small groups, or choir. In the past 12 months, how often have you taken part in such activities?
+H4RE9	How important (if at all) is your religious faith to you?
+H4RE10	How often do you pray privately, that is, when you're alone in places other than a church, synagogue, temple, mosque, or religious assembly?
+H4RE11	How often do you turn to your religious or spiritual beliefs for help when you have personal problems, or problems at school or work?
+H4MH1	Did any of the following happen: interruption during memory task?
+C4WD90_1	How many total words on the Word List did the respondent remember during the 90-second recall period? This is the total in Box 1 on the recall form. Enter 99 if you do not have a Word List Recall Form for this respondent.*
+C4WD90_2	How many words not on the list did the respondent name? This is the total in Box 2 on the recall form.*
+C4WD90_3	Count all words that were repeated, whether on the Word List or not.*
+H4MH2	How often do you feel isolated from others?
+H4MH3	In the last 30 days, how often have you felt that you were unable to control the important things in your life?
+H4MH4	In the last 30 days, how often have you felt confident in your ability to handle your personal problems?
+H4MH5	In the last 30 days, how often have you felt that things were going your way?
+H4MH6	In the last 30 days, how often have you felt that difficulties were piling up so high that you could not overcome them?
+H4MH7	Compared to other people your age, how intelligent are you?
+H4MH8	How attractive are you?
+H4MH9	Including any children you may already have, how many children, in total, do you intend to have? Respondent should include children he or she intends to adopt or foster.
+H4MH10	Did any of the following happen: interruption during memory task?
+C4WD60_1	How many total words on the Word List did the respondent remember during the 60-second recall period? This is the total in Box 1 on the recall form.*
+C4WD60_2	How many words not on the list did the respondent name? This is the total in Box 2 on the recall form.*
+C4WD60_3	Count all words that were repeated, whether on the Word List or not.*
+H4MH11A	2-4 (4-2)
+H4MH11B	5-7 (7-5)
+H4MH12A	6-2-9 (9-2-6)
+H4MH12B	4-1-5 (5-1-4)
+H4MH13A	3-2-7-9 (9-7-2-3)
+H4MH13B	4-9-6-8 (8-6-9-4)
+H4MH14A	1-5-2-8-6 (6-8-2-5-1)
+H4MH14B	6-1-8-4-3 (3-4-8-1-6)
+H4MH15A	5-3-9-4-1-8 (8-1-4-9-3-5)
+H4MH15B	7-2-4-8-5-6 (6-5-8-4-2-7)
+H4MH16A	8-1-2-9-3-6-5 (5-6-3-9-2-1-8)
+H4MH16B	4-7-3-9-1-2-8 (8-2-1-9-3-7-4)
+H4MH17A	9-4-3-7-6-2-5-8 (8-5-2-6-7-3-4-9)
+H4MH17B	7-2-8-1-9-6-5-3 (3-5-6-9-1-8-2-7)
+C4NUMSCR	Total score on number recall task*
+H4MH18	You were bothered by things that usually don't bother you.
+H4MH19	(During the past seven days:) You could not shake off the blues, even with help from your family and your friends.
+H4MH20	(During the past seven days:) You felt you were just as good as other people.
+H4MH21	(During the past seven days:) You had trouble keeping your mind on what you were doing.
+H4MH22	(During the past seven days:) You felt depressed.
+H4MH23	(During the past seven days:) You felt that you were too tired to do things.
+H4MH24	(During the past seven days:) You felt happy.
+H4MH25	(During the past seven days:) You enjoyed life.
+H4MH26	(During the past seven days:) You felt sad.
+H4MH27	(During the past seven days:) You felt that people disliked you, during the past seven days.
+H4MH28	In your day-to-day life, how often do you feel you have been treated with less respect or courtesy than other people?
+H4MH29	What do you think was the main reason for these experiences? Choose only one reason.
+H4SE1	During the past 12 months, have you ever seriously thought about committing suicide?
+H4SE2	During the past 12 months, how many times have you actually attempted suicide?
+H4SE3	Did any attempt result in an injury, poisoning, or overdose that had to be treated by a doctor or nurse?
+H4SE4	During the past 12 months, have any of your family or friends tried to kill themselves?
+H4SE5	Have any of them died as a result?
+H4SE6	Have you ever had vaginal intercourse? (Vaginal intercourse is
+H4SE7	How old were you the first time you ever had vaginal intercourse? NOTE: Smallest 5 and largest 5 values are displayed.
+H4SE8	With how many partners have you ever had vaginal intercourse, even if only once?
+H4SE9	Have you ever had oral sex? That is, has a partner ever put his/her mouth on your sex organs or you put your mouth on his/her sex organs?
+H4SE10	How old were you the very first time you had oral sex? NOTE: Smallest 5 and largest 5 values are displayed.
+H4SE11	Have you ever had anal intercourse? (By anal intercourse, we mean when a man inserts his penis into his partner's anus or butt hole.)
+H4SE12	How old were you the very first time you had anal intercourse? NOTE: Smallest 5 and largest 5 values are displayed.
+H4SE13	Considering all types of sexual activity, with how many male partners have you ever had sex?
+H4SE14	What is your best estimate, is it
+H4SE15	Considering all types of sexual activity, with how many male partners did you have sex before you were 18 years old, even if only one time?
+H4SE16	What is your best estimate, is it
+H4SE17	Considering all types of sexual activity, with how many male partners have you had sex in the past 12 months, even if only one time?
+H4SE18	What is your best estimate, is it
+H4SE19	Considering all types of sexual activity, with how many female partners have you ever had sex?
+H4SE20	What is your best estimate, is it
+H4SE21	Considering all types of sexual activity, with how many female partners did you have sex before you were 18 years old, even if only one time?
+H4SE22	What is your best estimate, is it
+H4SE23	Considering all types of sexual activity, with how many female partners have you had sex in the past 12 months?
+H4SE24	What is your best estimate, is it:
+H4SE25	Considering all types of sexual activity, with how many partners, male or female, have you had sex on one and only one occasion? NOTE: Smallest 5 and largest 5 values are displayed.
+H4SE26A	condoms (rubbers)
+H4SE26B	female condom
+H4SE26C	birth control pills
+H4SE26D	shot (Depo-Provera)
+H4SE26E	emergency contraception or 'morning after' pill
+H4SE26F	Norplant
+H4SE26G	diaphragm, cap or shield
+H4SE26H	IUD (intrauterine device), coil, loop
+H4SE26I	natural family planning (safe periods by temperature, cervical mucus test)
+H4SE26J	withdrawal (pulling out)
+H4SE26K	rhythm or safe period by calendar
+H4SE26L	vaginal sponge
+H4SE26M	spermicide foam, jelly, creme, suppositories
+H4SE26N	ring (NuvaRing)
+H4SE26O	patch (Ortho Evra)
+H4SE26P	contraceptive film
+H4SE26Q	emergency IUD insertion
+H4SE26R	vasectomy
+H4SE26S	tubal ligation/sterilization
+H4SE26T	some other method
+H4SE26V	no method used
+H4SE27	In the past 12 months, did you have sex with more than one partner at around the same time?
+H4SE28	In the past 12 months, how many times have you paid someone to have sex with you or has someone paid you to have sex with them?
+H4SE29	Are you romantically attracted to females?
+H4SE30	Are you romantically attracted to males?
+H4SE31	Please choose the description that best fits how you think about yourself
+H4SE32	Have you ever been forced, in a non-physical way, to have any type of sexual activity against your will? For example, through verbal pressure, threats of harm, or by being given alcohol or drugs? Do not include any experiences with a parent or adult caregiver.
+H4SE33	How old were you the first or only time this happened? NOTE: Smallest 5 and largest 5 values are displayed.
+H4SE34	Have you ever been physically forced to have any type of sexual activity against your will? Do not include any experiences with a parent or adult caregiver.
+H4SE35	How old were you the first or only time this happened? NOTE: Smallest 5 and largest 5 values are displayed.
+H4SE36A	chlamydia
+H4SE36B	gonorrhea
+H4SE36C	trichomoniasis
+H4SE36D	syphilis
+H4SE36E	genital herpes
+H4SE36F	genital warts
+H4SE36G	hepatitis B (HBV)
+H4SE36H	human papilloma virus (HPV)
+H4SE36I	pelvic inflammatory disease (PID)
+H4SE36J	cervicitis or mucopurulent cervicitis (MPC)
+H4SE36K	urethritis
+H4SE36L	vaginitis
+H4SE36N	any other sexually transmitted disease
+H4SE36O	have had no sexually transmitted diseases
+H4SE37A	chlamydia*
+H4SE37B	gonorrhea*
+H4SE37C	trichomoniasis*
+H4SE37D	syphilis*
+H4SE37E	genital herpes*
+H4SE37F	genital warts*
+H4SE37G	hepatitis B (HBV)*
+H4SE37H	human papilloma virus (HPV)*
+H4SE37I	pelvic inflammatory disease (PID)*
+H4SE37J	cervicitis or mucopurulent cervicitis (MPC)*
+H4SE37K	urethritis*
+H4SE37L	vaginitis*
+H4SE37N	any other sexually transmitted disease*
+H4SE37O	have had no sexually transmitted diseases*
+H4TR1	How many persons have you ever married? Be sure to include your current spouse if you are married now.
+H4TR2	[If Q.1=0] ask: How many romantic or sexual partners have you ever lived with for one month or more? By 'lived with' we mean that neither of you kept a separate residence while you were living together. [If Q.1>0] ask: Not counting the {fill Q.1} (partner/partners) you married, how many other romantic or sexual partners have you ever lived with for one month or more? By 'lived with' we mean that neither of you  kept a separate residence while you were living together.
+H4TR3	[If Q.1 + Q.2=0] ask: With how many persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy? [If Q.1>0 and Q.2>0] ask: Not counting the {fill Q.1} (partner/partners) you married or the {fill Q.2} (partner/partners} you lived with, with how many other persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy? [If Q.1>0 and Q.2=0] ask: Not counting the {fill Q.1} (partner/partners) you married, with how many other persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy? [If Q.1=0 and Q.2>0] ask: Not counting the {fill Q.2} (partner/partners) you lived with, with how many other persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy?
+H4TR4	[If Q.1 + Q.2 + Q.3=0] ask: With how many persons are you currently having a romantic or sexual relationship? [If Q.1 + Q.2 + Q.3>0] ask: Not counting (those partners/that partner), with how many other persons are you currently having a romantic or sexual relationship?
+H4TR5	[If Q.1 + Q.2 + Q.3 + Q.4=0] ask: With how many people have you had a romantic or sexual relationship that lasted 6 months or more since 2001? [If Q.1 + Q.2 + Q.3 + Q.4>0] ask: Not counting (those partners/that partner), with how many other people have you had a romantic or sexual relationship that lasted 6 months or more since 2001?
+H4TR6	[If Q.1 + Q.2 + Q.3 + Q.4 + Q.5 = 0] ask: With how many people have you had a romantic or sexual relationship that lasted less than 6 months since 2001? [If Q.1 + Q.2 + Q.3 + Q.4 + Q.5 >0] ask: Not counting (those partners/that partner), with how many other people have you had a romantic or sexual relationship that lasted less than 6 months since 2001?
+H4TR7	Are you pregnant now? *
+H4TR8	Do you think that you are probably pregnant, or not? *
+H4TR9	Thinking about all the relationships and sexual encounters you have ever had, (how many times have you ever been pregnant/how many times have you ever made a partner pregnant)? Include all pregnancies, whether they resulted in babies born alive, stillbirth, abortion, miscarriage, or ectopic or tubal pregnancy. [If Q.7=1] say: Be sure to include your current pregnancy in your count.
+H4TR10	How many live births resulted from (this pregnancy/these pregnancies)?
+H4TR11	How many of these children are still living?
+H4TR12	During any of the romantic relationships you have ever had, (have you/has your partner) ever had trouble getting pregnant or trouble avoiding a miscarriage?
+PTNR_ID	Partner Identifier
+H4RD1	How old were you when you first became romantically or sexually
+H4RD2D	What is the total amount of time that you (have been/were) involved in a romantic or sexual relationship with {initials} - days? NOTE: Smallest 5 and largest 5 values are displayed.
+H4RD2M	What is the total amount of time that you (have been/were) involved in a romantic or sexual relationship with {initials} - months?
+H4RD2Y	What is the total amount of time that you (have been/were) involved in a romantic or sexual relationship with {initials} - years? NOTE: Smallest 5 and largest 5 values are displayed.
+H4RD3	Which of the following best describes your relationship with {initials} at the (present time/time you broke up)?
+H4RD4	(Do/did) either you or {initials} have a residence other than the one you share?
+H4RD5	In an average week, how often (did/do) you and {initials} spend the entire night together?
+H4RD6	What is the current status of your marriage to {initials}?
+H4RD7A	We (enjoy/enjoyed) doing even ordinary, day-to-day things together.
+H4RD7B	I (am/was) satisfied with the way we handle our problems and disagreements.
+H4RD7C	I (am/was) satisfied with the way we handle family finances.
+H4RD7D	My partner (listens/listened) to me when I need someone to talk to.
+H4RD7E	My partner (expresses/expressed) love and affection to me.
+H4RD7F	I (am/was) satisfied with our sex life.
+H4RD7G	I (trust/trusted) my partner to be faithful to me.
+H4RD8	How much do you love {initials}?
+H4RD9	In general, how happy are you in your relationship with {initials}?
+H4RD10	How committed are you to your relationship with {initials}?
+H4RD11	What is the chance that you and {initials} will marry each other?
+H4RD12	Select the picture, by entering the number under the picture, which best illustrates how close you feel to {initials}.
+H4RD13	How likely is it that your relationship with {initials} will be permanent?
+H4RD14	On average, how often (did/do) you have sexual relations with
+H4RD14T	On average, how often (did/do) you have sexual relations with
+H4RD15	On average, how often (do/did) you or {initials} use a contraceptive method of birth control or disease prevention?
+H4RD16	As far as you know, during the time you and {initials} (have had/had) a sexual relationship, (has/did) {initials} ever (had/have) any other sexual partners?
+H4RD17	During the time you and {initials} (have had/had) a sexual relationship (have/did) you ever (had/have) any other sexual partners?
+H4RD18	How often (has/did) {initials} (threatened/threaten) you with violence, (pushed/push) or (shoved/shove) you, or (thrown/throw) something at you that could hurt?
+H4RD19	How often (has/did) {initials} (slapped/slap), hit or (kicked/kick) you?
+H4RD20	How often (have/did) you (had/have) an injury, such as a sprain, bruise, or cut because of a fight with {initials}?
+H4RD21	How often (has/did) {initials} (insisted/insist) on or (made/make) you have sexual relations with (him/her) when you didn't want to?
+H4RD22	How often (have/did) you threatened {initials} with violence, pushed or shoved (him/her), or thrown something at (him/her) that could hurt?
+H4RD23	How often (have/did) you (slapped/slap), hit, or (kicked/kick)
+H4RD24	How often (has/did) {initials} (had/have) an injury, such as a sprain, bruise, or cut because of a fight with you?
+H4RD25	How often (have/did) you (insisted/insist) on or (made/make)
+H4KK14	What language do you speak to your child/children when you are together at home?
+H4KK15A	I am happy in my role as parent.
+H4KK15B	I feel close to my child(ren).
+H4KK15C	The major source of stress in my life is my child(ren).
+H4KK15D	I feel overwhelmed by the responsibility of being a parent.
+H4DS1	In the past 12 months, how often did you deliberately damage property that didn't belong to you?
+H4DS2	In the past 12 months, how often did you steal something worth more than $50?
+H4DS3	In the past 12 months, how often did you go into a house or building to steal something?
+H4DS4	In the past 12 months, how often did you use or threaten to use a weapon to get something from someone?
+H4DS5	In the past 12 months, how often did you sell marijuana or other drugs?
+H4DS6	In the past 12 months, how often did you steal something worth less than $50?
+H4DS7	In the past 12 months, how often did you take part in a physical fight where a group of your friends was against another group?
+H4DS8	In the past 12 months, how often did you buy, sell, or hold stolen property?
+H4DS9	In the past 12 months, how often did you use someone else's credit card, bank card, or automatic teller card without their permission or knowledge?
+H4DS10	In the past 12 months, how often did you deliberately write a bad check?
+H4DS11	In the past 12 months, how often did you get into a serious physical fight?
+H4DS12	In the past 12 months, how often did you hurt someone badly enough in a physical fight that he or she needed care from a doctor or nurse?
+H4DS13	Someone stole something from you worth more than $50?
+H4DS14	You saw someone shoot or stab another person?
+H4DS15	Someone pulled a knife or gun on you?
+H4DS16	Someone shot or stabbed you?
+H4DS17	Someone slapped, hit, choked, or kicked you?
+H4DS18	You were beaten up?
+H4DS19	You pulled a knife or gun on someone?
+H4DS20	You shot or stabbed someone?
+H4CJ1	Have you ever been arrested?
+H4CJ2	How many times have you been arrested?
+H4CJ3	How old were you?*
+H4CJ4	How old were you the first time you were arrested?* NOTE: Smallest 5 and largest 5 values are displayed.
+H4CJ5	How many times were you arrested before your 18th birthday?*
+H4CJ6	How many times have you been arrested since your 18th birthday?* NOTE: Smallest 5 and largest 5 values are displayed.
+H4CJ7A	driving under the influence (DUI; DWI)
+H4CJ7B	other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations)
+H4CJ7C	marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish)
+H4CJ7D	other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs)
+H4CJ7E	robbery (taking or attempting to take something using a weapon or physical force)
+H4CJ7F	theft (taking something without using force, such as larceny, burglary, or shoplifting)
+H4CJ7G	forcible rape (does not include statutory rape)
+H4CJ7H	aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded)
+H4CJ7I	simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured)
+H4CJ7J	fraud, forgery, or embezzlement
+H4CJ7K	other offenses
+H4CJ8	How old were you the last time you were arrested?* NOTE: Smallest 5 and largest 5 values are displayed.
+H4CJ9A	driving under the influence (DUI; DWI)
+H4CJ9B	other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations)
+H4CJ9C	marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish)
+H4CJ9D	other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs)
+H4CJ9E	robbery (taking or attempting to take something using a weapon or physical force)
+H4CJ9F	theft (taking something without using force, such as larceny, burglary, or shoplifting)
+H4CJ9G	forcible rape (does not include statutory rape)
+H4CJ9H	aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded)
+H4CJ9I	simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured)
+H4CJ9J	fraud, forgery, or embezzlement
+H4CJ9K	other offenses
+H4CJ10	Have you ever been convicted of or pled guilty to any charges other than a minor traffic violation?
+H4CJ11	How old were you when you were convicted or pled guilty?* NOTE: Smallest 5 and largest 5 values are displayed.
+H4CJ12	How old were you the first time you were convicted or pled guilty to something?
+H4CJ13A	driving under the influence (DUI; DWI)
+H4CJ13B	other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations)
+H4CJ13C	marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish)
+H4CJ13D	other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs)
+H4CJ13E	robbery (taking or attempting to take something using a weapon or physical force)
+H4CJ13F	theft (taking something without using force, such as larceny, burglary, or shoplifting)
+H4CJ13G	forcible rape (does not include statutory rape)
+H4CJ13H	aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded)
+H4CJ13I	simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured)
+H4CJ13J	fraud, forgery, or embezzlement
+H4CJ13K	other offenses
+H4CJ14	How old were you the last time you were convicted of or pled guilty to something?*
+H4CJ15A	driving under the influence (DUI; DWI)
+H4CJ15B	other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations)
+H4CJ15C	marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish)
+H4CJ15D	other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs)
+H4CJ15E	robbery (taking or attempting to take something using a weapon or physical force)
+H4CJ15F	theft (taking something without using force, such as larceny, burglary, or shoplifting)
+H4CJ15G	forcible rape (does not include statutory rape)
+H4CJ15H	aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded)
+H4CJ15I	simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured)
+H4CJ15J	fraud, forgery, or embezzlement
+H4CJ15K	other offenses
+H4CJ16	Have you ever been on probation for an offense?
+H4CJ17	Have you ever spent time in a jail, prison, juvenile detention center or other correctional facility?
+H4CJ18	How many times have you been in a jail, prison, juvenile detention center or other correctional facility?
+H4CJ19	How old were you when you went to jail, prison, juvenile detention center or other correctional facility?
+H4CJ20	How old were you the first time you went to jail, prison, juvenile detention or other correctional facility?*
+H4CJ21	[if PRISON4=0, ask version: ] How old were you the last time you went to jail, prison, juvenile detention or other correctional facility?
+H4CJ22Y	How much time were you sentenced to serve? [years]
+H4CJ22M	How much time were you sentenced to serve? [months]
+H4CJ23Y	How much time were you sentenced to serve this last time? [years]
+H4CJ23M	How much time were you sentenced to serve this last time? [months]
+H4CJ24Y	Before your 18th birthday, about how much total time did you spend in jail or detention? [years]
+H4CJ24M	Before your 18th birthday, about how much total time did you spend in jail or detention? [months]
+H4CJ25Y	Since your 18th birthday, about how much total time have you spent in jail or prison? [years]*
+H4CJ25M	Since your 18th birthday, about how much total time have you spent in jail or prison? [months]
+H4TO1	Have you ever smoked an entire cigarette?
+H4TO2	How old were you the first time you smoked a whole cigarette? NOTE: Smallest 5 and largest 5 values are displayed.
+H4TO3	Have you ever smoked cigarettes regularly--that is, at least one cigarette every day for 30 days?
+H4TO4	How old were you when you first smoked cigarettes regularly that is, at least one cigarette every day for 30 days?
+H4TO5	During the past 30 days, on how many days did you smoke cigarettes?
+H4TO6	During the past 30 days, on the days you smoked, how many cigarettes did you smoke each day?
+H4TO7	Was there ever a period in your life when you smoked cigarettes more than you do now?
+H4TO8	Currently, how soon after you wake up do you have your first cigarette?
+H4TO9	Do you find it difficult not to smoke cigarettes in places where it is forbidden, for example, in church, at the library, or in theaters?
+H4TO10	Which cigarette would you hate most to give up?
+H4TO11	How many cigarettes a day do you smoke?
+H4TO12	Do you smoke cigarettes more frequently during the first hours after waking than during the rest of the day?
+H4TO13	Do you smoke cigarettes even if you are so ill that you are in bed most of the day?
+H4TO14	How old were you the first time you had any of these cigarette smoking experiences?
+H4TO15	These next questions are about the period of time when you smoked the most. When you smoked the most, how soon after you woke up did you have your first cigarette?
+H4TO16	When you smoked the most, did you find it difficult not to smoke cigarettes in places where it is forbidden, for example, in church, at the library, or in theaters?
+H4TO17	When you smoked the most, which cigarette did you hate most to give up?
+H4TO18	When you smoked the most, how many cigarettes a day did you smoke?
+H4TO19	When you smoked the most, did you smoke cigarettes more frequently during the first hours after waking than during the rest of the day?
+H4TO20	When you smoked the most, did you smoke cigarettes even if you were so ill that you were in bed most of the day?
+H4TO21	How old were you the first time you had any of these cigarette smoking experiences?
+H4TO22	Do you still have any of these smoking experiences?
+H4TO23	Have you smoked a cigar or pipe at least 20 times in your entire life?
+H4TO24	During the past 30 days, how many days did you smoke cigars or a pipe?
+H4TO25	Have you used chewing tobacco (such as Red Man, Garrett, or Beechnut) or snuff (such as Skoal, Skoal Bandits, or Copenhagen) at least 20 times in your entire life?
+H4TO26	During the past 30 days, on how many days have you used chewing tobacco (such as Red Man, Garrett, or Beechnut) or snuff (such as Skoal, Skoal Bandits, or Copenhagen)?
+H4TO27	Have you ever tried to quit or cut down on smoking or using tobacco?
+H4TO28	Has there ever been a period of time when you wanted to quit or cut down on smoking or using tobacco?
+H4TO29	When you decided to quit or cut down on smoking or using tobacco, were you able to do so for at least one month?
+H4TO30	How many times have you tried but been unable to quit smoking or using tobacco for at least one month?
+H4TO31	Did you smoke cigarettes, cigars, a pipe or use chewing tobacco within the past 24 hours?
+H4TO32H	At what time did you last smoke cigarettes, cigars, a pipe or use chewing tobacco? [Hour]
+H4TO32M	At what time did you last smoke cigarettes, cigars, a pipe or use chewing tobacco? [Minute]
+H4TO32T	At what time did you last smoke cigarettes, cigars, a pipe or use chewing tobacco? [am/pm]
+H4TO33	Have you had a drink of beer, wine, or liquor more than two or three times? Do not include sips or tastes from someone else's drink.
+H4TO34	How old were you when you first had an alcoholic drink? By drink, we mean a glass of wine, a can or bottle of beer, a wine cooler, a shot glass of liquor, or a mixed drink, not just sips or tastes from someone else's drink.
+H4TO35	During the past 12 months, on how many days did you drink
+H4TO36	Think of all the times you have had a drink during the past 12 months. How many drinks did you usually have each time? A 'drink' is a glass of wine, a can or bottle of beer, a wine cooler, a shot glass of liquor, or a mixed drink.
+H4TO37	During the past 12 months, on how many days did you drink [5 or more/4 or more] drinks in a row?
+H4TO38	During the past 12 months, on how many days have you been drunk or very high on alcohol?
+H4TO39	During the past 30 days, on how many days did you drink?
+H4TO40	Think of all the times you have had a drink during the past 30 days. How many drinks did you usually have each time? A 'drink' is a glass of wine, a can or bottle of beer, a wine cooler, a shot glass of liquor, or a mixed drink.
+H4TO41	Did you have an alcoholic drink (beer, wine, or liquor) within the past 24 hours?
+H4TO42H	At what time did you last have an alcoholic drink? [Hour]
+H4TO42M	At what time did you last have an alcoholic drink? [Minute] NOTE: Smallest 5 and largest 5 values are displayed.
+H4TO42T	At what time did you last have an alcoholic drink? [am/pm]
+H4TO43	Was there ever a period in your life when you drank more alcohol than you do now?
+H4TO44	During the period when you drank the most, on how many days did you drink?
+H4TO45	During the period when you drank the most, how many drinks did you usually have each time?
+H4TO46	How often has your drinking interfered with your responsibilities at work or school?
+H4TO47	How often have you been under the influence of alcohol when you could have gotten yourself or others hurt, or put yourself or others at risk, including unprotected sex?
+H4TO48	How often have you had legal problems because of your drinking, like being arrested for disturbing the peace or driving under the influence of alcohol, or anything else?
+H4TO49	How often have you had problems with your family, friends, or people at work or school because of your drinking?
+H4TO50	Did you continue to drink after you realized drinking was causing you problems with family, friends, or people at work or school?
+H4TO51	Have you ever found that you had to drink more than you used to in order to get the effect you wanted?
+H4TO52	Has there ever been a period when you spent a lot of time
+H4TO53	Have you often had more to drink or kept drinking for a longer period of time than you intended?
+H4TO54	Have you ever tried to quit or cut down on your drinking?
+H4TO55	Has there ever been a period of time when you wanted to quit or cut down on your drinking?
+H4TO56	When you decided to cut down or quit drinking, were you able to do so for at least one month?
+H4TO57	How many times have you tried but been unable to cut down or quit drinking for at least one month?
+H4TO58	During the first few hours of not drinking, do you experience withdrawal symptoms such as the shakes, feeling anxious, trouble getting to sleep or staying asleep, nausea, vomiting, or rapid heart beats?
+H4TO59	Have you ever continued to drink after you realized drinking was causing you any emotional problems (such as feeling irritable, depressed, or uninterested in things or having strange ideas) or causing you any health problems (such as ulcers, numbness in your hands/feet or memory problems)?
+H4TO60	Have you ever given up or cut down on important activities that would interfere with drinking like getting together with friends or relatives, going to work or school, participating in sports, or anything else?
+H4TO61	Did (at least three of) these experiences occur together in a 12- month period?
+H4TO62	How old were you when you first experienced these symptoms in the same 12 month period?
+H4TO63	Have you ever taken any prescription drugs that were not prescribed for you, taken prescription drugs in larger amounts than prescribed, more often than prescribed, for longer periods than prescribed, or taken prescription drugs that you took only for the feeling or experience they caused?
+H4TO64A	sedatives or downers, such as barbiturates, sleeping pills, Quaalude, or Seconal
+H4TO64B	tranquilizers, such as Librium, Valium, or Xanax
+H4TO64C	stimulants or uppers, such as amphetamines, prescription diet pills, Ritalin, Preludin, or speed
+H4TO64D	pain killers or opioids, such as Vicodin, OxyContin, Percocet, Demerol, Percodan, or Tylenol with codeine
+H4TO65A	steroids, anabolic steroids or 'body building' drugs
+H4TO65B	marijuana (hash, bhang, ganja)
+H4TO65C	cocaine (crack, coca leaves)
+H4TO65D	crystal meth (ice)
+H4TO65E	other types of illegal drugs, such as LSD, PCP, ecstasy, heroin, or mushrooms; or inhalants
+H4TO66	Have you ever injected (shot up with a needle) any illegal drug, such as heroin or cocaine?
+H4TO67	During the past 30 days, how many times did you inject an illegal drug?
+H4TO68	How old were you the first time you used marijuana? NOTE: Smallest 5 and largest 5 values are displayed.
+H4TO69	Have you used marijuana more than 5 times?
+H4TO70	During the past 12 months, on how many days did you use marijuana?
+H4TO71	During the past 30 days, on how many days did you use marijuana?
+H4TO72	Have you used marijuana within the past 24 hours?
+H4TO73H	At what time did you last use marijuana? [Hour]
+H4TO73M	At what time did you last use marijuana? [Minute] NOTE: Smallest 5 and largest 5 values are displayed.
+H4TO73T	At what time did you last use marijuana? [am/pm]
+H4TO74	Was there ever a time when you used marijuana more than you do now?
+H4TO75	During the period when you used marijuana the most, did you use marijuana:
+H4TO76	How many times has each of the following things ever happened?
+H4TO77	How often have you been under the influence of marijuana when you could have gotten yourself or others hurt, or put yourself or others at risk, including unprotected sex?
+H4TO78	How often have you had legal problems because of your marijuana use, like being arrested for disturbing the peace or anything else?
+H4TO79	How often have you had problems with your family, friends, or people at work or school because of your marijuana use?
+H4TO80	Did you continue to use marijuana after you realized using it was causing you problems with family, friends, or people at work or school?
+H4TO81	Have you ever found that you had to use more marijuana than you used to in order to get the effect you wanted?
+H4TO82	Has there ever been a period when you spent a lot of time using marijuana, getting it, or getting over its effects?
+H4TO83	Have you often used more marijuana or used marijuana longer than you intended?
+H4TO84	Have you ever tried to quit or cut down on your use of marijuana?
+H4TO85	Has there ever been a period of time when you wanted to quit or cut down on your use of marijuana?
+H4TO86	When you decided to cut down or quit using marijuana, were you able to do so for at least one month
+H4TO87	How many times have you tried but been unable to cut down or quit using marijuana for at least one month?
+H4TO88	During the first few hours of not using marijuana, do you
+H4TO89	Have you ever continued to use marijuana after you realized using marijuana was causing you any emotional problems (such as feeling depressed or empty, feeling irritable or aggressive, feeling paranoid or confused, feeling anxious or tense, being jumpy or easily startled) or causing you any health problems (such as persistent cough, sore throat or sinus problems, heart pounding, headaches or dizziness, or sexual difficulties)?
+H4TO90	Have you ever given up or cut down on important activities that would interfere with your marijuana use like getting together with friends or relatives, going to work or school, participating in sports, or anything else?
+H4TO91	Did (at least three of) these experiences occur together in a 12- month period?
+H4TO92	How old were you when you first experienced these symptoms in the same 12 month period?
+H4TO93	Which one of these illegal drugs do you use most often?
+H4TO94	You said you have used these types of drugs (fill from list of drugs according to instructions below this question). Which one type have you used most frequently in your lifetime?
+H4TO95	Which one of these illegal drugs do you use most often?
+H4TO96	How old were you the first time you used {favorite drug}? NOTE: Smallest 5 and largest 5 values are displayed.
+H4TO97	Have you used {favorite drug} more than 5 times in your lifetime?
+H4TO98	During the past 12 months, on how many days did you use
+H4TO99	During the past 30 days, on how many days did you use {favorite drug}?
+H4TO100	Have you used {favorite drug} within the past 24 hours?
+H4TO101H	At what time did you last use {favorite drug}? [Hour]
+H4TO101M	At what time did you last use {favorite drug}? [Minute]
+H4TO101T	At what time did you last use {favorite drug}? [am/pm]
+H4TO102	Was there ever a time when you used {favorite drug} more than you do now?
+H4TO103	During the period when you used {favorite drug} the most, did you use {favorite drug}:
+H4TO104	How often has your {favorite drug} use interfered with your responsibilities at work or school?
+H4TO105	How often have you been under the influence of {favorite drug} when you could have gotten yourself or others hurt, or put yourself or others at risk, including unprotected sex?
+H4TO106	How often have you had legal problems because of your {favorite drug} use, like being arrested for disturbing the peace or anything else?
+H4TO107	How often have you had problems with your family, friends, or people at work or school because of your {favorite drug} use?
+H4TO108	Did you continue to use {favorite drug} after you realized using it was causing you problems with family, friends, or people at work or school?
+H4TO109	Have you ever found that you had to use more {favorite drug} than you used to in order to get the effect you wanted?
+H4TO110	Has there ever been a period when you spent a lot of time using
+H4TO111	Have you often used more {favorite drug} or used {favorite drug} longer than you intended?
+H4TO112	Have you ever tried to quit or cut down on your use of {favorite drug}?
+H4TO113	Has there ever been a period of time when you wanted to quit or cut down on your use of {favorite drug}?
+H4TO114	When you decided to cut down or quit using {favorite drug}, were you able to do so for at least one month?
+H4TO115	How many times have you tried but been unable to cut down or quit using {favorite drug} for at least one month?
+H4TO116	During the first few hours of not using {favorite drug}, do you experience one or more withdrawal symptoms such as craving
+H4TO117	Have you ever continued to use {favorite drug} after you realized using {favorite drug} was causing you any emotional problems (such as feeling depressed or empty, feeling irritable or aggressive, feeling paranoid or confused, feeling anxious or tense, being jumpy or easily startled) or causing you any health problems (such as heart pounding, headaches or dizziness, or sexual difficulties)?
+H4TO118	Have you ever given up or cut down on important activities that would interfere with your {favorite drug} use like getting together with friends or relatives, going to work or school, participating in sports, or anything else?
+H4TO119	Did (at least three of) these experiences occur together in a 12- month period?
+H4TO120	How old were you when you first experienced these symptoms in the same 12 month period?
+H4MA1	Before your 18th birthday, how often did a parent or other adult caregiver say things that really hurt your feelings or made you feel like you were not wanted or loved?
+H4MA2	How old were you the first time this happened? NOTE: Smallest 5 and largest 5 values are displayed.
+H4MA3	Before your 18th birthday, how often did a parent or adult caregiver hit you with a fist, kick you, or throw you down on the floor, into a wall, or down stairs?
+H4MA4	How old were you the first time this happened? NOTE: Smallest 5 and largest 5 values are displayed.
+H4MA5	How often did a parent or other adult caregiver touch you in a sexual way, force you to touch him or her in a sexual way, or force you to have sexual relations?
+H4MA6	How old were you the first time this happened? NOTE: Smallest 5 and largest 5 values are displayed.
+H4DA1	In the past seven days, how many hours did you watch television or videos, including VHS, DVDs or music videos?
+H4DA2	In the past seven days, how many times did you bicycle, skateboard, dance, hike, hunt, or do yard work?
+H4DA3	In the past seven days, how many times did you roller blade, roller skate, downhill ski, snow board, play racquet sports, or do aerobics?
+H4DA4	In the past seven days, how many times did you participate in strenuous team sports such as football, soccer, basketball, lacrosse, rugby, field hockey, or ice hockey?
+H4DA5	In the past seven days, how many times did you participate in individual sports such as running, wrestling, swimming, cross-country skiing, cycle racing, or martial arts?
+H4DA6	In the past seven days, how many times did you participate in gymnastics, weight lifting, or strength training?
+H4DA7	In the past seven days, how many times did you play golf, go fishing or bowling, or play softball or baseball?
+H4DA8	In the past seven days, how many times did you walk for exercise?
+H4DA9	Were the past seven days typical in terms of your physical activity?
+H4DA10	Are you generally more active or less active than you were in the past seven days?
+H4DA11	In the past 24 hours, have you participated in vigorous physical activity long enough to work up a sweat, get your heart thumping, or get out of breath?
+H4DA12H	At what time in the past 24 hours did you last finish participating in vigorous physical activity? [hour]
+H4DA12M	At what time in the past 24 hours did you last finish participating in vigorous physical activity? [minute]
+H4DA12T	At what time in the past 24 hours did you last finish participating in vigorous physical activity? [am/pm]
+H4DA13	On the average, how many times per week do you use a physical fitness or recreation center in your neighborhood?*
+H4DA14	How many minutes does it take you to get from your home to your (primary place of work/school)?*
+H4DA15A	Car*
+H4DA15B	Public transportation (bus, train, subway)*
+H4DA15C	Walking*
+H4DA15D	Bicycle*
+H4DA15E	None of the above*
+H4DA16	When you go outside on a sunny day for more than one hour, how likely are you to use sunscreen or sunblock?*
+H4DA17	During a typical summer week, how many hours do you spend outdoors in the sun during the day?
+H4DA18	How many times in your life have you had a sunburn that blistered?
+H4DA19	Do you own a computer?*
+H4DA20	Do you have access to a computer, for example at a library, school, or work?*
+H4DA21	Do you have an email account?*
+H4DA22	In the past seven days, how many hours did you spend using the Internet, for example, accessing your email or using the web? Do not count internet use for work or school.*
+H4DA23	In the past seven days, how many hours did you spend playing video or computer games, or using a computer? Do not count internet use for work or school.*
+H4DA24	Have you ever bought lottery tickets, played video games or slot machines for money, bet on horses or sporting events, or taken part in any other kinds of gambling for money?
+H4DA25	Has your gambling ever caused serious financial problems or problems in your relationships with any of your family members or friends?
+H4DA26	In the past 12 months, about how many hours did you spend on volunteer or community service work?*
+H4DA27	How often do you usually vote in local or statewide elections?*
+H4DA28	In terms of politics, do you consider yourself very conservative, conservative, middle-of-the-road, liberal, or very liberal?
+H4PE1	I am the life of the party
+H4PE2	I sympathize with others' feelings
+H4PE3	I get chores done right away
+H4PE4	I have frequent mood swings
+H4PE5	I have a vivid imagination
+H4PE6	I worry about things
+H4PE7	I'm always optimistic about my future
+H4PE8	I get angry easily
+H4PE9	I don't talk a lot
+H4PE10	I am not interested in other people's problems
+H4PE11	I often forget to put things back in their proper place
+H4PE12	I am relaxed most of the time
+H4PE13	I am not interested in abstract ideas
+H4PE14	I am not easily bothered by things
+H4PE15	I hardly ever expect things to go my way
+H4PE16	I rarely get irritated
+H4PE17	I talk to a lot of different people at parties
+H4PE18	I feel others' emotions
+H4PE19	I like order
+H4PE20	I get upset easily
+H4PE21	I have difficulty understanding abstract ideas
+H4PE22	I get stressed out easily
+H4PE23	Overall, I expect more good things to happen to me than bad
+H4PE24	I lose my temper
+H4PE25	I keep in the background
+H4PE26	I am not really interested in others
+H4PE27	I make a mess of things
+H4PE28	I seldom feel blue
+H4PE29	I do not have a good imagination
+H4PE30	I don't worry about things that have already happened
+H4PE31	I rarely count on good things happening to me
+H4PE32	I keep my cool
+H4PE33	I go out of my way to avoid having to deal with problems in my life
+H4PE34	When making a decision, I go with my 'gut feeling' and don't think much about the consequences of each alternative
+H4PE35	I like to take risks
+H4PE36	I live my life without much thought for the future
+H4PE37	There is little I can do to change the important things in my life.
+H4PE38	Other people determine most of what I can and cannot do.
+H4PE39	There are many things that interfere with what I want to do.
+H4PE40	I have little control over the things that happen to me.
+H4PE41	There is really no way I can solve the problems I have.
+H4CMONTH	Biospecimen collection date- month
+H4CDAY	Biospecimen collection date- day
+H4CYEAR	Biospecimen collection date- year
+H4ARM	Which arm for blood pressure measurement
+H4CUFF	Cuff size*
+H4CUFFLG	Arm circumference measured 12-12.75 inches in pretest*
+H4SBP	Systolic blood pressure*
+H4DBP	Diastolic blood pressure*
+H4BPCLS	Blood pressure classification
+H4BPFLG	Number of blood pressures used to create single variable*
+H4PR	Pulse rate*
+H4PP	Pulse pressure*
+H4MAP	Mean arterial pulse pressure*
+H4HGT	Measured height (cm)*
+H4WGT	Measured weight (kg)*
+H4WTLBS	Flag indicating weight was incorrectly measured in lbs and was converted to kg*
+H4BMI	Body mass index
+H4BMICLS	Body mass index classification
+H4WAIST	Measured waist (cm)*
+H4IR1	How physically attractive is the respondent?
+H4IR2	How attractive is the respondent's personality?
+H4IR3	How well groomed is the respondent?
+H4IR4	Indicate the race of the sample member/respondent from your own observation (not from what the respondent said).
+H4IR5	Was a third person present during any portion of the interview--not just walking through the area where the interview was being conducted, but listening to or taking part in the interview process?
+H4IR6	Who was present?
+H4IR7	How many interruptions occurred during the interview?
+H4IR8	Where was the biomarker portion of the interview conducted?
+H4IR8A	Specify other location.
+H4IR9	Where was the questionnaire portion of the interview conducted?
+H4IR9A	Specify other location.
+H4IR10	Did the respondent appear to be drunk or under the influence of a drug?
+H4IR11	Did the respondent ever seem bored or impatient during the interview?
+H4IR12	Did the respondent's boredom or impatience negatively affect the quality of the interview?
+H4IR13	In your opinion, was the respondent candid in his/her responses?
+H4IR14	Did the respondent require your help in completing the self- administered part of the questionnaire?
+H4EO1	In order to complete the environmental questions, you must have visited the respondent's home. Have you visited the respondent's home?
+H4EO2	Please indicate whether you will enter data from Section D of the CDF for this case or whether you will be completing the neighborhood environment questions from memory.
+H4EO3	The building structure or entrance is unsafe, or contains cracks or holes, broken siding or glass, or peeling paint.
+H4EO4	The yard is unkempt with overgrown shrubs or grass, or contains clutter, trash or other debris.
+H4EO5A	None
+H4EO5B	Guard/Door Person at the front door who has to call the unit
+H4EO5C	Guard/Door Person at the front door who must give access to building
+H4EO5D	Guard/Door Person at gate of community
+H4EO5E	On-site/Off-site Staff/Manager who controls access
+H4EO5F	Locked main entrance/gate, no intercom/buzzer (locked doors, locked gate, controlled gate, or other locked entry)
+H4EO5G	Locked main entrance/gate with intercom/buzzer, no unit address labels (may contain other labels such as names, but does not provide address label)
+H4EO5H	Locked main entrance/gate with intercom/buzzer, with unit address labels
+H4EO5I	Threatening animal on or near the property
+H4EO5J	Threatening sign on or near the property
+H4EO6	Which of the following best describes the immediate area or street (one block, both sides) where the sample member/respondent lives?
+H4EO7	How safe did you feel when you were in the sample member's/respondent's neighborhood? Did you feel:
