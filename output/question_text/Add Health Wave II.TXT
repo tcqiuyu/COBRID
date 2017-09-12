@@ -5,95 +5,95 @@ Respondent Identifier
 
 
 2) IMONTH2
-Month of interview -- Wave 2
+Month of interview 
 
 
 3) IDAY2
-Day of interview -- Wave 2
+Day of interview 
 
 
 4) IYEAR2
-Year of interview -- Wave 2
+Year of interview 
 
 
 5) SCH_YR2
-94-95 school year in session -- Wave 2
+94-95 school year in session 
 
 
 6) BIO_SEX2
-Biological sex -- W2
+Biological sex 
 
 
 7) SEXFLG2
-Incorrect BIO_SEX used for skips -- W2
+Incorrect BIO_SEX used for skips 
 
 
 8) VERSION2
-Questionnaire version -- W2
+Questionnaire version 
 
 
 9) CALCAGE2
-Calculated age -- W2
+Calculated age 
 
 
 10) AGEFLG2
-Incorrect calculated age -- W2
+Incorrect calculated age 
 
 
 11) CORE1_2
-Core weight without post-stratification -- W2
+Core weight without post-stratification 
 
 
 12) CORE2_2
-Core weight with post-stratification -- W2
+Core weight with post-stratification 
 
 
 13) HIEDBLK2
-Higher education black sample weight -- W2
+Higher education black sample weight 
 
 
 14) SMP01_2
-Core sample flag -- W2
+Core sample flag 
 
 
 15) SMP02_2
-Disabled sample flag-- W2
+Disabled sample flag
 
 
 16) SMP03_2
-Higher education black sample flag -- W2
+Higher education black sample flag 
 
 
 17) SMP04_2
-Cuban sample flag -- W2
+Cuban sample flag 
 
 
 18) SMP05_2
-Puerto Rican sample flag -- W2
+Puerto Rican sample flag 
 
 
 19) SMP06_2
-Chinese sample flag -- W2
+Chinese sample flag 
 
 
 20) SMP07_2
-Twin sample flag -- W2
+Twin sample flag 
 
 
 21) SMP08_2
-Full sibling sample flag -- W2
+Full sibling sample flag 
 
 
 22) SMP09_2
-Half sibling sample flag -- W2
+Half sibling sample flag 
 
 
 23) SMP10_2
-Non-related adolescent sample flag -- W2
+Non-related adolescent sample flag 
 
 
 24) SMP11_2
-Pair school sample flag -- W2
+Pair school sample flag 
 
 
 25) H2GI1M

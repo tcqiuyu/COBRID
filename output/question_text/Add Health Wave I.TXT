@@ -5,35 +5,35 @@ Respondent Indentifier
 
 
 2) IMONTH
-Month of interview - Wave 1
+Month of interview 
 
 
 3) IDAY
-Day of interview - Wave 1
+Day of interview 
 
 
 4) IYEAR
-Year of interview - Wave 1
+Year of interview 
 
 
 5) SCH_YR
-94-95 school year in session - Wave 1
+94-95 school year in session 
 
 
 6) BIO_SEX
-Biological sex - W1
+Biological sex 
 
 
 7) VERSION
-Questionnaire version - W1
+Questionnaire version 
 
 
 8) SMP01
-Core sample - W1
+Core sample 
 
 
 9) SMP03
-High education Black sample - W1
+High education Black sample 
 
 
 10) H1GI1M
