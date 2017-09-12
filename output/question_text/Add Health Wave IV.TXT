@@ -1,0 +1,3682 @@
+Data File: ADDHW4H(Description Only Codebook)
+
+1) AID
+[Wave IV Section A: Interview Variables] Respondent Identifier
+
+
+2) IMONTH4
+Month of Wave IV interview
+
+
+3) IDAY4
+Day of Wave IV interview
+
+
+4) IYEAR4
+Year of Wave IV interview
+
+
+5) BIO_SEX4
+Respondent's gender
+
+
+6) VERSION4
+Version number of the instrument administered
+
+
+7) BREAK_Q
+Break-off questions asked? [See original codebook for more information on this question]
+
+
+8) PRYEAR4
+Previous interview year
+
+
+9) PRETEST4
+Pretest interview [See original codebook for more information on this question]
+
+
+10) PRISON4
+Interview conducted in prison [See original codebook for more information on this question]
+
+
+11) H4OD1M
+[Wave IV Section 1: Overview and Demographics] The first questions ask about your background. Respondent's date of birth -- month.
+
+
+12) H4OD1Y
+Respondent's date of birth -- year
+
+
+13) H4OD2A
+Which of the following languages do you speak or write? Select all that apply. English.
+
+
+14) H4OD2B
+Which of the following languages do you speak or write? Select all that apply. Spanish.
+
+
+15) H4OD2C
+Which of the following languages do you speak or write? Select all that apply. Chinese.
+
+
+16) H4OD2D
+Which of the following languages do you speak or write? Select all that apply. Another European language.
+
+
+17) H4OD2E
+Which of the following languages do you speak or write? Select all that apply. Another Asian language.
+
+
+18) H4OD2F
+Which of the following languages do you speak or write? Select all that apply. Another language.
+
+
+19) H4OD3
+[If total number of languages spoken is greater than 1 ask H4OD3, else skip to H4OD4.] What language do you use most with your family and close relatives?
+
+
+20) H4OD4
+Were you born a U.S. citizen?
+
+
+21) H4OD5
+[If H4OD4=0, ask H4OD5, else skip to Section 2 (H4WP1).] Have you become a U.S. citizen?
+
+
+22) H4OD6Y
+[If H4OD5=1, ask H4OD6Y, else skip to H4OD7. After answering H4OD6Y, skip to Section 2 (H4WP1).] In what year did you become a citizen? [Year]
+
+
+23) H4OD7
+Are you trying to become a U.S. citizen?
+
+
+24) H4WP1
+[Wave IV Section 2: Parental Support and Relationships] This section asks questions about your parents and people who may have acted like parents to you. Is your biological mother still alive?
+
+
+25) H4WP2Y
+[If H4WP1=0, ask H4WP2Y, else skip to H4WP3.] In what year did your biological mother die?
+
+
+26) H4WP3
+(Has/did) your biological mother ever (spent/spend) time in jail or prison?
+
+
+27) H4WP4
+[If H4WP3=1, ask H4WP4, else skip to H4WP7.] How many times (has/did) your biological mother (spent/spend time in jail or prison?
+
+
+28) H4WP5
+How old were you when your biological mother went to jail or prison (the first time)? [Years]
+
+
+29) H4WP6
+How old were you when your biological mother was released from jail or prison (most recently)? [Years]
+
+
+30) H4WP7
+Is your biological father still alive?
+
+
+31) H4WP8Y
+[If H4WP7=0, ask H4WP8Y, else skip to H4WP9.] In what year did your biological father die?
+
+
+32) H4WP9
+(Has/did) your biological father ever (spent/spend) time in jail or prison?
+
+
+33) H4WP10
+[If H4WP9=1, ask H4WP10, else skip to H4WP13.] How many times (has/did) your biological father (spent/spend) time in jail or prison?
+
+
+34) H4WP11
+How old were you when your biological father went to jail or prison (the first time)? [Years]
+
+
+35) H4WP12
+How old were you when your biological father was released from jail or prison (most recently)? [Years]
+
+
+36) H4WP13
+We would like to know about the woman you feel raised you. This may be your biological mother, or it may be a step mother, adoptive mother, grandmother, etc. If you have more than one mother figure, choose the one who is most important to you. What is this person's relationship to you?
+
+
+37) H4WP14
+[If H4WP13=1 and H4WP1=1, skip to H4WP20; else if H4WP13=1 and H4WP1=0, 8, skip to H4WP27; else if H4WP13=11, 96, 98, skip to H4WP27; else ask H4WP14.] Is your (mother figure) still alive?
+
+
+38) H4WP15Y
+[If H4WP14=0, ask H4WP15Y, else skip to H4WP16.] In what year did your (mother figure) die?
+
+
+39) H4WP16
+(Has/did) your (mother figure) ever (spent/spend) time in jail or prison?
+
+
+40) H4WP17
+[If H4WP16=1, ask H4WP17; else if H4WP16=0, 8 and H4WP14=1, skip to H4WP20; else if H4WP16=0, 8 and H4WP14=0, 8, skip to H4WP27.] How many times (has/did) your (mother figure) (spent/spend) time in jail or prison?
+
+
+41) H4WP18
+How old were you when your (mother figure) went to jail or prison (the first time)? [Years]
+
+
+42) H4WP19
+How old were you when your (mother figure) was released from jail or prison (most recently)? [Years]
+
+
+43) H4WP20
+[If H4WP14=1, ask H4WP20, else if H4WP14=0, 8, skip to H4WP27.] How far do you and your (mother figure) live from one another?
+
+
+44) H4WP21
+[If H4WP20=1, skip to H4WP23, else ask H4WP21.] How often do you and your (mother figure) see each other?
+
+
+45) H4WP22
+How often do you and your (mother figure) talk on the telephone, exchange letters, or exchange email?
+
+
+46) H4WP23
+These next questions ask about how you feel about your current relationship with your (mother figure). You are satisfied with the way your (mother figure) and you communicate with each other.
+
+
+47) H4WP24
+How close do you feel to your (mother figure)?
+
+
+48) H4WP25
+How many times has your (mother figure) paid your living expenses or given you $50 or more to pay living expenses during the past 12 months?
+
+
+49) H4WP26
+How many times have you paid your (mother figure's) living expenses or given her more than $50 to pay living expenses during the past 12 months?
+
+
+50) H4WP27
+We would like to know about the man you feel raised you. This may be your biological father, or it may be a Stepfather, adoptive father, grandfather, etc. If you have more than one father figure, choose the one who is most important to you. What is this person's relationship to you?
+
+
+51) H4WP28
+[If H4WP27=1 and H4WP7=1, skip to H4WP34; else if H4WP27=1 and H4WP7=0, 8, skip to Section 3 (H4WS1); else if H4WP27=11, 96, 98, skip to Section 3 (H4WS1); else ask H4WP28.] Is your (father figure) still alive?
+
+
+52) H4WP29Y
+[If H4WP28=0, ask H4WP29Y, else skip to H4WP30.] In what year did your (father figure) die?
+
+
+53) H4WP30
+(Has/did) your (father figure) ever (spent/spend) time in jail or prison?
+
+
+54) H4WP31
+[If H4WP30=1, ask H4WP31; else if H4WP30=0, 6, 8 and H4WP28=1, skip to H4WP34; else if H4WP30=0, 8 and H4WP28=0, 8, skip to Section 3 (H4WS1).] How many times (has/did) your (father figure) (spent/spend) time in jail or prison?
+
+
+55) H4WP32
+How old were you when your (father figure) went to jail or prison (the first time)? [Years]
+
+
+56) H4WP33
+How old were you when your (father figure) was released from jail or prison (most recently)? [Years]
+
+
+57) H4WP34
+[If H4WP28=1, ask H4WP34, else if H4WP28=0, 8, skip to Section 3 (H4WS1).] How far do you and your (father figure) live from one another?
+
+
+58) H4WP35
+[If H4WP34=1, skip to H4WP37, else ask H4WP35.] How often do you and your (father figure) see each other?
+
+
+59) H4WP36
+How often do you and your (father figure) talk on the telephone, exchange letters, or exchange email?
+
+
+60) H4WP37
+These next questions ask about how you feel about your current relationship with your (father figure). You are satisfied with the way your (father figure) and communicate with each other.
+
+
+61) H4WP38
+How close do you feel to your (father figure)?
+
+
+62) H4WP39
+How many times has your (father figure) paid your living expenses or given you $50 or more to pay living expenses during the past 12 months?
+
+
+63) H4WP40
+How many times have you paid your (father figure's) living expenses or given him more than $50 to pay living expenses during the past 12 months?
+
+
+64) H4WS1
+[Wave IV Section 3: Relationships with Siblings] How many brothers and sisters do you have, both living and deceased? Include biologically related, adoptive, and Stepbrothers or sister.
+
+
+65) H4WS2
+[If H4WS1 is greater than 0 ask H4WS2, else skip to H4WS4.] How many have died?
+
+
+66) H4WS4
+How many close friends do you have? (Close friends include people whom you feel at ease with, can talk to about private matters, and can call on for help.)
+
+
+67) H4WS5
+[If H4WS4=1, skip to Section 4 (H4GH1).] What race are your close friends?
+
+
+68) H4GH1
+[Wave IV Section 4: General Health and Diet] The next questions are about your health and your diet. In general, how is your health?
+
+
+69) H4GH2
+[If PRISON4=1, skip to H4GH3M, else ask H4GH2.] In the past 30 days, how often did a health problem cause you to miss a day of school or work?
+
+
+70) H4GH3M
+[If BIO_SEX4=2, ask H4GH3M, else skip to H4GH5F.] What is the date your last menstrual period began? [Month]
+
+
+71) H4GH3D
+What is the date when your last menstrual period began? [Day]
+
+
+72) H4GH3Y
+What is the date when your last menstrual period began? [Year]
+
+
+73) H4GH4A
+[If H4GH3M=98 and H4GH3D=98 and H4GH3Y=9998, ask H4GH4A, else skip to H4GH5F.] What is your best guess about how long ago your last menstrual period began? [Number of days, weeks, or months]
+
+
+74) H4GH4B
+What is your best guess about how long ago your last menstrual period began? [Days, weeks, or months]
+
+
+75) H4GH5F
+How tall are you in feet?
+
+
+76) H4GH5I
+How tall are you in inches?
+
+
+77) H4GH6
+What is your current weight in pounds? [See original codebook for more information regarding this variable]
+
+
+78) H4GH7
+How do you think of yourself in terms of weight?
+
+
+79) H4GH8
+How many times in the past seven days did you eat food from a fast food restaurant, such as McDonald's, Burger King, Wendy's, Arby's, Pizza Hut, Taco Bell, or Kentucky Fried Chicken or a local fast food restaurant?
+
+
+80) H4GH9
+The next questions ask about what you generally eat and drink at home and away from home. In the past seven days, how many regular (non-diet) sweetened drinks did you have? Include regular soda, juice drinks, sweetened tea or coffee, energy drinks, flavored water, or other sweetened drinks.
+
+
+81) H4GH10
+In the past seven days, how many diet or low-calorie drinks did you have? Include diet sodas, unsweetened tea or coffee, or other drinks sweetened with artificial sweeteners.
+
+
+82) H4GH11H
+At what time did you last eat or drink anything other than water, including sugar-containing candy or gum? [Hour]
+
+
+83) H4GH11M
+At what time did you last eat or drink anything other than water, including sugar-containing candy or gum? [Minute]
+
+
+84) H4GH11T
+At what time did you last eat or drink anything other than water, including sugar-containing candy or gum? [AM/PM]
+
+
+85) H4GH12
+Did you drink a caffeinated beverage (e.g., coffee, tea or soda) in the past 24 hours?
+
+
+86) H4GH13H
+[If H4GH12=1, ask H4GH13H, else skip to Section 5 (H4HS1).] At what time did you last drink a caffeinated beverage? [Hour]
+
+
+87) H4GH13M
+At what time did you last drink a caffeinated beverage? [Minute]
+
+
+88) H4GH13T
+At what time did you last drink a caffeinated beverage? [AM/PM]
+
+
+89) H4HS1
+[Wave IV Section 5: Access to Health Services, Health Insurance] The next questions are about health insurance and health services. Which of the following best describes your current health insurance situation?
+
+
+90) H4HS2A
+[If H4HS1=1, ask H4HS2A, else skip to H4HS3.] Why do you not have health insurance? Please tell me yes or no as I read the list of options. You are not offered health insurance through work or school.
+
+
+91) H4HS2B
+Why do you not have health insurance? Please tell me yes or no as I read the list of options. It is too expensive.
+
+
+92) H4HS2C
+Why do you not have health insurance? Please tell me yes or no as I read the list of options. You do not need or want health insurance.
+
+
+93) H4HS2D
+Why do you not have health insurance? Please tell me yes or no as I read the list of options. You were denied health insurance.
+
+
+94) H4HS3
+Over the past 12 months, how many months did you have health insurance?
+
+
+95) H4HS4
+Has there been a time in the past 12 months when you thought you should get medical care, but you did not?
+
+
+96) H4HS5
+[If H4HS4=1, ask H4HS5, else skip to H4HS6.] In the past 12 months, did a health problem get worse because you did not get care when you thought you should?
+
+
+97) H4HS6
+Where do you usually go when you are sick or need health care?
+
+
+98) H4HS7
+How long ago did you last have a routine check-up?
+
+
+99) H4HS8
+In the past 12 months have you had a dental examination by a dentist or dental hygienist?
+
+
+100) H4HS9
+In the past 12 months have you received psychological or emotional counseling?
+
+
+101) H4ID1
+[Wave IV Section 6: Illness, Medications, and Physical Disabilities] The next questions are about your general physical condition, including activity and illness. The following questions are about activities you might do during a typical day. How much does your health limit you in these activities: moderate activities, such as moving a table, pushing a vacuum cleaner, bowling, playing golf?
+
+
+102) H4ID2
+[If H4ID1=1, 6, 8, then skip to H4ID4.] How much does your health no limit you in: climbing several flights of stairs?
+
+
+103) H4ID3
+Is your limitation in activities caused by a condition that has lasted more than a year, or by a condition that has developed recently?
+
+
+104) H4ID4
+Do you use a brace, cane, wheelchair or other device because of a physical condition?
+
+
+105) H4ID5A
+Has a doctor, nurse or other health care provider ever told you that you have or had: cancer or lymphoma or leukemia? Don't include skin cancer, except melanoma?
+
+
+106) H4ID5B
+Has a doctor, nurse or other health care provider ever told you that you have or had: high blood cholesterol or triglycerides or lipids?
+
+
+107) H4ID5C
+Has a doctor, nurse or other health care provider ever told you that you have or had: high blood pressure or hypertension (if female add, when you were not pregnant)?
+
+
+108) H4ID5D
+Has a doctor, nurse or other health care provider ever told you that you have or had: high blood sugar or diabetes (if female add, when you were not pregnant)?
+
+
+109) H4ID5E
+Has a doctor, nurse or other health care provider ever told you that you have or had: heart disease?
+
+
+110) H4ID5F
+Has a doctor, nurse or other health care provider ever told you that you have or had: asthma, chronic bronchitis or emphysema?
+
+
+111) H4ID5G
+Has a doctor, nurse or other health care provider ever told you that you have or had: migraine headaches?
+
+
+112) H4ID5H
+Has a doctor, nurse or other health care provider ever told you that you have or had: depression?
+
+
+113) H4ID5I
+Has a doctor, nurse or other health care provider ever told you that you have or had: post-traumatic stress disorder or PTSD?
+
+
+114) H4ID5J
+Has a doctor, nurse or other health care provider ever told you that you have or had: anxiety or panic disorder?
+
+
+115) H4ID5K
+Has a doctor, nurse or other health care provider ever told you that you have or had: epilepsy or another seizure disorder?
+
+
+116) H4ID5L
+Has a doctor, nurse or other health care provider ever told you that you have or had: attention problems or ADD or ADHD?
+
+
+117) H4ID5N
+Has a doctor, nurse or other health care provider ever told you that you have or had: Hepatitis C?
+
+
+118) H4ID7
+In the past 12 months, have you suffered any serious injuries? For example, broken bones, cuts or lacerations, burns, torn muscles, tendons or ligaments, or other injuries that interfered with your ability to perform daily tasks.
+
+
+119) H4ID8
+In the past 12 months, were you involved in a motor vehicle accident?
+
+
+120) H4ID9A
+Have you had gum disease (gingivitis; periodontal disease) or tooth loss because of cavities, gum disease (gingivitis; periodontal disease) or tooth loss because of cavities in the last four weeks?
+
+
+121) H4ID9B
+Have you had active infection in the last four weeks?
+
+
+122) H4ID9C
+Have you had injury in the last four weeks?
+
+
+123) H4ID9D
+Have you had acute illness in the last four weeks?
+
+
+124) H4ID9E
+Have you had surgery in the last four weeks?
+
+
+125) H4ID9F
+Have you had active seasonal allergies (hay fever) in the last four weeks?
+
+
+126) H4ID9G
+Have you had none of the above in the last four weeks?
+
+
+127) H4ID10A
+Have you had cold or flu-like symptoms such as sore throat, runny nose, or cough in the last two weeks?
+
+
+128) H4ID10B
+Have you had fever in the last two weeks?
+
+
+129) H4ID10C
+Have you had night sweats in the last two weeks?
+
+
+130) H4ID10D
+Have you had nausea or vomiting or diarrhea in the last two weeks?
+
+
+131) H4ID10E
+Have you had blood in stool (feces) or in urine in the last two weeks?
+
+
+132) H4ID10F
+Have you had frequent urination in the last two weeks?
+
+
+133) H4ID10G
+Have you had skin rash or abscess in the last two weeks?
+
+
+134) H4ID10H
+Have you had none of the above in the last two weeks?
+
+
+135) H4ID11
+Regarding your current medication use: In the past 24 hours, have you taken aspirin or aspirin-containing medications including cold and allergy medications or headache powders? Do not include acetaminophen for example, Tylenol, or ibuprofen, for example, Advil, Motrin or Nuprin. Some examples of aspirin-containing medications include: Anacin, Aspirin, B.C. Backache Relief Extra Strength, Bayer, Excedrin, Goody's, Pain Relief, Pain Reliever Added Strength, Vanquish.
+
+
+136) H4ID12
+In the past 24 hours, have you taken other anti-inflammatory medications? Do not include acetaminophen, for example, Tylenol or aspirin-containing medications. Some examples of those include: Advil, Aleve, Ibuprofen, Motrin, Naproxen, Nuprin.
+
+
+137) H4ID13
+Do you have total blindness in one or both eyes?
+
+
+138) H4ID14
+[If H4ID13=4, then skip to H4ID16.] Do you use eyeglasses, contact lenses, both, or neither for vision correction?
+
+
+139) H4ID15
+[If H4ID14=4, then skip to H4ID16.] With eyeglasses or contact lenses, how is your eyesight?
+
+
+140) H4ID16
+Have you ever worn a hearing aid?
+
+
+141) H4ID17
+Which statement best describes your hearing without a hearing aid or other assistive devices?
+
+
+142) H4ID18
+Do you have a problem with stuttering or stammering?
+
+
+143) H4ID19
+[If H4ID18 not equal 1, then skip to H4ID20.] How would you describe your stuttering or stammering at this time?
+
+
+144) H4ID20
+In the past 12 months have you been bothered by ringing, roaring, or buzzing in your ears or head (tinnitus) that lasts for five minutes or more?
+
+
+145) H4ID21
+[If H4ID20 not equal 1, then skip to H4ID23.] How long have you been bothered by this ringing, roaring, or buzzing in your ears or head?
+
+
+146) H4ID22
+In the past 12 months, how often have you had this ringing, roaring, or buzzing in your ears or head?
+
+
+147) H4ID23
+In the past 12 months, have you had any problem with your voice? By any problem, we mean was there any time when your voice was hoarse, raspy, breathy, weak, or, generally, did not work, perform, or sound as you feel it normally would?
+
+
+148) H4ID24
+[If H4ID23 not equal 2, 3, then skip to Section 7 (H4SP1H).] In the past 12 months, how often has your voice been hoarse, raspy, or breathy?
+
+
+149) H4ID25
+In the past 12 months, how often have you had difficulty being heard or trouble projecting your voice?
+
+
+150) H4ID26
+How often does a problem with your voice affect your personal, social, or working (professional) life?
+
+
+151) H4SP1H
+[Wave IV Section 7: Sleep Patterns] Now I'm going to ask you about your sleep patterns.] On the days you go to work, school or similar activities, what time do you usually wake up? [Hour]
+
+
+152) H4SP1M
+On the days you go to work, school or similar activities, what time do you usually wake up? [Minute]
+
+
+153) H4SP1T
+On the days you go to work, school or similar activities, what time do you usually wake up? [AM/PM]
+
+
+154) H4SP2H
+On those days, what time do you usually go to sleep the night or day before? [Hour]
+
+
+155) H4SP2M
+On those days, what time do you usually go to sleep the night or day before? [Minute]
+
+
+156) H4SP2T
+On those days, what time do you usually go to sleep the night or day before? [AM/PM]
+
+
+157) H4SP3H
+On the days that you don't have to get up at a certain time, what time do you usually wake up? [Hour]
+
+
+158) H4SP3M
+On the days that you don't have to get up at a certain time, what time do you usually wake up? [Minute]
+
+
+159) H4SP3T
+On the days that you don't have to get up at a certain time, what time do you usually wake up? [AM/PM]
+
+
+160) H4SP4H
+On those days, what time do you usually go to sleep the night or day before? [Hour]
+
+
+161) H4SP4M
+On those days, what time do you usually go to sleep the night or day before? [Minute]
+
+
+162) H4SP4T
+On those days, what time do you usually go to sleep the night or day before? [AM/PM]
+
+
+163) H4SP5
+Over the past four weeks: How often did you have trouble falling asleep?
+
+
+164) H4SP6
+Over the past four weeks, how often did you have trouble staying asleep throughout the night? For example, you woke up several times at night or woke up earlier than you planned to?
+
+
+165) H4SP7
+Based on what you have noticed or what others have told you, are there times when you snore or you stop breathing during your sleep?
+
+
+166) H4HR1
+[Wave IV Section 8: Household Roster and Residence History] The next questions are about your current living arrangement. Where do you live now? That is, where do you stay most often?
+
+
+167) H4HR2
+[If H4HR1=1, 2, 3, 6, skip to H4HR3. If H4HR1=5, 96, 98, skip to H4HR10. If H4HR1=4, ask H4HR2.] What kind of group quarters are you living in?
+
+
+168) H4HR3
+[If H4HR2=1, 2, 3, 4, 5, 6, 7, 8, 9, skip to H4HR10.] Do you live alone or with others?
+
+
+169) H4HR4
+[If H4HR3=2, ask H4HR4; else skip to H4HR10.] How many people live with you? Don't count yourself. If someone usually lives with you but is away temporarily include him or her.
+
+
+170) H4HR5A
+I'd like to record the initials of all persons living in your household. Is (INITIALS OF FIRST HOUSEHOLD MEMBER) male or female?
+
+
+171) H4HR6A
+How old is (INITIALS)?
+
+
+172) H4HR7A
+[If H4HR6A=998, ask H4HR7A; else skip to H4HR8A.] About how old is (INITIALS)?
+
+
+173) H4HR8A
+[If H4HR8A=3, 4, 8, ask H4HR9A. If H4HR8A is not equal to 3, 4, 8 & there is another household member, ask H4HR5B. If H4HR8A is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+174) H4HR9A
+[After answering H4HR9A, if there is another household member, ask H4HR5B. If there is NO other household member, after answering H4HR9A, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+175) H4HR5B
+Is (INITIALS) male or female?
+
+
+176) H4HR6B
+How old is (INITIALS)?
+
+
+177) H4HR7B
+[If H4HR6B=998, ask H4HR7B; else skip to H4HR8B.] About how old is (INITIALS)?
+
+
+178) H4HR8B
+[If H4HR8B=3, 4, 8, ask H4HR9B. If H4HR8B is not equal to 3, 4, 8 & there is another household member, ask H4HR5C. If H4HR8B is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+179) H4HR9B
+[After answering H4HR9B, if there is another household member, ask H4HR5C. If there is NO other household member, after answering H4HR9B, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+180) H4HR5C
+Is (INITIALS) male or female?
+
+
+181) H4HR6C
+How old is (INITIALS)?
+
+
+182) H4HR7C
+[If H4HR6C=998, ask H4HR7C; else skip to H4HR8C.] About how old is (INITIALS)?
+
+
+183) H4HR8C
+[If H4HR8C=3, 4, 8, ask H4HR9C. If H4HR8C is not equal to 3, 4, 8 & there is another household member, ask H4HR5D. If H4HR8C is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+184) H4HR9C
+[After answering H4HR9C, if there is another household member, ask H4HR5D. If there is NO other household member, after answering H4HR9C, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+185) H4HR5D
+Is (INITIALS) male or female?
+
+
+186) H4HR6D
+How old is (INITIALS)?
+
+
+187) H4HR7D
+[If H4HR6D=998, ask H4HR7D; else skip to H4HR8D.] About how old is (INITIALS)?
+
+
+188) H4HR8D
+[If H4HR8D=3, 4, 8, ask H4HR9D. If H4HR8D is not equal to 3, 4, 8 & there is another household member, ask H4HR5E. If H4HR8D is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+189) H4HR9D
+[After answering H4HR9D, if there is another household member, ask H4HR5E. If there is NO other household member, after answering H4HR9D, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+190) H4HR5E
+Is (INITIALS) male or female?
+
+
+191) H4HR6E
+How old is (INITIALS)?
+
+
+192) H4HR7E
+[If H4HR6E=998, ask H4HR7E; else skip to H4HR8E.] About how old is (INITIALS)?
+
+
+193) H4HR8E
+[If H4HR8E=3, 4, 8, ask H4HR9E. If H4HR8E is not equal to 3, 4, 8 & there is another household member, ask H4HR5F. If H4HR8E is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+194) H4HR9E
+[After answering H4HR9E, if there is another household member, ask H4HR5F. If there is NO other household member, after answering H4HR9E, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+195) H4HR5F
+Is (INITIALS) male or female?
+
+
+196) H4HR6F
+How old is (INITIALS)?
+
+
+197) H4HR7F
+[If H4HR6F=998, ask H4HR7F; else skip to H4HR8F.] About how old is (INITIALS)?
+
+
+198) H4HR8F
+[If H4HR8F=3, 4, 8, ask H4HR9F. If H4HR8F is not equal to 3, 4, 8 & there is another household member, ask H4HR5G. If H4HR8F is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+199) H4HR9F
+[After answering H4HR9F, if there is another household member, ask H4HR5G. If there is NO other household member, after answering H4HR9F, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+200) H4HR5G
+Is (INITIALS) male or female?
+
+
+201) H4HR6G
+How old is (INITIALS)?
+
+
+202) H4HR7G
+[If H4HR6G=998, ask H4HR7G; else skip to H4HR8G.] About how old is (INITIALS)?
+
+
+203) H4HR8G
+[If H4HR8G=3, 4, 8, ask H4HR9G. If H4HR8G is not equal to 3, 4, 8 & there is another household member, ask H4HR5H. If H4HR8G is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+204) H4HR9G
+[After answering H4HR9G, if there is another household member, ask H4HR5H. If there is NO other household member, after answering H4HR9G, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+205) H4HR5H
+Is (INITIALS) male or female?
+
+
+206) H4HR6H
+How old is (INITIALS)?
+
+
+207) H4HR7H
+[If H4HR6H=998, ask H4HR7H; else skip to H4HR8H.] About how old is (INITIALS)?
+
+
+208) H4HR8H
+[If H4HR8H=3, 4, 8, ask H4HR9H. If H4HR8H is not equal to 3, 4, 8 & there is another household member, ask H4HR5I. If H4HR8H is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+209) H4HR9H
+[After answering H4HR9H, if there is another household member, ask H4HR5I. If there is NO other household member, after answering H4HR9H, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+210) H4HR5I
+Is (INITIALS) male or female?
+
+
+211) H4HR6I
+How old is (INITIALS)?
+
+
+212) H4HR7I
+[If H4HR6I=998, ask H4HR7I; else skip to H4HR8I.] About how old is (INITIALS)?
+
+
+213) H4HR8I
+[If H4HR8I=3, 4, 8, ask H4HR9I. If H4HR8I is not equal to 3, 4, 8 & there is another household member, ask H4HR5J. If H4HR8I is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+214) H4HR9I
+[After answering H4HR9I, if there is another household member, ask H4HR5J. If there is NO other household member, after answering H4HR9I, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+215) H4HR5J
+Is (INITIALS) male or female?
+
+
+216) H4HR6J
+How old is (INITIALS)?
+
+
+217) H4HR7J
+[If H4HR6J=998, ask H4HR7J; else skip to H4HR8J.] About how old is (INITIALS)?
+
+
+218) H4HR8J
+[If H4HR8J=3, 4, 8, ask H4HR9J. If H4HR8J is not equal to 3, 4, 8 & there is another household member, ask H4HR5K. If H4HR8J is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+219) H4HR9J
+[After answering H4HR9J, if there is another household member, ask H4HR5K. If there is NO other household member, after answering H4HR9J, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+220) H4HR5K
+Is (INITIALS) male or female?
+
+
+221) H4HR6K
+How old is (INITIALS)?
+
+
+222) H4HR7K
+[If H4HR6K=998, ask H4HR7K; else skip to H4HR8K.] About how old is (INITIALS)?
+
+
+223) H4HR8K
+[If H4HR8K=3, 4, 8, ask H4HR9K. If H4HR8K is not equal to 3, 4, 8 & there is another household member, ask H4HR5L. If H4HR8K is not equal to 3, 4, 8 & there is NO other household member, skip to H44HR10.] What is (INITIAL'S) relationship to you?
+
+
+224) H4HR9K
+[After answering H4HR9K, if there is another household member, ask H4HR5L. If there is NO other household member, after answering H4HR9K, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+225) H4HR5L
+Is (INITIALS) male or female?
+
+
+226) H4HR6L
+How old is (INITIALS)?
+
+
+227) H4HR7L
+[If H4HR6L=998, ask H4HR7L; else skip to H4HR8L.] About how old is (INITIALS)?
+
+
+228) H4HR8L
+[If H4HR8L=3, 4, 8, ask H4HR9L. If H4HR8L is not equal to 3, 4, 8 & there is another household member, ask H4HR5M. If H4HR8L is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+229) H4HR9L
+[After answering H4HR9L, if there is another household member, ask H4HR5M. If there is NO other household member, after answering H4HR9L, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+230) H4HR5M
+Is (INITIALS) male or female?
+
+
+231) H4HR6M
+How old is (INITIALS)?
+
+
+232) H4HR7M
+[If H4HR6M=998, ask H4HR7M; else skip to H4HR8M.] About how old is (INITIALS)?
+
+
+233) H4HR8M
+[If H4HR8M=3, 4, 8, ask H4HR9M. If H4HR8M is not equal to 3, 4, 8 & there is another household member, ask H4HR5N. If H4HR8M is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+234) H4HR9M
+[After answering H4HR9M, if there is another household member, ask H4HR5N. If there is NO other household member, after answering H4HR9M, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+235) H4HR5N
+Is (INITIALS) male or female?
+
+
+236) H4HR6N
+How old is (INITIALS)?
+
+
+237) H4HR7N
+[If H4HR6N=998, ask H4HR7N; else skip to H4HR8N.] About how old is (INITIALS)?
+
+
+238) H4HR8N
+[If H4HR8N=3, 4, 8, ask H4HR9N. If H4HR8N is not equal to 3, 4, 8 & there is another household member, ask H4HR5). If H4HR8N is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+239) H4HR9N
+[After answering H4HR9N, if there is another household member, ask H4HR5O. If there is NO other household member, after answering H4HR9N, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+240) H4HR5O
+Is (INITIALS) male or female?
+
+
+241) H4HR6O
+How old is (INITIALS)?
+
+
+242) H4HR7O
+[If H4HR6O=998, ask H4HR7O; else skip to H4HR8O.] About how old is (INITIALS)?
+
+
+243) H4HR8O
+[If H4HR8O=3, 4, 8, ask H4HR9O. If H4HR8O is not equal to 3, 4, 8 & there is another household member, ask H4HR5P. If H4HR8O is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+244) H4HR9O
+[After answering H4HR9O, if there is another household member, ask H4HR5P. If there is NO other household member, after answering H4HR9O, skip to H4HR10.] Which description best fits (INITIAL)'s relationship to you?
+
+
+245) H4HR5P
+Is (INITIALS) male or female?
+
+
+246) H4HR6P
+How old is (INITIALS)?
+
+
+247) H4HR7P
+[If H4HR6P=998, ask H4HR7P; else skip to H4HR8P.] About how old is (INITIALS)?
+
+
+248) H4HR8P
+[If H4HR8P=3, 4, 8, ask H4HR9P. If H4HR8P is not equal to 3, 4, 8 & there is NO other household member, skip to H4HR10.] What is (INITIAL'S) relationship to you?
+
+
+249) H4HR9P
+Which description best fits (INITIAL)'s relationship to you?
+
+
+250) H4HR10
+[If H4HR10=0, ask H4HR11YA; else skip to Section 9 (H4ED1).] Have you continuously lived in (CURRENT STATE) since (LAST INTERVIEW: 1995/1996/2001/2002)?
+
+
+251) H4HR11YA
+Please tell me all of the states you have lived in. If you lived in the same state during two or more separate periods of time, list that state once for each period of time you lived there. If you have lived outside the US and its territories, select 'not in the US.' In what year did you move to (STATE)?
+
+
+252) H4HR11YB
+In what year did you move to (STATE)?
+
+
+253) H4HR11YC
+In what year did you move to (STATE)?
+
+
+254) H4HR11YD
+In what year did you move to (STATE)?
+
+
+255) H4HR11YE
+In what year did you move to (STATE)?
+
+
+256) H4HR11YF
+In what year did you move to (STATE)?
+
+
+257) H4HR11YG
+In what year did you move to (STATE)?
+
+
+258) H4HR11YH
+In what year did you move to (STATE)?
+
+
+259) H4HR11YI
+In what year did you move to (STATE)?
+
+
+260) H4HR11YJ
+In what year did you move to (STATE)?
+
+
+261) H4HR11YK
+In what year did you move to (STATE)?
+
+
+262) H4HR11YL
+In what year did you move to (STATE)?
+
+
+263) H4HR11YM
+In what year did you move to (STATE)?
+
+
+264) H4HR11YN
+In what year did you move to (STATE)?
+
+
+265) H4HR11YO
+In what year did you move to (STATE)?
+
+
+266) H4ED1
+[Wave IV Section 9: Education] The next questions are about your education. What is your high school graduation status?
+
+
+267) H4ED2
+What is the highest level of education that you have achieved to date?
+
+
+268) H4ED3A
+[If H4ED2=5, 6, 7, 8, 9, 10, 11, 12, 13, 96, 98 ask H4ED3A, else skip H4ED6.] Please list all degrees or certificates you have received from a college, university, or vocational/technical school. Do not include certificates you received from programs that lasted less than one year. List your most recent degree or certificate first. What is the most recent degree you have received?
+
+
+269) H4ED3B
+[If H4ED5A=0, ask H4ED6, else return to H4ED3B.] What is the second most recent degree you have received?
+
+
+270) H4ED3C
+[If H4ED5B=0, ask H4ED6, else return to H4ED3C.] What is the third most recent degree you have received?
+
+
+271) H4ED3D
+[If H4ED5C=0, ask H4ED6, else return H4ED3D.] What is the fourth most recent degree you have received?
+
+
+272) H4ED3E
+[If H4ED5D=0, ask H4ED6, else return to H4ED3E.] What is the fifth most recent degree you have received?
+
+
+273) H4ED3F
+[If H4ED5E=0, ask H4ED6, else return to H4ED3F.] What is the sixth most recent degree you have received?
+
+
+274) H4ED3G
+[If H4ED5F=0, ask H4ED6, else return to H4ED3G.] What is the seventh most recent degree you have received?
+
+
+275) H4ED3H
+[If H4ED5G=0, ask H4ED6, else return to H4ED3H.] What is the eighth most recent degree you have received?
+
+
+276) H4ED4A
+[If H4ED3A=1,96,98, skip to H4ED6.] In what year did you receive your most recent degree/certificate?
+
+
+277) H4ED4B
+In what year did you receive your next most recent degree/certificate?
+
+
+278) H4ED4C
+[If H4ED3C=98, skip to H4ED6.] In what year did you receive your next most recent degree/certificate?
+
+
+279) H4ED4D
+In what year did you receive your next most recent degree/certificate?
+
+
+280) H4ED4E
+In what year did you receive your next most recent degree/certificate?
+
+
+281) H4ED4F
+In what year did you receive your next most recent degree/certificate?
+
+
+282) H4ED4G
+In what year did you receive your next most recent degree/certificate?
+
+
+283) H4ED4H
+In what year did you receive your next most recent degree/certificate?
+
+
+284) H4ED5A
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+285) H4ED5B
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+286) H4ED5C
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+287) H4ED5D
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+288) H4ED5E
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+289) H4ED5F
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+290) H4ED5G
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+291) H4ED5H
+Have you received any other degrees or certificates from a college, university, or vocational/technical school?
+
+
+292) H4ED6
+Are you currently attending a college, university, or vocational/technical school where you take courses for academic credit? If you are enrolled but on school break or vacation, count this as attending.
+
+
+293) H4ED7
+In the past 12 months, have any relatives, including your parents or in-laws, helped you out by paying some of your educational expenses, such as tuition and books?
+
+
+294) H4ED8
+Which of the following best describes your desired level of education? Please listen to all options before responding.
+
+
+295) H4ED9
+[If H4ED8=2, 3, 6, 8 ask H4ED9, else skip to Section 10 (H4MI1).] What is the highest level of education you ever expect to complete?
+
+
+296) H4MI1
+[Wave IV Section 10: Military] The next questions are about military service. Have you ever been in the military?
+
+
+297) H4MI2
+[If H4MI1=1, ask H4MI2, else skip to Section 11 (H4LM1).] Was your military service in the US, outside the U.S., or both?
+
+
+298) H4MI3
+Are you currently serving in the military?
+
+
+299) H4MI4A
+[If H4MI1=1 or H4MI3=1, ask H4MI4A, else go to H4LM1.] In which branches of the military have you served? You may give more than one answer. Army.
+
+
+300) H4MI4B
+In which branches of the military have you served? You may give more than one answer. Air Force.
+
+
+301) H4MI4C
+In which branches of the military have you served? You may give more than one answer. Marine Corps.
+
+
+302) H4MI4D
+In which branches of the military have you served? You may give more than one answer. Navy.
+
+
+303) H4MI4E
+In which branches of the military have you served? You may give more than one answer. Coast Guard.
+
+
+304) H4MI5
+[If sum of counts of H4MI6A, H4MI6B, and H4MI6C is greater than 1 and H4MI3=1, ask H4MI5. Else skip to H4MI6A.] In which branch are you currently serving?
+
+
+305) H4MI6A
+In which components of the military have you served? You may give more than one answer. Active duty.
+
+
+306) H4MI6B
+In which components of the military have you served? You may give more than one answer. Reserves.
+
+
+307) H4MI6C
+In which components of the military have you served? You may give more than one answer. National Guard.
+
+
+308) H4MI7
+[If sum of counts of H4MI6A, H4MI6B, and H4MI6C is greater than 1 and H4MI3=1, ask H4MI7, else skip to H4MI8Y.] In which component are you currently serving?
+
+
+309) H4MI8Y
+In what year did your first military service begin? [Year]
+
+
+310) H4MI9Y
+[If respondent is currently serving (H4MI3=1), skip to H4MI10.] In what year did your most recent military service end? [Year]
+
+
+311) H4MI10
+What is the highest military rank you have achieved?
+
+
+312) H4MI11Y
+[If active duty is selected in H4MI6A (H4MI6A=1), ask H4MI11Y, else skip to Section 11 (H4LM1).] What is the total amount of time you (have) served on active duty? [Years]
+
+
+313) H4MI11M
+What is the total amount of time you (have) served on active duty? [Months]
+
+
+314) H4MI12Y
+What is the total amount of time you (have) served in a combat zone? [Years]
+
+
+315) H4MI12M
+What is the total amount of time you (have) served in a combat zone? [Months]
+
+
+316) H4MI13
+[If sum of counts of H4MI6A, H4MI6B, and H4MI6C=0, skip to H4MI17.] The next set of questions refers to your combat deployment. If you were deployed to a combat zone more than once, think about all your combat deployments as you answer these questions. During your combat deployment, how many times did you engage the enemy in a firefight?
+
+
+317) H4MI14
+During your combat deployment, did you ever kill or think you killed someone?
+
+
+318) H4MI15
+During your combat deployment, were you wounded or injured?
+
+
+319) H4MI16A
+During your combat deployment, did you see anyone wounded, killed, or dead? Select all that apply. Yes, coalition or ally.
+
+
+320) H4MI16B
+During your combat deployment, did you see anyone wounded, killed, or dead? Select all that apply. Yes, enemy.
+
+
+321) H4MI16C
+During your combat deployment, did you see anyone wounded, killed, or dead? Select all that apply. Yes, civilian.
+
+
+322) H4MI16D
+During your combat deployment, did you see anyone wounded, killed, or dead? Select all that apply. No.
+
+
+323) H4MI17
+We would like to obtain information from your military service record, including information on your military education, dates and geographic locations of service, and participation in military battles and engagements. This information will help us learn more about pathways into the military and the effects of military service on family formation and health. We will not request your medical records. In order to obtain your service record we will need your Social Security number. Would you provide your Social Security number so we can request your military service record? (Your Social Security number will be treated as confidential and used only for the purpose of obtaining your military service record.) Would you provide your social security number?
+
+
+324) H4LM1
+[Wave IV Section 11: Labor Market] Next, I'd like to know more about your work experience (excluding military experience). Have you ever worked full time at least 35 hours a week at a paying job while you were not primarily a student? Do not include summer work.
+
+
+325) H4LM2
+[If H4LM1=0, 6, ask H4LM2, else skip to H4LM3.] Have you ever worked for nine weeks or more at a paying job that was at least 10 hours a week? Do not include military service.
+
+
+326) H4LM3
+[If H4LM2=1, ask H4LM3, else skip to H4LM11.] Thinking back over the period from 2001 to the previous year how many total jobs have you had? Include only paying jobs that lasted nine weeks or more and were at least 10 hours a week.
+
+
+327) H4LM4
+[If H4LM3 is greater than 0 or H4LM3=96,98, ask H4LM4. If H4LM3=0 and H4LM1=1 skip to H4LM5. If H4LM3=0 and H4LM1=0, 6 skip to H4LM11.] Thinking back over the period from 2001 to the previous year, how many times have you been fired, let go, or laid off from a job?
+
+
+328) H4LM5
+[If H4LM1=1, ask H4LM5, else H4LM11.] How old were you when you first began working full time (at least 35 hours a week) at a paying job while you were not primarily a student?
+
+
+329) H4LM6
+[If active duty military or PRISON4=1 skip to H4LM7, else ask H4LM6.] Are you still at your first full-time job at least 10 hours per week?
+
+
+330) H4LM7
+[If H4LM6=0, 6, ask H4LM7, else skip to H4LM12.] Since you left your first full-time job, have you had another paying job that was at least 10 hours per week? Do not include military service.
+
+
+331) H4LM8
+[If H4LM7=1, ask H4LM8, else skip to H4LM11.] Next I'd like to record a description of your first full-time job. When you see the list of categories, please tell me which best describes what you did at your first full time job.
+
+
+332) H4LM9M
+9M. How long did you work at your first full time job? [Months]
+
+
+333) H4LM9Y
+9Y. How long did you work at your first full time job? [Years]
+
+
+334) H4LM10
+Which of the following best describes your first full time job?
+
+
+335) H4LM11
+[If H4LM2=0, 6 and active duty military, skip to H4LM28, if H4LM2=0, 6 and PRISON4=1 skip to H4LM28, if H4LM2=1 and active duty military, skip to H4LM15, if H4LM2=1 and PRISON4=1 skip to H4LM15Y, else ask H4LM11.] Are you currently working for pay at least 10 hours a week?
+
+
+336) H4LM12
+[If H4LM11=1, ask H4LM12, else skip to H4LM14.] On how many jobs are you currently working for pay at least 10 hours a week?
+
+
+337) H4LM13
+[If H4LM12 is greater than 1 or H4LM12=98, ask H4LM13, else if H4LM12=1 skip to H4LM15Y. After answering H4LM13, skip to H4LM15Y.] How many total hours a week do you usually spend at these jobs?
+
+
+338) H4LM14
+Which one of the following categories best describes what you're doing now?
+
+
+339) H4LM15Y
+[If H4LM2=0, 6 and H4LM11=0, 6 skip to H4LM28, else ask H4LM15Y.] The following questions relate to your (current job/most recent paying job that was at least 10 hours per week), (not counting military service). If you (have/had) more than one job, tell me about your primary job, the one where you (work/worked) the most hours in a typical week. In what year did you begin your (current/most recent) primary job? [Year]
+
+
+340) H4LM16Y
+[If active duty military or PRISON4=1 or H4LM11=0, 6, ask H4LM16Y, else skip to H4LM18.] In what year did you last work at this job? [Year]
+
+
+341) H4LM17
+[If active duty military or PRISON4=1 or H4LM14=4, 5, 6, 7, 8, 9, ask H4LM17, else skip to H4LM18.] What is the main reason you left your most recent job?
+
+
+342) H4LM18
+Now I'd like to record a description of your (current/most recent) job. When you see the list of categories, please tell me which best describes what you (do/did) at your (current/most recent) job.
+
+
+343) H4LM19
+How many hours a week (do/did) you usually work at this job?
+
+
+344) H4LM20
+Which one of these categories best describes the hours you (work/worked) at this job?
+
+
+345) H4LM21A
+(Does/Did) your employer make the following available to you: Health insurance?
+
+
+346) H4LM21B
+(Does/Did) your employer make the following available to you: Retirement benefits (such as 401k, 403b, or a company pension plan)?
+
+
+347) H4LM21C
+(Does/Did) your employer make the following available to you: Paid vacation or sick leave?
+
+
+348) H4LM22
+[If active duty military or PRISON4=1 or H4LM11=0, 6 skip to H4LM23, else ask H4LM22.] In your current primary job, do you spend most of your time
+
+
+349) H4LM23
+Overall, how often (do/did) you have the freedom to make important decisions about what you (do/did) at work and how you (do/did) it?
+
+
+350) H4LM24
+How much of the time (do/did) you do the same things repeatedly, that is over and over?
+
+
+351) H4LM25
+Thinking about your official job duties, which of the following statements best describes your supervisory responsibilities at your (current/most recent) primary job?
+
+
+352) H4LM26
+How satisfied (are/were) you with this job, as a whole?
+
+
+353) H4LM27
+Which one of the following best describes your (current/most recent) primary job?
+
+
+354) H4LM28
+Indicate how much you would agree or disagree with this statement: Family responsibilities have interfered with my ability to work.
+
+
+355) H4LM29
+[If H4LM2=0, 6 and H4LM11=0, 6 skip to Section 12 (H4EC1), if H4LM2=0, 6 and active duty military, skip to Section 12 (H4EC1), if H4LM2=0, 6 and PRISON4=1 skip to Section 12 (H4EC1), else ask H4LM29.] (In the past 12 months/Since you started your current job/In the last year of your most recent job), how often on your primary job (have you had/did you have) to cut back your hours or turn down overtime because of your family responsibilities?
+
+
+356) H4LM30
+(In the past 12 months/Since you started your current job/In the las year of your most recent job), how often on your primary job (have you spent/did you spend) less time with your family than you wanted to because of work responsibilities?
+
+
+357) H4EC1
+[Wave IV Section 12: Economics] These next questions are about your income and the income of everyone who lives in your household and contributes to the household budget. Thinking about your income and the income of everyone who lives in your household and contributes to the household budget, what was the total household income before taxes and deductions in (2006/2007/2008)? Include all sources of income, including non-legal sources. (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+
+
+358) H4EC2
+Now think about your personal earnings. In (2006/2007/2008), how much income did you receive from personal earnings before taxes, that is, wages or salaries, including tips, bonuses, and overtime pay, and income from self-employment?
+
+
+359) H4EC3
+[If H4EC2=9999998, ask H4EC3; else skip to H4EC4.] What is your best guess of your personal earnings before taxes? (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+
+
+360) H4EC4
+Is your house, apartment, or residence owned or being bought by (YOU AND/OR YOUR SPOUSE/PARTNER)?
+
+
+361) H4EC5
+[If H4EC4=1, ask H4EC5, else skip to H4EC6.] About how much do (YOU AND/OR YOUR SPOUSE/PARTNER) you owe on the mortgage for your house, apartment, or residence?
+
+
+362) H4EC6
+Have (YOU/YOUR SPOUSE/PARTNER) ever received any financial gifts or loans from your parents, in-laws, or relatives to help you buy, remodel, build or furnish a home or condominium?
+
+
+363) H4EC7
+What is your best estimate of the total value of your assets and the assets of everyone who lives in your household and contributes to the household budget? Include all assets, such as bank accounts, retirement plans and stocks. Do not include equity in your home. (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+
+
+364) H4EC8
+Now, think about your debts besides any mortgage on your home. How much do you and others in your household owe altogether? Include all debts, including all types of loans, credit card debt, medical or legal bills, etc. (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+
+
+365) H4EC9
+Suppose you and others in your household were to sell all of your major possessions (including your home), turn all of your investments and other assets into cash, and pay off all of your debts. Would you have something left over, break even, or be in debt?
+
+
+366) H4EC10
+In the past 12 months, was there a time when (YOU/YOUR HOUSEHOLD) was without phone service because you didn't have enough money?
+
+
+367) H4EC11
+In the past 12 months, was there a time when (YOU/YOUR HOUSEHOLD) didn't pay the full amount of the rent or mortgage because you didn't have enough money?
+
+
+368) H4EC12
+In the past 12 months, was there a time when (YOU/YOUR HOUSEHOLD) were evicted from your house or apartment for not paying the rent or mortgage?
+
+
+369) H4EC13
+In the past 12 months, was there a time when (YOU/YOUR HOUSEHOLD) didn't pay the full amount of a gas, electricity, or oil bill because you didn't have enough money?
+
+
+370) H4EC14
+In the past 12 months, was there a time when (YOU/YOUR HOUSEHOLD) had the service turned off by the gas or electric company, or the oil company wouldn't deliver, because payments were not made?
+
+
+371) H4EC15
+In the past 12 months, was there a time when (YOU/YOUR HOUSEHOLD WERE/WAS) worried whether food would run out before you would get money to buy more?
+
+
+372) H4EC16
+[If year of last interview=1995/1996, ask H4EC16; if year of last interview=2001/2002, skip to H4EC18.] Before you were 18 years old, did anyone in your household ever receive public assistance, welfare payments, or food stamps?
+
+
+373) H4EC17
+[If H4EC16=1, ask H4EC17; else skip to H4EC18.] During how much of the time before you were 18 years old did anyone in your household receive this kind of help?
+
+
+374) H4EC18
+Between (1995/2002) and (2006/2007/2008), did you or others in your household receive any public assistance, welfare payments, or food stamps?
+
+
+375) H4EC19
+Think of this ladder as representing where people stand in the United States. At the top of the ladder (step 10) are the people who have the most money and education, and the most respected jobs. At the bottom of the ladder (step one) are the people who have the least money and education, and the least respected jobs or no job. Where would you place yourself on this ladder? Pick the number for the step that shows where you think you stand at this time in your life, relative to other people in the United States.
+
+
+376) H4RE1
+[Wave IV Section 13: Religion and Spirituality] The next questions are about religious beliefs and practices. What is your present religion?
+
+
+377) H4RE2
+[If H4RE1=9, ask H4RE2; else if H4RE1=2,4, skip to H4RE3; else if H4RE1=3, skip to H4RE4; else if H4RE1=5, skip to H4RE5; else if H4RE1=1,6,7, 8, 96,98, skip to H4RE7.] Is that a Christian religion?
+
+
+378) H4RE3
+[If H4RE2=1, ask H4RE3, else skip to H4RE7. After answering H4RE3, skip to H4RE6.] Are you fundamentalist, evangelical, mainline, liberal, Pentecostal, or none of these?
+
+
+379) H4RE4
+[After answering H4RE4, skip to H4RE7.] Are you traditional, moderate, liberal, or none of these?
+
+
+380) H4RE5
+[After answering H4RE5, skip to H4RE7.] Are you Orthodox, Conservative, Reform, or none of these?
+
+
+381) H4RE6
+What is your denomination?
+
+
+382) H4RE7
+How often have you attended church, synagogue, temple, mosque, or religious services in the past 12 months?
+
+
+383) H4RE8
+Many churches, synagogues, and other places of worship have special activities outside of regular worship services -- such as classes, retreats, small groups, or choir. In the past 12 months, how often have you taken part in such activities?
+
+
+384) H4RE9
+How important (if at all) is your religious faith to you?
+
+
+385) H4RE10
+How often do you pray privately, that is, when you're alone in places other than a church, synagogue, temple, mosque, or religious assembly?
+
+
+386) H4RE11
+How often do you turn to your religious or spiritual beliefs for help when you have personal problems, or problems at school or work?
+
+
+387) H4MH1
+[Wave IV Section 14: Social Psychology and Mental Health] We're going to start this section with a couple of exercises that involve remembering. For this, I need to move the computer so you can't see what's on the screen. I am going to read a list of 15 words. Listen carefully. When I am finished, you are to repeat as many of the words as you can remember. It doesn't matter in what order your repeat them. Just try to remember as many as you can. I will say each word only one time, and I cannot repeat any words. Do you have any questions? Are you ready? (The list of 15 words is displayed on the screen at one second intervals. After the last word is displayed the following text appears below the word list for the interviewer: 'Now tell me as many words as you can remember.' The computer counts down 90 seconds during which the respondent recalls the words. If the respondent stops before remembering all the words and the time is not up, the interviewer asks: 'Can you think of any more?' If the respondent says he/she cannot remember more, the interviewer proceeds to the next task even if there is time remaining. After 90 seconds, a pop-up box appears to indicate the time is up. The interviewer reads the text in the pop-up box: 'Good, now let's go on.' The interviewer is instructed to not share the final score or any words missed or added with the respondent in order to maintain reliability of the test.) Did any of the following happen: interruption during memory task?
+
+
+388) C4WD90_1
+The next questions are about the information the interviewer recorded on the Word List Recall Form #1 (90-second form). How many total words on the Word List did the respondent remember during the 90-second recall period?
+
+
+389) C4WD90_2
+How many words not on the list did the respondent name?
+
+
+390) C4WD90_3
+How many total words did the respondent repeat?
+
+
+391) H4MH2
+The next few questions are about your feelings. How often do you feel isolated from others?
+
+
+392) H4MH3
+In the last 30 days, how often have you felt that you were unable to control the important things in your life?
+
+
+393) H4MH4
+In the last 30 days, how often have you felt confident in your ability to handle your personal problems?
+
+
+394) H4MH5
+In the last 30 days, how often have you felt that things were going your way?
+
+
+395) H4MH6
+In the last 30 days, how often have you felt that difficulties were piling up so high that you could not overcome them?
+
+
+396) H4MH7
+The next questions are about how you perceive yourself. Compared to other people your age, how intelligent are you?
+
+
+397) H4MH8
+How attractive are you?
+
+
+398) H4MH9
+Including any children you may already have, how many children, in total, do you intend to have? Respondent should include children he or she intends to adopt or foster.
+
+
+399) H4MH10
+I'm going to move the screen one more time so you can't see it. Do you remember the list of 15 words that I read to you in the beginning? It was the very first thing we did in this section. I want you to tell me as many of the words from that list as you can. You will have up to one minute. I will tell you when your time is up. Are you ready? (The computer counts down 60 seconds during which the respondent recalls the words. If the respondent stops before remembering all the words and the time is not up, the interviewer asks: 'Can you think of any more?' If the respondent says he/she cannot remember more, the interviewer proceeds to the next task even if there is time remaining. After 60 seconds, a pop-up box appears to indicate the time is up. The interviewer reads the text in the pop-up box: 'Good, now let's go on.' The interviewer is instructed to not share the final score or any words missed or added with the respondent in order to maintain reliability of the test.) Did any of the following happen: interruption during memory task?
+
+
+400) C4WD60_1
+The next questions are about the information the interviewer recorded on the Word List Recall Form #2 (60-second form). How many total words on the Word List did the respondent remember during the 60-second recall period?
+
+
+401) C4WD60_2
+How many words not on the list did the respondent name?
+
+
+402) C4WD60_3
+How many total words did the respondent repeat?
+
+
+403) H4MH11A
+That exercise is now complete. In this next exercise, I am going to say some strings of numbers and when I am done I would like you to repeat them backwards, in the reverse order from which I said them. So if I sad 'three, eight,' you would say 'eight, three.' Do you understand? The sets will get larger as we go. (The interviewer is instructed to make sure respondent cannot see the screen and to not share the scores or any numbers missed or added with the respondent in order to maintain reliability of the test.) Two-four (four-two) Did respondent accurately repeat the set backwards?
+
+
+404) H4MH11B
+[If H4MH11A=0, 6, ask H4MH11B, else skip to H4MH12A.] Five-seven (seven-five) Did respondent accurately repeat the set backwards?
+
+
+405) H4MH12A
+[If H4MH11B=1 ask H4MH12A, else skip to H4MH18.] Six-two-nine (nine-two-six) Did respondent accurately repeat the set backwards?
+
+
+406) H4MH12B
+[If H4MH12A=0, 6, ask H4MH12B, else skip to H4MH13A.] Four-one-five (five-one-four) Did respondent accurately repeat the set backwards?
+
+
+407) H4MH13A
+[If H4MH12B=1 ask H4MH13A, else skip to H4MH18.] Three-two-seven-nine (nine-seven-two-three) Did respondent accurately repeat the set backwards?
+
+
+408) H4MH13B
+[If H4MH13A=0, 6, 8, ask H4MH13B, else skip to H4MH14A.] Four-nine-six-eight (eight-six-nine-four) Did respondent accurately repeat the set backwards?
+
+
+409) H4MH14A
+[If H4MH13B=1 ask H4MH14A, else skip to H4MH18.] One-five-two-eight-six (six-eight-two-five-one) Did respondent accurately repeat the set backwards?
+
+
+410) H4MH14B
+[If H4MH14A=0, 6, 8, ask H4MH14B, else skip to H4MH15A.] Six-one-eight-four-three (three-four-eight-one-six) Did respondent accurately repeat the set backwards?
+
+
+411) H4MH15A
+[If H4MH14B=1 ask H4MH15A, else skip to H4MH18.] Five-three-nine-four-one-eight (eight-one-four-nine-three-five) Did respondent accurately repeat the set backwards?
+
+
+412) H4MH15B
+[If H4MH15A=0, 6, 8, ask H4MH15B, else skip to H4MH16A.] Seven-two-four-eight-five-six (six-five-eight-four-two-seven) Did respondent accurately repeat the set backwards?
+
+
+413) H4MH16A
+[If H4MH15B=1 ask H4MH16A, else skip to H4MH18.] Eight-one-two-nine-three-six-five (five-six-three-nine-two-one-eight) Did respondent accurately repeat the set backwards?
+
+
+414) H4MH16B
+[If H4MH16A=0, 6, 8, ask H4MH16B, else skip to H4MH17A.] Four-seven-three-nine-one-two-eight (eight-two-one-nine-three-seven-four) Did respondent accurately repeat the set backwards?
+
+
+415) H4MH17A
+[If H4MH16B=1 ask H4MH17A, else skip to H4MH18.] Nine-four-three-seven-six-two-five-eight (eight-five-two-six-seven-three-four-nine) Did respondent accurately repeat the set backwards?
+
+
+416) H4MH17B
+[If H4MH17A=0, 6, 8, ask H4MH17B, else skip to H4MH18.] Seven-two-eight-one-nine-six-five-three (three-five-six-nine-one-eight-two-seven) Did respondent accurately repeat the set backwards?
+
+
+417) C4NUMSCR
+Total score on number recall task
+
+
+418) H4MH18
+Now, think about the past seven days. How often was each of the following things true during the past seven days: You were bothered by things that usually don't bother you.
+
+
+419) H4MH19
+(During the past seven days:) You could not shake off the blues, even with help from your family and your friends.
+
+
+420) H4MH20
+(During the past seven days:) You felt you were just as good as other people.
+
+
+421) H4MH21
+(During the past seven days:) You had trouble keeping your mind on what you were doing.
+
+
+422) H4MH22
+(During the past seven days:) You felt depressed.
+
+
+423) H4MH23
+(During the past seven days:) You felt that you were too tired to do things.
+
+
+424) H4MH24
+(During the past seven days:) You felt happy.
+
+
+425) H4MH25
+(During the past seven days:) You enjoyed life.
+
+
+426) H4MH26
+(During the past seven days:) You felt sad.
+
+
+427) H4MH27
+(During the past seven days:) You felt that people disliked you.
+
+
+428) H4MH28
+In your day-to-day life, how often do you feel you have been treated with less respect or courtesy than other people?
+
+
+429) H4MH29
+[If H4MH28=0,1, 6, 8, skip to Section 15 (H4SE1), else ask H4MH29.] What do you think was the main reason for these experiences? Choose only one reason.
+
+
+430) H4SE1
+[Wave IV Section 15: Suicide, Sexual Experiences, & Sexually Transmitted Diseases] [If PRISON4=1 skip to H4SE6.] These next questions are about suicide. They refer to the past 12 months. During the past 12 months, have you ever seriously thought about committing suicide?
+
+
+431) H4SE2
+During the past 12 months, how many times have you actually attempted suicide?
+
+
+432) H4SE3
+[If H4SE2=1,2,3,4, ask H4SE3, else skip to H4SE4.] Did any attempt result in an injury, poisoning, or overdose that had to be treated by a doctor or nurse?
+
+
+433) H4SE4
+During the past 12 months, have any of your family or friends tried to kill themselves?
+
+
+434) H4SE5
+[If H4SE4=1, ask H4SE5, else to H4SE6.] Have any of them died as a result?
+
+
+435) H4SE6
+The next questions are about sexual experiences. Have you ever had vaginal intercourse? (Vaginal intercourse is when a man inserts his penis into a woman's vagina.)
+
+
+436) H4SE7
+[If H4SE6=1, ask H4SE7, else skip to H4SE9.] How old were you the first time you ever had vaginal intercourse?
+
+
+437) H4SE8
+With how many partners have you ever had vaginal intercourse, even if only once?
+
+
+438) H4SE9
+Have you ever had oral sex? That is, has a partner ever put his/her mouth on your sex organs or you put your mouth on his/her sex organs?
+
+
+439) H4SE10
+[If H4SE9=1, ask H4SE10, else skip to H4SE11.] How old were you the very first time you had oral sex?
+
+
+440) H4SE11
+Have you ever had anal intercourse? (By anal intercourse, we mean when a man inserts his penis into his partner's anus or butt hole.)
+
+
+441) H4SE12
+[If H4SE11=1, ask H4SE12, else skip to H4SE13.] How old were you the very first time you had anal intercourse?
+
+
+442) H4SE13
+Considering all types of sexual activity, with how many male partners have you ever had sex?
+
+
+443) H4SE14
+[If H4SE13=998, ask H4SE14, if H4SE13=0 skip to H4SE19, else skip to H4SE15.] What is your best estimate?
+
+
+444) H4SE15
+[If H4SE14=0 skip to H4SE19, else ask H4SE15.] Considering all types of sexual activity, with how many male partners did you have sex before you were 18 years old, even if only one time?
+
+
+445) H4SE16
+[If H4SE15=998, ask H4SE16, else skip to H4SE17.] What is your best estimate?
+
+
+446) H4SE17
+[If H4SE13-H4SE15 (num of male partners after age 18) is greater than 0 or missing ask H4SE17, else skip to H4SE19.] Considering all types of sexual activity, with how many male partners have you had sex in the past 12 months, even if only one time?
+
+
+447) H4SE18
+[If H4SE17=98, ask H4SE18, else skip to H4SE19.] What is your best estimate?
+
+
+448) H4SE19
+Considering all types of sexual activity, with how many female partners have you ever had sex?
+
+
+449) H4SE20
+[If H4SE19=998, ask H4SE20, if H4SE19=0 skip to H4SE25, else skip to H4SE21.] What is your best estimate?
+
+
+450) H4SE21
+[If H4SE20=0 skip to H4SE25, else ask H4SE21.] Considering all types of sexual activity, with how many female partners did you have sex before you were 18 years old, even if only one time?
+
+
+451) H4SE22
+[If H4SE21=998, ask H4SE22, else skip to H4SE23.] What is your best estimate?
+
+
+452) H4SE23
+[If H4SE19-H4SE21 (num of female partners after age 18) is greater than 0 or missing ask H4SE23, else skip to H4SE25.] Considering all types of sexual activity, with how many female partners have you had sex in the past 12 months?
+
+
+453) H4SE24
+[If H4SE23=98, ask H4SE24, else skip to H4SE25.] What is your best estimate?
+
+
+454) H4SE25
+[If (H4SE13=0 or H4SE14=0) and (H4SE19=0 or H4SE20=0) skip to H4SE29, else ask H4SE25.] Considering all the types of sexual activity, with how many partners, male or female, have you had sex on one and only one occasion?
+
+
+455) H4SE26A
+[If H4SE17 is greater than 0 or H4SE18 is greater than 0 or H4SE23 is greater than 0 or H4SE24 is greater than 0 ask H4SE26A, else skip to H4SE29.] In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Condoms (rubbers).
+
+
+456) H4SE26B
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Female condom.
+
+
+457) H4SE26C
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Birth control pills.
+
+
+458) H4SE26D
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Shot (Depo-Provera).
+
+
+459) H4SE26E
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Emergency contraception or 'morning after' pill.
+
+
+460) H4SE26F
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Norplant.
+
+
+461) H4SE26G
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Diaphragm, cap or shield.
+
+
+462) H4SE26H
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. IUD (intrauterine device), coil, loop.
+
+
+463) H4SE26I
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Natural family planning (safe periods by temperature, cervical mucus test).
+
+
+464) H4SE26J
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Withdrawal (pulling out).
+
+
+465) H4SE26K
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Rhythm or safe period by calendar.
+
+
+466) H4SE26L
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Vaginal sponge.
+
+
+467) H4SE26M
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Spermicide foam, jelly, cream, suppositories.
+
+
+468) H4SE26N
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Ring (NuvaRing).
+
+
+469) H4SE26O
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Patch (Ortho Evra).
+
+
+470) H4SE26P
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Contraceptive film.
+
+
+471) H4SE26Q
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Emergency IUD insertion.
+
+
+472) H4SE26R
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Vasectomy.
+
+
+473) H4SE26S
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Tubal ligation/sterilization.
+
+
+474) H4SE26T
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. Some other method.
+
+
+475) H4SE26V
+In the past 12 months, did you or your partner(s) use any of these methods for birth control or disease prevention? Select all that apply. No method used.
+
+
+476) H4SE27
+In the past 12 months, did you have sex with more than one partner at around the same time?
+
+
+477) H4SE28
+In the past 12 months, how many times have you paid someone to have sex with you or has someone paid you to have sex with them?
+
+
+478) H4SE29
+Are you romantically attracted to females?
+
+
+479) H4SE30
+Are you romantically attracted to males?
+
+
+480) H4SE31
+Please choose the description that best fits how you think about yourself
+
+
+481) H4SE32
+Have you ever been forced, in a non-physical way, to have any type of sexual activity against your will? For example, through verbal pressure, threats of harm, or by being given alcohol or drugs? Do not include any experiences with a parent or adult caregiver.
+
+
+482) H4SE33
+[If H4SE32=1, ask H4SE33, else skip to H4SE34.] How old were you the first or only time this happened?
+
+
+483) H4SE34
+Have you ever been physically forced to have any type of sexual activity against your will? Do not include any experiences with a parent or adult caregiver.
+
+
+484) H4SE35
+[If H4SE34=1, ask H4SE35, else skip to H4SE36A.] How old were you the first or only time this happened?
+
+
+485) H4SE36A
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Chlamydia.
+
+
+486) H4SE36B
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Gonorrhea.
+
+
+487) H4SE36C
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Trichomoniasis.
+
+
+488) H4SE36D
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Syphilis.
+
+
+489) H4SE36E
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Genital herpes.
+
+
+490) H4SE36F
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Genital warts.
+
+
+491) H4SE36G
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Hepatitis B (HBV).
+
+
+492) H4SE36H
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Human papilloma virus (HPV).
+
+
+493) H4SE36I
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Pelvic inflammatory disease (PID).
+
+
+494) H4SE36J
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Mucopurulent cervicitis (MPC).
+
+
+495) H4SE36K
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Urethritis.
+
+
+496) H4SE36L
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Vaginitis.
+
+
+497) H4SE36N
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Any other sexually transmitted disease.
+
+
+498) H4SE36O
+Have you ever been told by a doctor, nurse, or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Have had no sexually transmitted diseases.
+
+
+499) H4SE37A
+[If H4SE36O=1 (no std) or H4SE36A-H4SE360=6, 8, skip to Section 16A (H4TR1), else ask H4SE37A.] In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Chlamydia.
+
+
+500) H4SE37B
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Gonorrhea.
+
+
+501) H4SE37C
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Trichomoniasis.
+
+
+502) H4SE37D
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Syphilis.
+
+
+503) H4SE37E
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Genital herpes.
+
+
+504) H4SE37F
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Genital warts.
+
+
+505) H4SE37G
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Hepatitis B (HBV).
+
+
+506) H4SE37H
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Human papilloma virus (HPV).
+
+
+507) H4SE37I
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Pelvic inflammatory disease (PID).
+
+
+508) H4SE37J
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Cervicitis or mucopurulent cervicitis (MPC).
+
+
+509) H4SE37K
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Urethritis.
+
+
+510) H4SE37L
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Vaginitis.
+
+
+511) H4SE37N
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Any other sexually transmitted disease.
+
+
+512) H4SE37O
+In the past 12 months, have you been told by a doctor, nurse or other health professional that you had any of the following sexually transmitted diseases? Select all of the diseases you have had. Have had no sexually transmitted diseases.
+
+
+513) H4TR1
+[Wave IV Section 16A: Relationships] This next part of the interview is about specific romantic and sexual relationships you have had. First I want to get summary information about your relationships. Be sure to include current partners. How many persons have you ever married? Be sure to include your current spouse if you are married now.
+
+
+514) H4TR2
+[If H4TR1=0 ask:] How many romantic or sexual partners have you ever lived with for one month or more? By 'lived with' we mean that neither of you kept a separate residence while you were living together. [If H4TR1 is greater than 0 ask:] Not counting the (fill H4TR1) (partner/partners) you married, how many other romantic or sexual partners have you ever lived with for one month or more? By 'lived with' we mean that neither of you kept a separate residence while you were living together.
+
+
+515) H4TR3
+[If H4TR1+H4TR2=0 ask:] With how many persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy? [If H4TR1 is greater than 0 and H4TR2 is greater than 0 ask:] Not counting the (fill H4TR1) (partner/partners) you married or the (fill H4TR2) (partner/partners) you lived with, how many other persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy? [If H4TR1 is greater than 0 and H4TR2=0 ask:] Not counting the (fill H4TR1) (partner/partners) you married, with how many other persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy? [If H4TR1=0 and H4TR2 is greater than 0 ask:] Not counting the (fill H4TR2) (partner/partners) you lived with, with how many other persons have you ever had a romantic relationship or sexual encounter that resulted in a pregnancy?
+
+
+516) H4TR4
+[If H4TR1+H4TR2+H4TR3=0 ask:] With how many persons are you currently having a romantic or sexual relationship? [If H4TR1+H4TR2+H4TR3 is greater than 0 ask:] Not counting (those partners/that partner), with how many other persons are you currently having a romantic or sexual relationship?
+
+
+517) H4TR5
+[If H4TR1+H4TR2+H4TR3+H4TR4=0 ask:] With how many people have you had a romantic or sexual relationship that lasted six months or more since 2001? [If H4TR1+H4TR2+H4TR3+H4TR4 is greater than 0 ask:] Not counting (those partners/that partner), with how many other people have you had a romantic or sexual relationship that lasted six months or more since 2001?
+
+
+518) H4TR6
+[If H4TR1+H4TR2+H4TR3+H4TR4+H4TR5=0 ask:] With how many people have you had a romantic or sexual relationship that lasted less than six months since 2001? [If H4TR1+H4TR2+H4TR3+H4TR4+H4TR5 is greater than 0 ask:] Not counting (those partners/that partner), with how many other people have you had a romantic or sexual relationship that lasted less than six months since 2001?
+
+
+519) H4TR7
+[If BIO_SEX4=2 ask H4TR7, else skip to H4TR9.] Are you pregnant now?
+
+
+520) H4TR8
+[If H4TR7=6, 8 ask H4TR8, else skip to H4TR9.] Do you think that you are probably pregnant, or not?
+
+
+521) H4TR9
+Thinking about all the relationships and sexual encounters you have ever had, [how many times have you ever been pregnant/how many times have you ever gotten a partner pregnant]? Include all pregnancies, whether they resulted in babies born alive, stillbirth, abortion, miscarriage, or ectopic or tubal pregnancy. [If H4TR7=1 say:] Be sure to include your current pregnancy in your count.
+
+
+522) H4TR10
+[If H4TR9=0,96,98 skip to H4TR12, else ask H4TR10.] How many live births resulted from (this pregnancy/these pregnancies)?
+
+
+523) H4TR11
+[If H4TR10=0,96,98 skip to H4TR12, else ask H4TR11.] How many of these children are still living?
+
+
+524) H4TR12
+During any of the romantic relationships you have ever had, (have you/has your partner) ever had trouble getting pregnant or trouble avoiding a miscarriage?
+
+
+525) PTNR_ID
+[Wave IV Section 17: Relationship in Detail] This section is administered for ONE current partner. If there are multiple current partners, priority is: marriage partner, cohabitation partner, pregnancy partner, dating partner. If two or more partners fall in the same type of relationship, the longer/longest relationship is selected. If two or more partners fall in the same type of relationship, and they are of the same duration, then the respondent is asked to pick the partner they care about the most. If there are no current partners then the most recent partner is selected. If there is no current partner and no most recent partner, end dates for each marriage, cohabitation, and relationship with a pregnancy are reviewed to select the one partner with the most recent end date. If two or more partners have the same end date, select the longer/longest relationship. Partner Identifier.
+
+
+526) H4RD1
+[If Section 16B Q.14 (H4TR14)=1 or Section 16B Q.13 (H4TR13)=4 skip to H4RD2D, else ask H4RD1.] How old were you when you first became romantically or sexually involved with (initials)?
+
+
+527) H4RD2D
+What is the total amount of time that you (have been/were) involved in a romantic or sexual relationship with (initials) -- days?
+
+
+528) H4RD2M
+What is the total amount of time that you (have been/were) involved in a romantic or sexual relationship with (initials) -- months?
+
+
+529) H4RD2Y
+What is the total amount of time that you (have been/were) involved in a romantic or sexual relationship with (initials) -- years?
+
+
+530) H4RD3
+[If Section 16B Q.13 (H4TR13)=3,4, or 5 ask H4RD3. After answering H4RD3, skip to H4RD5.] Which of the following best describes your relationship with (initials) at the (present time/time you broke up)?
+
+
+531) H4RD4
+[If Section 16B Q.13 (H4TR13)=2 ask H4RD4.] (Do/did) either you or (initials) have a residence other than the one you share?
+
+
+532) H4RD5
+[If H4RD4=0 skip to H4RD7A, else ask H4RD5. After answering H4RD5, skip to H4RD7A.] In an average week, how often (did/do) you and (initials) spend the entire night together?
+
+
+533) H4RD6
+[If Section 16B Q.13 (H4TR13)=1 ask H4RD6.] What is the current status of your marriage to (initials)?
+
+
+534) H4RD7A
+How much do you agree or disagree with the following statements about your relationship with (initials)? We (enjoy/enjoyed) doing even ordinary, day-to-day things together.
+
+
+535) H4RD7B
+How much do you agree or disagree with the following statements about your relationship with (initials)? I (am/was) satisfied with the way we handle our problems and disagreements.
+
+
+536) H4RD7C
+How much do you agree or disagree with the following statements about your relationship with (initials)? I (am/was) satisfied with the way we handle family finances.
+
+
+537) H4RD7D
+How much do you agree or disagree with the following statements about your relationship with (initials)? My partner (listens/listened) to me when I need someone to talk to.
+
+
+538) H4RD7E
+How much do you agree or disagree with the following statements about your relationship with (initials)? My partner (expresses/expressed) love and affection to me.
+
+
+539) H4RD7F
+How much do you agree or disagree with the following statements about your relationship with (initials)? I (am/was) satisfied with our sex life.
+
+
+540) H4RD7G
+How much do you agree or disagree with the following statements about your relationship with (initials)? I (trust/trusted) my partner to be faithful to me.
+
+
+541) H4RD8
+[If Section 16B Q.14 (H4TR14)=1 or Section 16B Q.13 (H4TR13)=4 ask H4RD8, else skip to H4RD14.] How much do you love (initials)?
+
+
+542) H4RD9
+In general, how happy are you in your relationship with (initials)?
+
+
+543) H4RD10
+How committed are you to your relationship with (initials)?
+
+
+544) H4RD11
+[If Section 16B Q.13 (H4TR13)=1 and Section 16B Q.14 (H4TR14)=1 skip to H4RD12, else if (Section 16B Q.13 (H4TR13)=2,3 and Section 16B Q.14 (H4TR14)=1) or Section 16B Q.13 (H4TR13)=4 ask H4RD11, else skip to H4RD14.] What is the chance that you and (initials) will marry each other?
+
+
+545) H4RD12
+Select the picture, by entering the number under the picture, which best illustrates how close you feel to (initials).
+
+
+546) H4RD13
+How likely is it that your relationship with (initials) will be permanent?
+
+
+547) H4RD14
+On average, how often (did/do) you have sexual relations with (initials)? By 'sexual relations' we mean vaginal intercourse, oral sex, anal sex, or other types of sexual activity. Frequency.
+
+
+548) H4RD14T
+On average, how often (did/do) you have sexual relations with (initials)? By 'sexual relations' we mean vaginal intercourse, oral sex, anal sex, or other types of sexual activity. Unit -- week/month/year.
+
+
+549) H4RD15
+On average, how often (do/did) you or (initials) use a contraceptive method of birth control or disease prevention?
+
+
+550) H4RD16
+As far as you know, during the time you and (initials) (have had/had) a sexual relationship, (has/did) (initials) ever (had/have) any other sexual partners?
+
+
+551) H4RD17
+During the time you and (initials) (have had/had) a sexual relationship (have/did) you ever (had have) any other sexual partners?
+
+
+552) H4RD18
+No matter how well a couple gets along, there are times when they disagree or fight. Couples have many ways of settling their differences. Please indicate how often each of the following things has occurred in your relationship with (initials). [If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)' to the beginning of H4RD18 through H4RD25.] How often (has/did) (initials) (threatened/threaten) you with violence, (pushed/push) or (shoved/shove) you, or (thrown/throw) something at you that could hurt?
+
+
+553) H4RD19
+[If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (has/did) (initials) (slapped/slap), hit or (kicked/kick) you?
+
+
+554) H4RD20
+[If H4RD19=0 skip to H4RD21, else ask H4RD20.] [If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (have/did) you (had/have) an injury, such as a sprain, bruise, or cut because of a fight with (initials)?
+
+
+555) H4RD21
+[If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (has/did (initials) (insisted/insist) on or (made/make) you have sexual relations with (him/her) when you didn't want to?
+
+
+556) H4RD22
+[If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (have/did) you threatened (initials) with violence, pushed or shoved (him/her), or thrown something at (him/her) that could hurt?
+
+
+557) H4RD23
+[If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (have/did) you (slapped/slap), hit, or (kicked/kick) (initials)?
+
+
+558) H4RD24
+[If H4RD23=0, skip to H4RD25, else ask H4RD24.] [If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (has/did) (initials) (had/have) and injury, such as a sprain, bruise, or cut because of a fight with you?
+
+
+559) H4RD25
+[If H4RD2Y is greater than or equal to 1 year add: 'During the past year in your relationship with (initials)'] How often (have/did) you (insisted/insist) on or (made/make) (initials) have sexual relations with you when (he/she) didn't want to?
+
+
+560) H4KK14
+[Wave IV Section 20B: Children and Parenting] Questions H4KK14 to H4KK15D are asked of all respondents who have at least one living biological child whom the respondent has not given up for adoption. These questions are also asked of respondents who do not have biological children but have step-children, foster children, or adopted children living in their household. What language do you speak to your child/children when you are together at home?
+
+
+561) H4KK15A
+How much do you agree or disagree with the following statements? I am happy in my role as parent.
+
+
+562) H4KK15B
+How much do you agree or disagree with the following statements? I feel close to my child(ren).
+
+
+563) H4KK15C
+How much do you agree or disagree with the following statements? The major source of stress in my life is my child(ren).
+
+
+564) H4KK15D
+How much do you agree or disagree with the following statements? I feel overwhelmed by the responsibility of being a parent.
+
+
+565) H4DS1
+[Wave IV Section 21: Criminal Offending and Victimization] The next questions are about things you may have done in the past 12 months. In the past 12 months, how often did you deliberately damage property that didn't belong to you?
+
+
+566) H4DS2
+In the past 12 months, how often did you steal something worth more than $50?
+
+
+567) H4DS3
+In the past 12 months, how often did you go into a house or building to steal something?
+
+
+568) H4DS4
+In the past 12 months, how often did you use or threaten to use a weapon to get something from someone?
+
+
+569) H4DS5
+In the past 12 months, how often did you sell marijuana or other drugs?
+
+
+570) H4DS6
+In the past 12 months, how often did you steal something worth less than $50?
+
+
+571) H4DS7
+In the past 12 months, how often did you take part in a physical fight where a group of your friends was against another group?
+
+
+572) H4DS8
+In the past 12 months, how often did you buy, sell, or hold stolen property?
+
+
+573) H4DS9
+In the past 12 months, how often did you use someone else's credit card, bank card, or automatic teller card without their permission or knowledge?
+
+
+574) H4DS10
+In the past 12 months, how often did you deliberately write a bad check?
+
+
+575) H4DS11
+In the past 12 months, how often did you get into a serious physical fight?
+
+
+576) H4DS12
+[If H4DS11=1,2,3, ask H4DS12, else skip to H4DS13.] In the past 12 months, how often did you hurt someone badly enough in a physical fight that he or she needed care from a doctor or nurse?
+
+
+577) H4DS13
+Which of the following things happened in the past 12 months: Someone stole something from you worth more than $50?
+
+
+578) H4DS14
+Which of the following things happened in the past 12 months: You saw someone shoot or stab another person?
+
+
+579) H4DS15
+Which of the following things happened in the past 12 months: Someone pulled a knife or gun on you?
+
+
+580) H4DS16
+Which of the following things happened in the past 12 months: Someone shot or stabbed you?
+
+
+581) H4DS17
+Which of the following things happened in the past 12 months: Someone slapped, hit, choked, or kicked you?
+
+
+582) H4DS18
+Which of the following things happened in the past 12 months: You were beaten up?
+
+
+583) H4DS19
+Which of the following things happened in the past 12 months: You pulled a knife or gun on someone?
+
+
+584) H4DS20
+Which of the following things happened in the past 12 months: You shot or stabbed someone?
+
+
+585) H4CJ1
+[Wave IV Section 22: Involvement with Criminal Justice System] [If PRISON4=0, ask H4CJ1, else skip to H4CJ2.] The next questions are about arrests and convictions. Have you ever been arrested?
+
+
+586) H4CJ2
+[If H4CJ1=1, ask H4CJ2, else skip to Section 23 (H4TO1).] How many times have you been arrested?
+
+
+587) H4CJ3
+[If H4CJ2=1, ask H4CJ3, else skip to H4CJ4. After answering H4CJ3, skip to H4CJ7A.] How old were you?
+
+
+588) H4CJ4
+How old were you the first time you were arrested?
+
+
+589) H4CJ5
+[If H4CJ4 is less than 18, else skip to H4CJ6.] How many times were you arrested before your 18th birthday?
+
+
+590) H4CJ6
+How many times have you been arrested since your 18th birthday?
+
+
+591) H4CJ7A
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Driving under the influence (DUI; DWI).
+
+
+592) H4CJ7B
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations).
+
+
+593) H4CJ7C
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish).
+
+
+594) H4CJ7D
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs).
+
+
+595) H4CJ7E
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Robbery (taking or attempting to take something using a weapon or physical force).
+
+
+596) H4CJ7F
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Theft (taking something without using force, such as larceny, burglary, or shoplifting).
+
+
+597) H4CJ7G
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Forcible rape (does not include statutory rape).
+
+
+598) H4CJ7H
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded).
+
+
+599) H4CJ7I
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured).
+
+
+600) H4CJ7J
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Fraud, forgery, or embezzlement.
+
+
+601) H4CJ7K
+What were you charged with (the first time)? You may give more than one answer. Select all that apply. Other offenses.
+
+
+602) H4CJ8
+[If H4CJ2=2, ask H4CJ8, else skip to H4CJ10.] How old were you the last time you were arrested?
+
+
+603) H4CJ9A
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Driving under the influence (DUI; DWI).
+
+
+604) H4CJ9B
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations).
+
+
+605) H4CJ9C
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish).
+
+
+606) H4CJ9D
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs).
+
+
+607) H4CJ9E
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Robbery (taking or attempting to take something using a weapon or physical force).
+
+
+608) H4CJ9F
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Theft (taking something without using force, such as larceny, burglary, or shoplifting).
+
+
+609) H4CJ9G
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Forcible rape (does not include statutory rape).
+
+
+610) H4CJ9H
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded).
+
+
+611) H4CJ9I
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured).
+
+
+612) H4CJ9J
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Fraud, forgery, or embezzlement.
+
+
+613) H4CJ9K
+That last time, what were you charged with? You may give more than one answer. Select all that apply. Other offenses.
+
+
+614) H4CJ10
+Have you ever been convicted of or pled guilty to any charges other than a minor traffic violation?
+
+
+615) H4CJ11
+[If H4CJ10=1, ask H4CJ11, else if H4CJ10=2, skip to H4CJ12, else skip to H4CJ16. After answering H4CJ11, skip to H4CJ13A.] How old were you when you were convicted or pled guilty?
+
+
+616) H4CJ12
+How old were you the first time you were convicted or pled guilty to something?
+
+
+617) H4CJ13A
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Driving under the influence (DUI; DWI).
+
+
+618) H4CJ13B
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations).
+
+
+619) H4CJ13C
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish).
+
+
+620) H4CJ13D
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs).
+
+
+621) H4CJ13E
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Robbery (taking or attempting to take something using a weapon or physical force).
+
+
+622) H4CJ13F
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Theft (taking something without using force, such as larceny, burglary, or shoplifting).
+
+
+623) H4CJ13G
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Forcible rape (does not include statutory rape).
+
+
+624) H4CJ13H
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded).
+
+
+625) H4CJ13I
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured).
+
+
+626) H4CJ13J
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Fraud, forgery, or embezzlement.
+
+
+627) H4CJ13K
+What charges were you convicted of or did you plead guilty to (the first time)? You may give more than one answer. Select all that apply. Other offenses.
+
+
+628) H4CJ14
+[If H4CJ10=2, ask H4CJ14, else skip to H4CJ16.] How old were you the last time you were convicted of or pled guilty to something?
+
+
+629) H4CJ15A
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Driving under the influence (DUI; DWI).
+
+
+630) H4CJ15B
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Other alcohol-related offenses (underage purchase or consumption; open container; public intoxication; disorderly conduct; other liquor law violations).
+
+
+631) H4CJ15C
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Marijuana offenses (possession, sale, use, growing, or manufacturing of marijuana/hashish).
+
+
+632) H4CJ15D
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Other drug offenses (unlawful possession, sale, use, or manufacturing of other narcotic drugs).
+
+
+633) H4CJ15E
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Robbery (taking or attempting to take something using a weapon or physical force).
+
+
+634) H4CJ15F
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Theft (taking something without using force, such as larceny, burglary, or shoplifting).
+
+
+635) H4CJ15G
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Forcible rape (does not include statutory rape).
+
+
+636) H4CJ15H
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Aggravated assault/intentional manslaughter/murder (unlawful attack upon another for the purpose of causing severe injury or death, simple assaults are excluded).
+
+
+637) H4CJ15I
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Simple assault (assaults and attempted assaults where no weapon is used and the victim is not seriously injured).
+
+
+638) H4CJ15J
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Fraud, forgery, or embezzlement.
+
+
+639) H4CJ15K
+What charges were you convicted of or did you plead guilty to the last time? You may give more than one answer. Select all that apply. Other offenses.
+
+
+640) H4CJ16
+Have you ever been on probation for an offense?
+
+
+641) H4CJ17
+[If PRISON4=0, ask H4CJ17, else skip to H4CJ18.] Have you ever spent time in a jail, prison, juvenile detention center or other correctional facility?
+
+
+642) H4CJ18
+[If H4CJ17=1, ask H4CJ18, else skip to Section 23 (H4TO1).] How many times have you been in a jail, prison, juvenile detention center or other correctional facility?
+
+
+643) H4CJ19
+[If H4CJ18=1, ask H4CJ19, else if H4CJ18=2, skip to H4CJ20, else skip to Section 23 (H4TO1). After answering H4CJ19, skip to H4CJ22Y.] How old were you when you went to jail, prison, juvenile detention center or other correctional facility?
+
+
+644) H4CJ20
+How old were you the first time you went to jail, prison, juvenile detention or other correctional facility?
+
+
+645) H4CJ21
+[After answering H4CJ21, skip to H4CJ23Y.] [If PRISON4=0, ask version:] How old were you the last time you went to jail, prison, juvenile detention or other correctional facility? [If PRISON4=1, ask version:] How old were you when you went to jail, prison, juvenile detention or other correctional facility this time?
+
+
+646) H4CJ22Y
+How much time were you sentenced to serve? [Years]
+
+
+647) H4CJ22M
+[After answering H4CJ22M, if H4CJ19 is greater than 18, skip to H4CJ24Y, else skip to H4CJ25Y.] How much time were you sentenced to serve? [Months]
+
+
+648) H4CJ23Y
+How much time were you sentenced to serve this last time? [Years]
+
+
+649) H4CJ23M
+How much time were you sentenced to serve this last time? [Months]
+
+
+650) H4CJ24Y
+Before your 18th birthday, about how much total time did you spend in jail or detention? [Years]
+
+
+651) H4CJ24M
+Before your 18th birthday, about how much total time did you spend in jail or detention? [Months]
+
+
+652) H4CJ25Y
+Since your 18th birthday, about how much total time have you spent in jail or prison? [Years]
+
+
+653) H4CJ25M
+Since your 18th birthday, about how much total time have you spent in jail or prison? [Months]
+
+
+654) H4TO1
+[Wave IV Section 23: Tobacco, Alcohol, Drugs (self-administered by respondent)] The next questions are about your experiences with tobacco, alcohol, and drugs. Remember, your answers will not be linked to you. Have you ever smoked an entire cigarette?
+
+
+655) H4TO2
+[If H4TO1=1, ask H4TO2, else skip to H4TO5.] How old were you the first time you smoked a whole cigarette?
+
+
+656) H4TO3
+Have you ever smoked cigarettes regularly -- that is, at least one cigarette every day for 30 days?
+
+
+657) H4TO4
+[If H4TO3=1, ask H4TO4, else skip to H4TO5.] How old were you when you first smoked cigarettes regularly that is, at least one cigarette ever day 30 days?
+
+
+658) H4TO5
+During the past 30 days, on how many days did you smoke cigarettes?
+
+
+659) H4TO6
+[If H4TO5=0,96,98 and H4TO1=1, skip to H4TO7; else if H4TO5=0,96,98 and H4TO1=0, 6, 8 skip to H4TO23; else ask H4TO6.] During the past 30 days, on the days you smoked, how many cigarettes did you smoke each day?
+
+
+660) H4TO7
+Was there ever a period in your life when you smoked cigarettes more than you do now?
+
+
+661) H4TO8
+[If H4TO7=0, 6, 8 and H4TO5=0,96,98, skip to H4TO23; else if H4TO5 is greater than 0 and H4TO7=6, 8, skip to H4TO23; else if H4TO7=0 and H4TO5 is greater than 0, ask H4TO8; else if H4TO7=1, skip to H4TO15.] Currently, how soon after you wake up do you have your first cigarette?
+
+
+662) H4TO9
+Do you find it difficult not to smoke cigarettes in places where it is forbidden, for example, in church, at the library, or in theaters?
+
+
+663) H4TO10
+Which cigarette would you hate most to give up?
+
+
+664) H4TO11
+How many cigarettes a day do you smoke?
+
+
+665) H4TO12
+Do you smoke cigarettes more frequently during the first hours after waking than during the rest of the day?
+
+
+666) H4TO13
+Do you smoke cigarettes even if you are so ill that you are in bed most of the day?
+
+
+667) H4TO14
+[If H4TO8 not equal 6, 8 or H4TO9=1 or H4TO10=1 or H4TO11 not equal 96,98 or H4TO12=1 or H4TO13=1 then ask H4TO14 and then display 'You said that…' (If H4TO8 not 6, 8 then show: after waking up, you have your first cigarette (fill H4TO8). If H4TO9=1 then show: you find it difficult not to smoke cigarettes in places where it is forbidden. If H4TO10=1 then show: you would most hate to give up your first cigarette in the morning. If H4TO11 not equal 96,98 then show: you smoke (fill H4TO11) cigarettes a day. If H4TO12=1 then show: you smoke most frequently just after awakening. If H4TO13=1 then show: you smoke cigarettes even when you are ill.) Else skip to H4TO23. After answering H4TO14, skip to H4TO23.] How old were you the first time you had any of these cigarette smoking experiences?
+
+
+668) H4TO15
+These next questions are about the period of time when you smoked the most. When you smoked the most, how soon after you woke up did you have your first cigarette?
+
+
+669) H4TO16
+When you smoked the most, did you find it difficult not to smoke cigarettes in places where it is forbidden, for example, in church, at the library, or in theaters?
+
+
+670) H4TO17
+When you smoked the most, which cigarette did you hate most to give up?
+
+
+671) H4TO18
+When you smoked the most, how many cigarettes a day did you smoked?
+
+
+672) H4TO19
+When you smoked the most, did you smoke cigarettes more frequently during the first hours after waking than during the rest of the day?
+
+
+673) H4TO20
+When you smoked the most, did you smoke cigarettes even if you were so ill that you were in bed most of the day?
+
+
+674) H4TO21
+[If H4TO15 not equal 6, 8 or H4TO16=1 or H4TO17=1 or H4TO18 not equal 6, 8 or H4TO19=1 or H4TO20=1 then display 'You said that…' (If H4TO15 not equal 6, 8 then show: after waking up, you had your first cigarette (fill H4TO15). If H4TO16=1 then show: you found it difficult not to smoke cigarettes in places where it is forbidden. If H4TO17=1 then show: you would most have hated to give up your first cigarette in the morning. If H4TO18 not equal 6, 8 then show: you smoked (fill H4TO18) cigarettes a day. If H4TO19=1 then show: you smoked more frequently just after awakening. If H4TO20=1 then show: you smoked cigarettes even when you were ill.) ask H4TO21. Else skip to H4TO23.] How old were you the first time you had any of these cigarette smoking experiences?
+
+
+675) H4TO22
+[If H4TO5 is greater than 0, ask H4TO22, else skip to H4TO23. If H4TO15 not equal 6, 8 or H4TO16=1 or H4TO17=1 or H4TO18 not equal 6, 8 or H4TO19=1 or H4TO20=1 then ask H4TO22 and then display 'You said that…' (If H4TO15 not equal 6, 8 then show: after waking up, you have your first cigarette [fill H4TO15]. If H4TO16=1 then show: you find it difficult not to smoke cigarettes in places where it is forbidden. If H4TO17=1 then show: you would most hate to give up your first cigarette in the morning. If H4TO18 not equal 6, 8 then show: you smoke [fill H4TO18] cigarettes a day. If H4TO19=1 then show: you smoke more frequently just after awakening. If H4TO20=1 then show: you smoke cigarettes even when you are ill.) Else skip to H4TO23.] Do you still have any of these smoking experiences?
+
+
+676) H4TO23
+Have you smoked a cigar or pipe at least 20 times in your entire life?
+
+
+677) H4TO24
+[If H4TO23=1, ask H4TO24, else if H4TO23=0, 6, 8, skip to H4TO25.] During the past 30 days, how many days did you smoke cigars or a pipe?
+
+
+678) H4TO25
+Have you used chewing tobacco (such as Red Man, Garrett, or Beechnut) or snuff (such as Skoal, Skoal Bandits, or Copenhagen) at least 20 times in your entire life?
+
+
+679) H4TO26
+[If H4TO25=1, ask H4TO26; else if H4TO25=0, 6, 8, and (H4TO5 is greater than 0 or H4TO24 is greater than 0) then skip to H4TO27; else skip to H4TO33.] During the past 30 days, on how many days have you used chewing tobacco (such as Red Man, Garrett, or Beechnut) or snuff (such as Skoal, Skoal Bandits, or Copenhagen)?
+
+
+680) H4TO27
+[If H4TO5 is greater than 0 or H4TO24 is greater than 0 or H4TO26 is greater than 0, ask H4TO27, else skip to H4TO33.] Have you ever tried to quit or cut down on smoking or using tobacco?
+
+
+681) H4TO28
+[If H4TO27=0, 6, 8, ask H4TO28, else if H4TO27=1, then skip to H4TO29. After answering H4TO28, skip to H4TO31.] Has there ever been a period of time when you wanted to quit or cut down on smoking or using tobacco?
+
+
+682) H4TO29
+When you decided to quit or cut down on smoking or using tobacco, were you able to do so for at least one month?
+
+
+683) H4TO30
+[If H4TO29=0, ask H4TO30, else if H4TO29=1, then skip to H4TO31.] How many times have you tried but been unable to quit smoking or using tobacco for at least one month?
+
+
+684) H4TO31
+Did you smoke cigarettes, cigars, a pipe or use chewing tobacco within the past 24 hours?
+
+
+685) H4TO32H
+[If H4TO31=1, ask H4TO32H, else if H4TO31=0, 6, 8 then skip to H4TO33.] At what time did you last smoke cigarettes, cigars, a pipe or use chewing tobacco? [Hour]
+
+
+686) H4TO32M
+At what time did you last smoke cigarettes, cigars, a pipe or use chewing tobacco? [Minute]
+
+
+687) H4TO32T
+At what time did you last smoke cigarettes, cigars, a pipe or use chewing tobacco? [AM/PM]
+
+
+688) H4TO33
+Have you had a drink of beer, wine, or liquor more than two or three times? Do not include sips or tastes from someone else's drink.
+
+
+689) H4TO34
+[If H4TO33=1, ask H4TO34, else skip to H4TO63.] How old were you when you first had an alcoholic drink? By drink, we mean a glass of wine, a can or bottle of beer, a wine cooler, a shot glass of liquor, or a mixed drink, not just sips or tastes from someone else's drink.
+
+
+690) H4TO35
+During the past 12 months, on how many days did you drink alcohol?
+
+
+691) H4TO36
+[If H4TO35 not equal 0, ask H4TO36, else if H4TO35=0, then skip to H4TO43.] Think of all the times you have had a drink during the past 12 months. How many drinks did you usually have each time? A 'drink' is a glass of wine, a can or bottle of beer, a wine cooler, a shot glass of liquor, or a mixed drink.
+
+
+692) H4TO37
+[If BIO_SEX4=1, use five or more; if BIO_SEX4=2, use four or more.] During the past 12 months, on how many days did you drink [five or more/four or more] drinks in a row?
+
+
+693) H4TO38
+During the past 12 months, on how many days have you been drunk or very high on alcohol?
+
+
+694) H4TO39
+During the past 30 days, on how many days did you drink?
+
+
+695) H4TO40
+[If H4TO39 not equal 0, ask H4TO40, else if H4TO39=0, skip to H4TO43.] Think of all the times you have had a drink during the past 30 days. How many drinks did you usually have each time? A 'drink' is a glass of wine, a can or bottle of beer, a wine cooler, a shot glass of liquor, or a mixed drink.
+
+
+696) H4TO41
+Did you have an alcoholic drink (beer, wine, or liquor) within the past 24 hours?
+
+
+697) H4TO42H
+[If H4TO41=1, ask H4TO42H, else skip to H4TO43.] At what time did you last have an alcoholic drink? [Hour]/D
+
+
+698) H4TO42M
+At what time did you last have an alcoholic drink? [Minute]
+
+
+699) H4TO42T
+At what time did you last have an alcoholic drink? [AM/PM]
+
+
+700) H4TO43
+Was there ever a period in your life when you drank more alcohol than you do now?
+
+
+701) H4TO44
+[If H4TO43=0, 6, 8, skip to checkpoint before H4TO46, else ask H4TO44.] During the period when you drank the most, on how many days did you drink?
+
+
+702) H4TO45
+During the period when you drank the most, how many drinks did you usually have each time?
+
+
+703) H4TO46
+[Checkpoint before H4TO46: If BIO_SEX4=1 then: If H4TO35=5, 6, 7 and H4TO36 is greater than 3, ask H4TO46. Else if H4TO44=4, 5, 6, 7 and H4TO45 is greater than 3, ask H4TO46. Else skip to H4TO63. If BIO_SEX4=2 then: If H4TO35=5, 6, 7 and H4TO36 is greater than 2, ask H4TO46. Else if H4TO44=4, 5, 6, 7 and H4TO45 is greater than 2, ask H4TO46. Else skip to H4TO63.] How many times has each of the following things ever happened? How often has your drinking interfered with your responsibilities at work or school?
+
+
+704) H4TO47
+How often have you been under the influence of alcohol when you could have gotten yourself or others hurt, or put yourself or others at risk, including unprotected sex?
+
+
+705) H4TO48
+How often have you had legal problems because of your drinking, like being arrested for disturbing the peace or driving under the influence of alcohol, or anything else?
+
+
+706) H4TO49
+How often have you had problems with your family, friends, or people at work or school because of your drinking?
+
+
+707) H4TO50
+[If H4TO49=0, skip to H4TO51, else ask H4TO50.] Did you continue to drink after you realized drinking was causing you problems with family, friends, or people at work or school?
+
+
+708) H4TO51
+Have you ever found that you had to drink more than you used to in order to get the effect you wanted?
+
+
+709) H4TO52
+Has there ever been a period when you spent a lot of time drinking, planning how you would get alcohol, or recovering from a hangover?
+
+
+710) H4TO53
+Have you often had more to drink or kept drinking for a longer period of time than you intended?
+
+
+711) H4TO54
+Have you ever tried to quit or cut down on your drinking?
+
+
+712) H4TO55
+[If H4TO54=0, 6, 8, ask H4TO55, else if H4TO54=1, skip to H4TO56. After answering H4TO55, skip to H4TO58.] Has there ever been a period of time when you wanted to quit or cut down on your drinking?
+
+
+713) H4TO56
+When you decided to cut down or quit drinking, were you able to do so for at least one month?
+
+
+714) H4TO57
+[If H4TO56=1, skip to H4TO58; else if H4TO56=0, 8, ask H4TO57.] How many times have you tried but been unable to cut down or quit drinking for at least one month?
+
+
+715) H4TO58
+During the first few hours of not drinking, do you experience withdrawal symptoms such as the shakes, feeling anxious, trouble getting to sleep or staying asleep, nausea, vomiting, or rapid heartbeats?
+
+
+716) H4TO59
+Have you ever continued to drink after you realized drinking was causing you any emotional problems (such as feeling irritable, depressed, or uninterested in things or having strange ideas) or causing you any health problems (such as ulcers, numbness in your hands/feet or memory problems)?
+
+
+717) H4TO60
+Have you ever given up or cut down on important activities that would interfere with drinking like getting together with friends or relatives, going to work or school, participating in sports, or anything else?
+
+
+718) H4TO61
+[Create counter for drinking experiences: drinking experiences=(H4TO51=1)+(H4TO52=1)+(H4TO53=1)+(H4TO56=0)+(H4TO55=1)+(H4TO58)=1)+(H4TO59=1)+(H4TO60=1). If drinking experiences is greater than or equal to 3 then display 'You said that you…' (If H4TO51=1 show: Needed to drink more than you used to. If H4TO52=1 show: Spent a lot of time drinking or recovering from hangovers. If H4TO53=1 show: Drank more than you intended. If H4TO55=1 show: Wanted to quit drinking but did not try. If H4TO56=0 show: Tried to quit drinking but could not. If H4TO58=1 show: Experienced withdrawal symptoms. If H4TO59=1 show: Continued to drink after it caused health or emotional problems. If H4TO60=1 show: Gave up on activities because you couldn't drink.) ask H4TO61. Else skip to H4TO63. If drinking experiences is greater than 3, insert 'at least three of.'] Did (at least three of) these experiences occur together in a 12-month period?
+
+
+719) H4TO62
+[If H4TO61=0, skip to H4TO63.] How old were you when you first experienced these symptoms in the same 12-month period?
+
+
+720) H4TO63
+Have you ever taken any prescription drugs that were not prescribed for you, taken prescription drugs in larger amounts than prescribed, more often than prescribed, for longer periods than prescribed, or taken prescription drugs that you took only for the feeling or experience they caused?
+
+
+721) H4TO64A
+[If H4TO63=1,8, ask H4TO64A, else go to H4TO65A.] Which of the following types of prescription drugs have you taken that were not prescribed for you, taken in larger amounts than prescribed, more often than prescribed, for longer periods than prescribed, or that you took only for the feeling or experience they caused? Sedatives or downers, such as barbiturates, sleeping pills, Quaalude, or Seconal.
+
+
+722) H4TO64B
+Which of the following types of prescription drugs have you taken that were not prescribed for you, taken in larger amounts than prescribed, more often than prescribed, for longer periods than prescribed, or that you took only for the feeling or experience they caused? Tranquilizers, such as Librium, Valium, or Xanax.
+
+
+723) H4TO64C
+Which of the following types of prescription drugs have you taken that were not prescribed for you, taken in larger amounts than prescribed, more often than prescribed, for longer periods than prescribed, or that you took only for the feeling or experience they caused? Stimulants or uppers, such as amphetamines, prescription diet pills, Ritalin, Preludin, or speed.
+
+
+724) H4TO64D
+Which of the following types of prescription drugs have you taken that were not prescribed for you, taken in larger amounts than prescribed, more often than prescribed, for longer periods than prescribed, or that you took only for the feeling or experience they caused? Pain killers or opioids, such as Vicodin, OxyContin, Percocet, Demerol, Percodan, or Tylenol with codeine.
+
+
+725) H4TO65A
+Have you ever used any of the following drugs? Steroids, anabolic steroids or 'body building' drugs.
+
+
+726) H4TO65B
+Have you ever used any of the following drugs? Marijuana (hash, bhang, ganja).
+
+
+727) H4TO65C
+Have you ever used any of the following drugs? Cocaine (crack, coca leaves).
+
+
+728) H4TO65D
+Have you ever used any of the following drugs? Crystal meth (ice).
+
+
+729) H4TO65E
+Have you ever used any of the following drugs? Other types of illegal drugs, such as LSD, PCP, ecstasy, heroin, or mushrooms; or inhalants.
+
+
+730) H4TO66
+[If H4TO64C=1 or H4TO65C=1 or H4TO65D=1 or H4TO65E=1, ask H4TO66; else go to H4TO68.] Have you ever injected (shot up with a needle) any illegal drug, such as heroin or cocaine?
+
+
+731) H4TO67
+[If H4TO66=1 ask H4TO67, else go to H4TO68.] During the past 30 days, how many times did you inject an illegal drug?
+
+
+732) H4TO68
+[If H4TO65B=1, ask H4TO68; else skip to checkpoint before H4TO93.] How old were you the first time you used marijuana?
+
+
+733) H4TO69
+Have you used marijuana more than five times?
+
+
+734) H4TO70
+[If H4TO69=0, skip to checkpoint before H4TO93.] During the past 12 months, on how many days did you use marijuana?
+
+
+735) H4TO71
+[If H4TO70 not equal 0, ask H4TO71, else if H4TO70=0, skip to H4TO74.] During the past 30 days, on how many days did you use marijuana?
+
+
+736) H4TO72
+[If H4TO71 not equal 0, ask H4TO72, else skip to H4TO74.] Have you used marijuana within the past 24 hours?
+
+
+737) H4TO73H
+[If H472=1, ask H4TO73H, else skip to H4TO74.] At what time did you last use marijuana? [Hour]
+
+
+738) H4TO73M
+At what time did you last use marijuana? [Minute]
+
+
+739) H4TO73T
+At what time did you last use marijuana? [AM/PM]
+
+
+740) H4TO74
+Was there ever a time when you used marijuana more than you do now?
+
+
+741) H4TO75
+[If H4TO74=1, ask H4TO75, else skip to checkpoint before H4TO76.] During the period when you used marijuana the most, did you use marijuana:
+
+
+742) H4TO76
+[If H4TO70=4, 5, 6, ask H4TO76. Else if H4TO75=4, 5, 6, 7, ask H4TO76. Else skip to checkpoint before H4TO93.] How many times has each of the following things ever happened? How often has your marijuana use interfered with your responsibilities at work or school?
+
+
+743) H4TO77
+How often have you been under the influence of marijuana when you could have gotten yourself or others hurt, or put yourself or others at risk, including unprotected sex?
+
+
+744) H4TO78
+How often have you had legal problems because of your marijuana use, like being arrested for disturbing the peace or anything else?
+
+
+745) H4TO79
+How often have you had problems with your family, friends, or people at work or school because of your marijuana use?
+
+
+746) H4TO80
+[If H4TO79=0, skip to H4TO81, else ask H4TO80.] Did you continue to use marijuana after you realized using it was causing you problems with family, friends, or people at work or school?
+
+
+747) H4TO81
+Have you ever found that you had to use more marijuana than you used to in order to get the effect you wanted?
+
+
+748) H4TO82
+Has there ever been a period when you spent a lot of time using marijuana, getting it, or getting over its effects?
+
+
+749) H4TO83
+Have you often used more marijuana or used marijuana longer than you intended?
+
+
+750) H4TO84
+Have you ever tried to quit or cut down on your use of marijuana?
+
+
+751) H4TO85
+[If H4TO84=0, 6, 8, ask H4TO85, else if H4TO84=1, skip to H4TO86. After answering H4TO85, skip to H4TO88.] Has there ever been a period of time when you wanted to quit or cut down on your use of marijuana?
+
+
+752) H4TO86
+When you decided to cut down or quit using marijuana, were you able to do so for at least one month?
+
+
+753) H4TO87
+[If H4TO86=0, ask H4TO87, else if H4TO86=1, skip to H4TO88.] How many times have you tried but been unable to cut down or quit using marijuana for at least one month?
+
+
+754) H4TO88
+During the first few hours of not using marijuana, do you experience withdrawal symptoms such as craving marijuana, feeling depressed, anxious, restless or irritable, having trouble concentrating, feeling tired or weak, having trouble sleeping, or a change in appetite?
+
+
+755) H4TO89
+Have you ever continued to use marijuana after you realized using marijuana was causing you any emotional problems (such as feeling depressed or empty, feeling irritable or aggressive, feeling paranoid or confused, feeling anxious or tense, being jumpy or easily startled) or causing you any health problems (such as persistent cough, sore throat or sinus problems, heart pounding, headaches or dizziness, or sexual difficulties)?
+
+
+756) H4TO90
+Have you ever given up or cut down on important activities that would interfere with your marijuana use like getting together with friends or relatives, going to work or school, participating in sports, or anything else?
+
+
+757) H4TO91
+[Create counter for number of marijuana questions H4TO81 to H4TO90 selected: marijuana=(H4TO81=1)+(H4TO82=1)+(H4TO83=1)+(H4TO85=1)+(H4TO86=0)+(H4TO88=1)+(H4TO89=1)+(H4TO90=1). If marijuana is greater than or equal to 3 then display 'You said that you…' (If H4TO81=1 show: Needed to use marijuana more than you used to. If H4TO82=1 show: Spent a lot of time using marijuana or recovering from its effects. If H4TO83=1 show: Used marijuana more than you intended. If H4TO86=0 show: Tried to quit using marijuana but could not. If H4TO85=1 show: Wanted to quit using marijuana but did not try. If H4TO88=1 show: Experienced withdrawal symptoms. If H4TO89=1 show: Continued to use marijuana after it caused emotional or health problems. If H4TO90=1 show: Gave up on activities because you couldn't use marijuana.) ask H4TO91. Else skip to checkpoint for H4TO93. If marijuana is greater than 3, insert 'at least three of.'] Did (at least three of) these experiences occur together in a 12-month period?
+
+
+758) H4TO92
+[If H4TO91=0, skip to checkpoint for H4TO93, else ask H4TO92.] How old were you when you first experienced these symptoms in the same 12-month period?
+
+
+759) H4TO93
+[Checkpoint for H4TO93: If drugs=0 (H4TO68), skip to Section 24 (H4MA1). Else if drugs=1 (H4TO68) then: (If H4TO64A=1 then show 'sedatives' If H4TO64B=1 then show 'tranquilizers' If H4TO64C=1 then show 'stimulants' If H4TO64D=1 then show 'pain killers' If H4TO65A=1 then show 'steroids' If H4TO65C=1 then show 'cocaine' If H4TO65D=1 then show 'crystal meth') skip to H4TO96. Else if drugs =1 (H4TO68) and H4TO65E=1 then show 'other illegal drugs' and ask H4TO93. Else if drugs is greater than 1 (H4TO68), then ask H4TO94. After answering H4TO93, skip to H4TO96.] Which one of these illegal drugs do you use most often?
+
+
+760) H4TO94
+[For question H4TO94, screen displays all categories and their member drugs respondent selected in H4TO64A-H4TO64D and H4TO65A, H4TO65C-H4TO65E).] You said you have used these types of drugs (fill from list of drugs according to instructions below this question If H4TO64A=1 then favorite drug='sedatives' (downers, such as barbiturates, sleeping pills, Quaalude, or Seconal). If H4TO64B=1 then favorite drug='tranquilizers' (such as Librium, Valium, or Xanax). If H4TO64C=1 then favorite drug='stimulants' (uppers, such as amphetamines, prescription diet pills, Ritalin, Preludin, or speed). If H4TO64D=1 then favorite drug='pain killers' (opioids, such as Vicodin, OxyContin, Percocet, Demerol, Percodan, or Tylenol with codeine). If H4TO65A=1 then favorite drug='steroids' ('body building' drugs). If H4TO65C=1 then favorite drug='cocaine' (crack, coca leaves). If H4TO65D=1 then favorite drug='crystal meth' (ice). If H4TO65E=1 then favorite drug='other illegal drugs' such as LSD, PCP, ecstasy, heroin, or mushrooms; or inhalants.). Which one type have you used most frequently in your lifetime?
+
+
+761) H4TO95
+[If most favorite drug='other illegal drugs' (H4TO65E=1), ask H4TO95; else set value of most favorite drug variable: favorite drug=H4TO94 and skip to H4TO96.] Which one of these illegal drugs do you use most often?
+
+
+762) H4TO96
+[Set value of most favorite drug variable: favorite drug=H4TO95.] How old were you the first time you used (favorite drug)?
+
+
+763) H4TO97
+[If favorite drug=('sedatives', 'tranquilizers', 'stimulants', 'pain-killers/opioids') (H4TO64A=1, H4TO64B=1, H4TO64C=1, H4TO64D=1), add to end of H4TO97 'when they were not prescribed for you, in larger amounts than prescribed,' 'more often than prescribed, or for longer periods than prescribed.'] Have you used (favorite drug) more than five times in your lifetime?
+
+
+764) H4TO98
+[If H4TO97=1, ask H4TO98, else skip to Section 24 (H4MA1).] During the past 12 months, on how many days did you use (favorite drug)?
+
+
+765) H4TO99
+[If H4TO98 not equal 0, then ask H4TO99, else skip to H4TO102.] During the past 30 days, on how many days did you use (favorite drug)?
+
+
+766) H4TO100
+[If H4TO99=0, skip to H4TO102.] Have you used (favorite drug) within the past 24 hours?
+
+
+767) H4TO101H
+[If H4TO100=1, ask H4TO101, else skip to H4TO102.] At what time did you last use (favorite drug)? [Hour]
+
+
+768) H4TO101M
+At what time did you last use (favorite drug)? [Minute]
+
+
+769) H4TO101T
+At what time did you last use (favorite drug)? [AM/PM]
+
+
+770) H4TO102
+Was there ever a time when you used (favorite drug) more than you do now?
+
+
+771) H4TO103
+[If H4TO102=0, 6, 8, skip to checkpoint before H4TO104, else ask H4TO103.] During the period when you used (favorite drug) the most, did you use (favorite drug):
+
+
+772) H4TO104
+[If H4TO98=4, 5, 6, ask H4TO104. Else if H4TO103=4, 5, 6, 7, ask H4TO104. Else skip to Section 24 (H4MA1).] How many times has each of the following things ever happened? How often has your (favorite drug) use interfered with your responsibilities at work or school?
+
+
+773) H4TO105
+How often have you been under the influence of (favorite drug) when you could have gotten yourself or others hurt, or put yourself or others at risk, including unprotected sex?
+
+
+774) H4TO106
+How often have you had legal problems because of your (favorite drug) use, like being arrested for disturbing the peace or anything else?
+
+
+775) H4TO107
+How often have you had problems with your family, friends, or people at work or school because of your (favorite drug) use?
+
+
+776) H4TO108
+[If H4TO107=0, skip to H4TO109.] Did you continue to use (favorite drug) after you realized using it was causing you problems with family, friends, or people at work or school?
+
+
+777) H4TO109
+Have you ever found that you had to use more (favorite drug) than you used to in order to get the effect you wanted?
+
+
+778) H4TO110
+Has there ever been a period when you spent a lot of time using (favorite drug), getting it, or getting over its effects?
+
+
+779) H4TO111
+Have you often used more (favorite drug) or used (favorite drug) longer than you intended?
+
+
+780) H4TO112
+Have you ever tried to quit or cut down on your use of (favorite drug)?
+
+
+781) H4TO113
+[If H4TO112=1, skip to H4TO114. After answering H4TO113, skip to H4TO116.] Has there ever been a period of time when you wanted to quit or cut down on your use of (favorite drug)?
+
+
+782) H4TO114
+When you decided to cut down or quit using (favorite drug), were you able to do so for at least one month?
+
+
+783) H4TO115
+[If H4TO114=1, skip to H4TO116.] How many times have you tried but been unable to cut down or quit using (favorite drug) for at least one month?
+
+
+784) H4TO116
+During the first few hours of not using (favorite drug), do you experience one or more withdrawal symptoms such as craving (favorite drug), feeling depressed, anxious, restless or irritable, having trouble concentrating, feeling tired or weak, having trouble sleeping, or a change in appetite?
+
+
+785) H4TO117
+Have you ever continued to use (favorite drug) after you realized using (favorite drug) was causing you any emotional problems (such as feeling depressed or empty, feeling irritable or aggressive, feeling paranoid or confused, feeling anxious or tense, being jumpy or easily startled) or causing you any health problems (such as heart pounding, headaches or dizziness, or sexual difficulties)?
+
+
+786) H4TO118
+Have you ever given up or cut down on important activities that would interfere with your (favorite drug) use like getting together with friends or relatives, going to work or school, participating in sports, or anything else?
+
+
+787) H4TO119
+[Create counter for number of endorsements to most frequently used drug: # of favorite drugs=(H4TO109=1)+(H4TO110=1)+(H4TO111=1)+(H4TO113=1)+(H4TO114=0)+(H4TO116=1)+(H4TO117=1)+(H4TO118=1). If # of favorite drugs is greater than or equal to 3 then display 'You said that you…' (If H4TO109=1 show: Needed to use (favorite drug) more than you used to. If H4TO110=1 show: Spent a lot of time using (favorite drug) or recovering from its effects. If H4TO111=1 show: Have used (favorite drug) more than you intended. If H4TO114=0 show: Tried to quit using (favorite drug) but could not. If H4TO113=1 show: Wanted to quit using (favorite drug) but did not try. If H4TO116=1 show: Experienced withdrawal symptoms. If H4TO117=1 show: Continued to use (favorite drug) after it caused emotional or health problems. If H4TO118=1 show: Gave up on activities because couldn't use (favorite drug).) ask H4TO119. Else if # of favorite drugs is less than 3, skip to Section 24 (H4MA1). Display abbreviated text of endorsements for most frequently used drug above H4TO119. If # of favorite drugs is greater than 3, insert 'at least three of'.] Did (at least three of) these experiences occur together in a 12-month period?
+
+
+788) H4TO120
+[If H4TO119=0, skip to Section 24 (H4MA1), else ask H4TO120. Display abbreviated text of endorsements for most frequently used drug above H4TO120.] How old were you when you first experienced these symptoms in the same 12-month period?
+
+
+789) H4MA1
+[Wave IV Section 24: Mistreatment by Adults] These next questions are about how often certain experiences happened while you were growing up, that is, before your 18th birthday. Before your 18th birthday, how often did a parent or other adult caregiver say things that really hurt your feelings or made you feel like you were not wanted or loved?
+
+
+790) H4MA2
+[If H4MA1=6 or 96, skip to H4MA3.] How old were you the first time this happened?
+
+
+791) H4MA3
+Before your 18th birthday, how often did a parent or adult caregiver hit you with a fist, kick you, or throw you down on the floor, into a wall, or down stairs?
+
+
+792) H4MA4
+[If H4MA3=6 or 96, skip to H4MA5.] How old were you the first time this happened?
+
+
+793) H4MA5
+How often did a parent or other adult caregiver touch you in a sexual way, force you to touch him or her in a sexual way, or force you to have sexual relations?
+
+
+794) H4MA6
+[If H4MA5=6 or 96, skip to Section 25 (H4DA1).] How old were you the first time this happened?
+
+
+795) H4DA1
+[Wave IV Section 25: Daily Activities] The next questions are about daily activities. In the past seven days, how many hours did you watch television or videos, including VHS, DVDs or music videos?
+
+
+796) H4DA2
+In the past seven days, how many times did you bicycle, skateboard, dance, hike, hunt, or do yard work?
+
+
+797) H4DA3
+In the past seven days, how many times did you roller blade, roller skate, downhill ski, snow board, play racquet sports, or do aerobics?
+
+
+798) H4DA4
+In the past seven days, how many times did you participate in strenuous team sports such as football, soccer, basketball, lacrosse, rugby, field hockey, or ice hockey?
+
+
+799) H4DA5
+In the past seven days, how many times did you participate in individual sports such as running, wrestling, swimming, cross-country skiing, cycle racing, or martial arts?
+
+
+800) H4DA6
+In the past seven days, how many times did you participate in gymnastics, weight lifting, or strength training?
+
+
+801) H4DA7
+In the past seven days, how many times did you play golf, go fishing or bowling, or play softball or baseball?
+
+
+802) H4DA8
+In the past seven days, how many times did you walk for exercise?
+
+
+803) H4DA9
+Were the past seven days typical in terms of your physical activity?
+
+
+804) H4DA10
+[If H4DA9=0, 6, 8, ask H4DA10, else skip to H4DA11.] Are you generally more active or less active than you were in the past seven days?
+
+
+805) H4DA11
+In the past 24 hours, have you participated in vigorous physical activity long enough to work up a sweat, get your heart thumping, or get out of breath?
+
+
+806) H4DA12H
+[If H4DA11=1, ask H4DA12H; else if H4DA11=0, 6, 8, and PRISON4=1, skip to H4DA18; else if H4DA11=0, 6, 8, and PRISON4 not =1, skip to H4DA13.] At what time in the past 24 hours did you last finish participating in vigorous physical activity? [Hour]
+
+
+807) H4DA12M
+At what time in the past 24 hours did you last finish participating in vigorous physical activity? [Minute]
+
+
+808) H4DA12T
+At what time in the past 24 hours did you last finish participating in vigorous physical activity? [AM/PM]
+
+
+809) H4DA13
+[If PRISON4 not=1 ask H4DA13, else skip to H4DA18.] On the average, how many times per week do you use a physical fitness or recreation center in your neighborhood?
+
+
+810) H4DA14
+[If H4LM6=1 or H4LM13=1 or H4ED8=1 then ask H4DA14, else skip to H4DA16.] How many minutes does it take you to get from your home to your (primary place of work/school)?
+
+
+811) H4DA15A
+How do you get to and from you (primary place of work/school)? Select as many kinds as you use. Car.
+
+
+812) H4DA15B
+How do you get to and from you (primary place of work/school)? Select as many kinds as you use. Public transportation (bus, train, subway).
+
+
+813) H4DA15C
+How do you get to and from you (primary place of work/school)? Select as many kinds as you use. Walking.
+
+
+814) H4DA15D
+How do you get to and from you (primary place of work/school)? Select as many kinds as you use. Bicycle.
+
+
+815) H4DA15E
+How do you get to and from you (primary place of work/school)? Select as many kinds as you use. None of the above.
+
+
+816) H4DA16
+When you go outside on a sunny day for more than one hour, how likely are you to use sunscreen or sunblock?
+
+
+817) H4DA17
+During a typical summer week, how many hours do you spend outdoors in the sun during the day?
+
+
+818) H4DA18
+How many times in your life have you had a sunburn that blistered?
+
+
+819) H4DA19
+[If PRISON4=1, skip to H4DA24.] Do you own a computer?
+
+
+820) H4DA20
+[If H4DA19=0, 6, 8, ask H4DA20, else skip to H4DA21.] Do you have access to a computer, for example at a library, school, or work?
+
+
+821) H4DA21
+[If H4DA20=1, ask H4DA21, else skip to H4DA24.] Do you have an email account?
+
+
+822) H4DA22
+In the past seven days, how many hours did you spend using the Internet, for example, accessing your email or using the web? Do not count Internet use for work or school.
+
+
+823) H4DA23
+In the past seven days, how many hours did you spend playing video or computer games, or using a computer? Do not count Internet use for work or school.
+
+
+824) H4DA24
+Have you ever bought lottery tickets, played video games or slot machines for money, bet on horses or sporting events, or taken part in any other kinds of gambling for money?
+
+
+825) H4DA25
+[If H4DA24=1, ask H4DA25; else if H4DA24=0, 6, 8, and PRISON4=1, skip to H4DA28; else if H4DA24=0, 6, 8, skip to H4DA26. After answering H4DA25, if PRISON4=1, skip to H4DA28.] Has your gambling ever caused serious financial problems or problems in your relationships with any of your family members or friends?
+
+
+826) H4DA26
+In the past 12 months, about how many hours did you spend on volunteer or community service work?
+
+
+827) H4DA27
+How often do you usually vote in local or statewide elections?
+
+
+828) H4DA28
+In terms of politics, do you consider yourself very conservative, conservative, middle-of-the-road, liberal, or very liberal?
+
+
+829) H4PE1
+[Wave IV Section 26: Personality] The next few items describe people's behaviors. How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I am the life of the party.
+
+
+830) H4PE2
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I sympathize with others' feelings.
+
+
+831) H4PE3
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I get chores done right away.
+
+
+832) H4PE4
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I have frequent mood swings.
+
+
+833) H4PE5
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I have a vivid imagination.
+
+
+834) H4PE6
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I worry about things.
+
+
+835) H4PE7
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I'm always optimistic about my future.
+
+
+836) H4PE8
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I get angry easily.
+
+
+837) H4PE9
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I don't talk a lot.
+
+
+838) H4PE10
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I am not interested in other people's problems.
+
+
+839) H4PE11
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I often forget to put things back in their proper place.
+
+
+840) H4PE12
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I am relaxed most of the time.
+
+
+841) H4PE13
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I am not interested in abstract ideas.
+
+
+842) H4PE14
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I am not easily bothered by things.
+
+
+843) H4PE15
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I hardly ever expect things to go my way.
+
+
+844) H4PE16
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I rarely get irritated.
+
+
+845) H4PE17
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I talk to a lot of different people at parties.
+
+
+846) H4PE18
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I feel others' emotions.
+
+
+847) H4PE19
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I like order.
+
+
+848) H4PE20
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I get upset easily.
+
+
+849) H4PE21
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I have difficulty understanding abstract ideas.
+
+
+850) H4PE22
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I get stressed out easily.
+
+
+851) H4PE23
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? Overall, I expect more good things to happen to me than bad.
+
+
+852) H4PE24
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I lose my temper.
+
+
+853) H4PE25
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I keep in the background.
+
+
+854) H4PE26
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I am not really interested in others.
+
+
+855) H4PE27
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I make a mess of things.
+
+
+856) H4PE28
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I seldom feel blue.
+
+
+857) H4PE29
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I do not have a good imagination.
+
+
+858) H4PE30
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I don't worry about things that have already happened.
+
+
+859) H4PE31
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I rarely count on good things happening to me.
+
+
+860) H4PE32
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I keep my cool.
+
+
+861) H4PE33
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I go out of my way to avoid having to deal with problems in my life.
+
+
+862) H4PE34
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? When making a decision, I go with my 'gut feeling' and don't think much about the consequences of each alternative.
+
+
+863) H4PE35
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I like to take risks.
+
+
+864) H4P36
+How much do you agree with each statement about you as you generally are now, not as you wish to be in the future? I live my life without much thought for the future.
+
+
+865) H4PE37
+How much do you agree or disagree with the following statements? There is little I can do to change the important things in my life.
+
+
+866) H4PE38
+How much do you agree or disagree with the following statements? Other people determine most of what I can and cannot do.
+
+
+867) H4PE39
+How much do you agree or disagree with the following statements? There are many things that interfere with what I want to do.
+
+
+868) H4PE40
+How much do you agree or disagree with the following statements? I have little control over the things that happen to me.
+
+
+869) H4PE41
+How much do you agree or disagree with the following statements? There is really no way I can solve the problems I have.
+
+
+870) H4CMONTH
+[Wave IV Section 27: Biospecimen Participation] Biospecimen collection date -- month.
+
+
+871) H4CDAY
+Biospecimen collection date -- day.
+
+
+872) H4CYEAR
+Biospecimen collection date -- year.
+
+
+873) H4ARM
+[If prison protocol forbid blood pressure measurements, skip to anthropomorpohic measurements (H4HGT).] Blood pressure and measurements. Which arm for blood pressure measurement?
+
+
+874) H4CUFF
+Cuff size
+
+
+875) H4CUFFLG
+Arm circumference measured 12-12.75 inches in pretest
+
+
+876) H4SBP
+Systolic blood pressure
+
+
+877) H4DBP
+Diastolic blood pressure
+
+
+878) H4BPCLS
+Blood pressure classification
+
+
+879) H4BPFLG
+Number of blood pressures used to create single variable
+
+
+880) H4PR
+Pulse rate (bpm)
+
+
+881) H4PP
+Pulse pressure
+
+
+882) H4MAP
+Mean arterial pulse pressure
+
+
+883) H4HGT
+[If prison protocol did not allow anthropomorpohic measurements, skip to Section 28 (H4IR1).] Anthropomorphic measurements. Measured height (cm).
+
+
+884) H4WGT
+Measured weight (kg)
+
+
+885) H4WTLBS
+Flag indicating weight was incorrectly measured in lbs and was converted to kg
+
+
+886) H4BMI
+Body mass index
+
+
+887) H4BMICLS
+Body mass index classification
+
+
+888) H4WAIST
+Measured waist (cm)
+
+
+889) H4IR1
+[Wave IV Section 28: Field Interviewer's Report] The field interviewer's report should be completed in a location that is not the respondent's home, after the case has been finalized. How physically attractive is the respondent?
+
+
+890) H4IR2
+How attractive is the respondent's personality?
+
+
+891) H4IR3
+How well-groomed is the respondent?
+
+
+892) H4IR4
+Indicate the race of the sample member/respondent from your own observation (not from what the respondent said).
+
+
+893) H4IR5
+Was a third person present during any portion of the interview -- not just walking through the area where the interview was being conducted, but listening to or taking part in the interview process?
+
+
+894) H4IR6
+[If H4IR5=1 ask H4IR6, else skip to H4IR7.] Who was present?
+
+
+895) H4IR7
+How many interruptions occurred during the interview?
+
+
+896) H4IR8
+Where was the biomarker portion of the interview conducted?
+
+
+897) H4IR8A
+[If H4IR8=10, ask H4IR8A, else skip to H4IR9.] Specify other location.
+
+
+898) H4IR9
+Where was the questionnaire portion of the interview conducted?
+
+
+899) H4IR9A
+[If H4IR9=9, ask H4IR9A, else skip to H4IR10.] Specify other location.
+
+
+900) H4IR10
+Did the respondent appear to be drunk or under the influence of a drug?
+
+
+901) H4IR11
+Did the respondent ever seem bored or impatient during the interview?
+
+
+902) H4IR12
+[If H4IR11=0, skip to H4IR13. (Note: this skip was not present on pretest.)] Did the respondent's boredom or impatience negatively affect the quality of the interview?
+
+
+903) H4IR13
+In your opinion, was the respondent candid in his/her responses?
+
+
+904) H4IR14
+Did the respondent require your help in completing the self-administered part of the questionnaire?
+
+
+905) H4EO1
+[Wave IV Section 29: Field Interviewer's Environmental Assessment] In order to complete the environmental questions, you must have visited the respondent's home. Have you visited the respondent's home?
+
+
+906) H4EO2
+Please indicate whether you will enter data from Section D of the CDF for this case or whether you will be completing the neighborhood environment questions from memory.
+
+
+907) H4EO3
+The next questions are about the sample member/respondent's neighborhood environment. Enter the responses from Section D of the CDF. In rare cases, you may not have completed Section D of the CDF while in the field. The building structure or entrance is unsafe, or contains cracks or holes, broken siding or glass, or peeling paint.
+
+
+908) H4EO4
+The yard is unkempt with overgrown shrubs or grass, or contains clutter, trash or other debris.
+
+
+909) H4EO5A
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. None.
+
+
+910) H4EO5B
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Guard/Door Person at the front door who has to call the unit.
+
+
+911) H4EO5C
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Guard/Door Person at the front door who must give access to building.
+
+
+912) H4EO5D
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Guard/Door Person at gate of community.
+
+
+913) H4EO5E
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. On-site/Off-site Staff/Manager who controls access.
+
+
+914) H4EO5F
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Locked main entrance/gate, no intercom/buzzer (locked doors, locked gate, controlled gate, or other locked entry.)
+
+
+915) H4EO5G
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Locked main entrance/gate with intercom/buzzer, no unit address labels (may contain other labels such as names, but does not provide address label).
+
+
+916) H4EO5H
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Locked main entrance/gate with intercom/buzzer, with unit address labels.
+
+
+917) H4EO5I
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Threatening animal on or near the property.
+
+
+918) H4EO5J
+What types of barriers, if any, interfered with your access to the sample member's/respondent's dwelling? Select all that apply. Threatening sign on or near the property.
+
+
+919) H4EO6
+Which of the following best describes the immediate area or street (one block, both sides) where the sample member/respondent lives?
+
+
+920) H4EO7
+How safe did you feel when you were in the sample member's/respondent's neighborhood? Did you feel:
+
+

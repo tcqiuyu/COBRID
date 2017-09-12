@@ -20,7 +20,7 @@ def has_variable(row):
 
 
 def extract_wave_1_to_3():
-    with open('output/add_health_question.tsv', 'wb') as output_file:
+    with open('output/question_text/add_health_question.tsv', 'wb') as output_file:
         output_writer = csv.writer(output_file, delimiter="\t")
         # iterate over codebooks
         for subdir, dir, files in os.walk(addHealth_dicts_path):
@@ -73,7 +73,7 @@ def extract_wave_1_to_3():
 
 
 def extract_wave_4():
-    with open('output/add_health_question.tsv', 'ab') as output_file:
+    with open('output/question_text/add_health_question.tsv', 'ab') as output_file:
         output_writer = csv.writer(output_file, delimiter="\t")
         # iterate over codebooks
         for subdir, dir, files in os.walk(addHealth_dicts_path):
