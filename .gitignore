@@ -33,5 +33,9 @@ $RECYCLE.BIN/
 *.lnk
 
 .idea/
-rawData/
-data/
+model/
+output/
+lib/
+target/
+
+

@@ -141,7 +141,7 @@ How old were you when your biological father was released from jail or prison (m
 
 
 36) H4WP13
-We would like to know about the woman you feel raised you. This may be your biological mother, or it may be a step mother, adoptive mother, grandmother, etc. If you have more than one mother figure, choose the one who is most important to you. What is this person's relationship to you?
+We would like to know about the woman you feel raised you. This may be your biological mother, or it may be a step mother, adoptive mother, grandmother, etc If you have more than one mother figure, choose the one who is most important to you. What is this person's relationship to you?
 
 
 37) H4WP14
@@ -197,7 +197,7 @@ How many times have you paid your (mother figure's) living expenses or given her
 
 
 50) H4WP27
-We would like to know about the man you feel raised you. This may be your biological father, or it may be a Stepfather, adoptive father, grandfather, etc. If you have more than one father figure, choose the one who is most important to you. What is this person's relationship to you?
+We would like to know about the man you feel raised you. This may be your biological father, or it may be a Stepfather, adoptive father, grandfather, etc If you have more than one father figure, choose the one who is most important to you. What is this person's relationship to you?
 
 
 51) H4WP28
@@ -1453,7 +1453,7 @@ What is your best estimate of the total value of your assets and the assets of e
 
 
 364) H4EC8
-Now, think about your debts besides any mortgage on your home. How much do you and others in your household owe altogether? Include all debts, including all types of loans, credit card debt, medical or legal bills, etc. (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
+Now, think about your debts besides any mortgage on your home. How much do you and others in your household owe altogether? Include all debts, including all types of loans, credit card debt, medical or legal bills, etc (Income data are important in analyzing the health information we collect. For example, the information helps us to learn whether persons in one income group use certain types of medical care services or have conditions more or less often than those in another group.)
 
 
 365) H4EC9
@@ -2665,7 +2665,7 @@ Do you smoke cigarettes even if you are so ill that you are in bed most of the d
 
 
 667) H4TO14
-[If H4TO8 not equal 6, 8 or H4TO9=1 or H4TO10=1 or H4TO11 not equal 96,98 or H4TO12=1 or H4TO13=1 then ask H4TO14 and then display 'You said that…' (If H4TO8 not 6, 8 then show: after waking up, you have your first cigarette (fill H4TO8). If H4TO9=1 then show: you find it difficult not to smoke cigarettes in places where it is forbidden. If H4TO10=1 then show: you would most hate to give up your first cigarette in the morning. If H4TO11 not equal 96,98 then show: you smoke (fill H4TO11) cigarettes a day. If H4TO12=1 then show: you smoke most frequently just after awakening. If H4TO13=1 then show: you smoke cigarettes even when you are ill.) Else skip to H4TO23. After answering H4TO14, skip to H4TO23.] How old were you the first time you had any of these cigarette smoking experiences?
+[If H4TO8 not equal 6, 8 or H4TO9=1 or H4TO10=1 or H4TO11 not equal 96,98 or H4TO12=1 or H4TO13=1 then ask H4TO14 and then display 'You said thatï¿½' (If H4TO8 not 6, 8 then show: after waking up, you have your first cigarette (fill H4TO8). If H4TO9=1 then show: you find it difficult not to smoke cigarettes in places where it is forbidden. If H4TO10=1 then show: you would most hate to give up your first cigarette in the morning. If H4TO11 not equal 96,98 then show: you smoke (fill H4TO11) cigarettes a day. If H4TO12=1 then show: you smoke most frequently just after awakening. If H4TO13=1 then show: you smoke cigarettes even when you are ill.) Else skip to H4TO23. After answering H4TO14, skip to H4TO23.] How old were you the first time you had any of these cigarette smoking experiences?
 
 
 668) H4TO15
@@ -2693,11 +2693,11 @@ When you smoked the most, did you smoke cigarettes even if you were so ill that 
 
 
 674) H4TO21
-[If H4TO15 not equal 6, 8 or H4TO16=1 or H4TO17=1 or H4TO18 not equal 6, 8 or H4TO19=1 or H4TO20=1 then display 'You said that…' (If H4TO15 not equal 6, 8 then show: after waking up, you had your first cigarette (fill H4TO15). If H4TO16=1 then show: you found it difficult not to smoke cigarettes in places where it is forbidden. If H4TO17=1 then show: you would most have hated to give up your first cigarette in the morning. If H4TO18 not equal 6, 8 then show: you smoked (fill H4TO18) cigarettes a day. If H4TO19=1 then show: you smoked more frequently just after awakening. If H4TO20=1 then show: you smoked cigarettes even when you were ill.) ask H4TO21. Else skip to H4TO23.] How old were you the first time you had any of these cigarette smoking experiences?
+[If H4TO15 not equal 6, 8 or H4TO16=1 or H4TO17=1 or H4TO18 not equal 6, 8 or H4TO19=1 or H4TO20=1 then display 'You said thatï¿½' (If H4TO15 not equal 6, 8 then show: after waking up, you had your first cigarette (fill H4TO15). If H4TO16=1 then show: you found it difficult not to smoke cigarettes in places where it is forbidden. If H4TO17=1 then show: you would most have hated to give up your first cigarette in the morning. If H4TO18 not equal 6, 8 then show: you smoked (fill H4TO18) cigarettes a day. If H4TO19=1 then show: you smoked more frequently just after awakening. If H4TO20=1 then show: you smoked cigarettes even when you were ill.) ask H4TO21. Else skip to H4TO23.] How old were you the first time you had any of these cigarette smoking experiences?
 
 
 675) H4TO22
-[If H4TO5 is greater than 0, ask H4TO22, else skip to H4TO23. If H4TO15 not equal 6, 8 or H4TO16=1 or H4TO17=1 or H4TO18 not equal 6, 8 or H4TO19=1 or H4TO20=1 then ask H4TO22 and then display 'You said that…' (If H4TO15 not equal 6, 8 then show: after waking up, you have your first cigarette [fill H4TO15]. If H4TO16=1 then show: you find it difficult not to smoke cigarettes in places where it is forbidden. If H4TO17=1 then show: you would most hate to give up your first cigarette in the morning. If H4TO18 not equal 6, 8 then show: you smoke [fill H4TO18] cigarettes a day. If H4TO19=1 then show: you smoke more frequently just after awakening. If H4TO20=1 then show: you smoke cigarettes even when you are ill.) Else skip to H4TO23.] Do you still have any of these smoking experiences?
+[If H4TO5 is greater than 0, ask H4TO22, else skip to H4TO23. If H4TO15 not equal 6, 8 or H4TO16=1 or H4TO17=1 or H4TO18 not equal 6, 8 or H4TO19=1 or H4TO20=1 then ask H4TO22 and then display 'You said thatï¿½' (If H4TO15 not equal 6, 8 then show: after waking up, you have your first cigarette [fill H4TO15]. If H4TO16=1 then show: you find it difficult not to smoke cigarettes in places where it is forbidden. If H4TO17=1 then show: you would most hate to give up your first cigarette in the morning. If H4TO18 not equal 6, 8 then show: you smoke [fill H4TO18] cigarettes a day. If H4TO19=1 then show: you smoke more frequently just after awakening. If H4TO20=1 then show: you smoke cigarettes even when you are ill.) Else skip to H4TO23.] Do you still have any of these smoking experiences?
 
 
 676) H4TO23
@@ -2869,7 +2869,7 @@ Have you ever given up or cut down on important activities that would interfere 
 
 
 718) H4TO61
-[Create counter for drinking experiences: drinking experiences=(H4TO51=1)+(H4TO52=1)+(H4TO53=1)+(H4TO56=0)+(H4TO55=1)+(H4TO58)=1)+(H4TO59=1)+(H4TO60=1). If drinking experiences is greater than or equal to 3 then display 'You said that you…' (If H4TO51=1 show: Needed to drink more than you used to. If H4TO52=1 show: Spent a lot of time drinking or recovering from hangovers. If H4TO53=1 show: Drank more than you intended. If H4TO55=1 show: Wanted to quit drinking but did not try. If H4TO56=0 show: Tried to quit drinking but could not. If H4TO58=1 show: Experienced withdrawal symptoms. If H4TO59=1 show: Continued to drink after it caused health or emotional problems. If H4TO60=1 show: Gave up on activities because you couldn't drink.) ask H4TO61. Else skip to H4TO63. If drinking experiences is greater than 3, insert 'at least three of.'] Did (at least three of) these experiences occur together in a 12-month period?
+[Create counter for drinking experiences: drinking experiences=(H4TO51=1)+(H4TO52=1)+(H4TO53=1)+(H4TO56=0)+(H4TO55=1)+(H4TO58)=1)+(H4TO59=1)+(H4TO60=1). If drinking experiences is greater than or equal to 3 then display 'You said that youï¿½' (If H4TO51=1 show: Needed to drink more than you used to. If H4TO52=1 show: Spent a lot of time drinking or recovering from hangovers. If H4TO53=1 show: Drank more than you intended. If H4TO55=1 show: Wanted to quit drinking but did not try. If H4TO56=0 show: Tried to quit drinking but could not. If H4TO58=1 show: Experienced withdrawal symptoms. If H4TO59=1 show: Continued to drink after it caused health or emotional problems. If H4TO60=1 show: Gave up on activities because you couldn't drink.) ask H4TO61. Else skip to H4TO63. If drinking experiences is greater than 3, insert 'at least three of.'] Did (at least three of) these experiences occur together in a 12-month period?
 
 
 719) H4TO62
@@ -3025,7 +3025,7 @@ Have you ever given up or cut down on important activities that would interfere 
 
 
 757) H4TO91
-[Create counter for number of marijuana questions H4TO81 to H4TO90 selected: marijuana=(H4TO81=1)+(H4TO82=1)+(H4TO83=1)+(H4TO85=1)+(H4TO86=0)+(H4TO88=1)+(H4TO89=1)+(H4TO90=1). If marijuana is greater than or equal to 3 then display 'You said that you…' (If H4TO81=1 show: Needed to use marijuana more than you used to. If H4TO82=1 show: Spent a lot of time using marijuana or recovering from its effects. If H4TO83=1 show: Used marijuana more than you intended. If H4TO86=0 show: Tried to quit using marijuana but could not. If H4TO85=1 show: Wanted to quit using marijuana but did not try. If H4TO88=1 show: Experienced withdrawal symptoms. If H4TO89=1 show: Continued to use marijuana after it caused emotional or health problems. If H4TO90=1 show: Gave up on activities because you couldn't use marijuana.) ask H4TO91. Else skip to checkpoint for H4TO93. If marijuana is greater than 3, insert 'at least three of.'] Did (at least three of) these experiences occur together in a 12-month period?
+[Create counter for number of marijuana questions H4TO81 to H4TO90 selected: marijuana=(H4TO81=1)+(H4TO82=1)+(H4TO83=1)+(H4TO85=1)+(H4TO86=0)+(H4TO88=1)+(H4TO89=1)+(H4TO90=1). If marijuana is greater than or equal to 3 then display 'You said that youï¿½' (If H4TO81=1 show: Needed to use marijuana more than you used to. If H4TO82=1 show: Spent a lot of time using marijuana or recovering from its effects. If H4TO83=1 show: Used marijuana more than you intended. If H4TO86=0 show: Tried to quit using marijuana but could not. If H4TO85=1 show: Wanted to quit using marijuana but did not try. If H4TO88=1 show: Experienced withdrawal symptoms. If H4TO89=1 show: Continued to use marijuana after it caused emotional or health problems. If H4TO90=1 show: Gave up on activities because you couldn't use marijuana.) ask H4TO91. Else skip to checkpoint for H4TO93. If marijuana is greater than 3, insert 'at least three of.'] Did (at least three of) these experiences occur together in a 12-month period?
 
 
 758) H4TO92
@@ -3145,7 +3145,7 @@ Have you ever given up or cut down on important activities that would interfere 
 
 
 787) H4TO119
-[Create counter for number of endorsements to most frequently used drug: # of favorite drugs=(H4TO109=1)+(H4TO110=1)+(H4TO111=1)+(H4TO113=1)+(H4TO114=0)+(H4TO116=1)+(H4TO117=1)+(H4TO118=1). If # of favorite drugs is greater than or equal to 3 then display 'You said that you…' (If H4TO109=1 show: Needed to use (favorite drug) more than you used to. If H4TO110=1 show: Spent a lot of time using (favorite drug) or recovering from its effects. If H4TO111=1 show: Have used (favorite drug) more than you intended. If H4TO114=0 show: Tried to quit using (favorite drug) but could not. If H4TO113=1 show: Wanted to quit using (favorite drug) but did not try. If H4TO116=1 show: Experienced withdrawal symptoms. If H4TO117=1 show: Continued to use (favorite drug) after it caused emotional or health problems. If H4TO118=1 show: Gave up on activities because couldn't use (favorite drug).) ask H4TO119. Else if # of favorite drugs is less than 3, skip to Section 24 (H4MA1). Display abbreviated text of endorsements for most frequently used drug above H4TO119. If # of favorite drugs is greater than 3, insert 'at least three of'.] Did (at least three of) these experiences occur together in a 12-month period?
+[Create counter for number of endorsements to most frequently used drug: # of favorite drugs=(H4TO109=1)+(H4TO110=1)+(H4TO111=1)+(H4TO113=1)+(H4TO114=0)+(H4TO116=1)+(H4TO117=1)+(H4TO118=1). If # of favorite drugs is greater than or equal to 3 then display 'You said that youï¿½' (If H4TO109=1 show: Needed to use (favorite drug) more than you used to. If H4TO110=1 show: Spent a lot of time using (favorite drug) or recovering from its effects. If H4TO111=1 show: Have used (favorite drug) more than you intended. If H4TO114=0 show: Tried to quit using (favorite drug) but could not. If H4TO113=1 show: Wanted to quit using (favorite drug) but did not try. If H4TO116=1 show: Experienced withdrawal symptoms. If H4TO117=1 show: Continued to use (favorite drug) after it caused emotional or health problems. If H4TO118=1 show: Gave up on activities because couldn't use (favorite drug).) ask H4TO119. Else if # of favorite drugs is less than 3, skip to Section 24 (H4MA1). Display abbreviated text of endorsements for most frequently used drug above H4TO119. If # of favorite drugs is greater than 3, insert 'at least three of'.] Did (at least three of) these experiences occur together in a 12-month period?
 
 
 788) H4TO120

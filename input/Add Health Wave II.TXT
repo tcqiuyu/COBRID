@@ -249,7 +249,7 @@ How many hours a week do you listen to the radio?
 
 
 63) H2GH1
-[Section 3: General Health] In general, how is your health? Would you say…
+[Section 3: General Health] In general, how is your health? Would you sayï¿½
 
 
 64) H2GH2
@@ -565,7 +565,7 @@ Was the milk:
 
 
 142) H2NU3
-Did you drink soft drinks or mixers, such as tonic water or club soda, etc.?
+Did you drink soft drinks or mixers, such as tonic water or club soda, etc?
 
 
 143) H2NU4
@@ -861,7 +861,7 @@ Was it:
 
 
 216) H2NU77
-In the last seven days, on how many days did you eat at a fast food type place -- McDonald's, Kentucky Fried Chicken, Pizza Hut, Taco Bell, etc.?
+In the last seven days, on how many days did you eat at a fast food type place -- McDonald's, Kentucky Fried Chicken, Pizza Hut, Taco Bell, etc?
 
 
 217) H2NU78

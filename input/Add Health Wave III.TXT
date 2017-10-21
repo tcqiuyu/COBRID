@@ -4313,7 +4313,7 @@ How much do you agree or disagree with the statement 'It is all right for an unm
 
 
 1079) H3EC1B
-During any part of [2000/2001] did you receive income from the following sources? Please include all your sources of income and financial assistance, even if they did not cover the entire year. Interest or dividends from stocks, bonds, savings, etc.
+During any part of [2000/2001] did you receive income from the following sources? Please include all your sources of income and financial assistance, even if they did not cover the entire year. Interest or dividends from stocks, bonds, savings, etc
 
 
 1080) H3EC1C

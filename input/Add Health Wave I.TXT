@@ -1,4 +1,6 @@
 Data File: ADDHW1H(Description Only Codebook)
+1752) H1TO13
+Do you ever drink beer, wine, or liquor when you are not with your parents or other adults in your family?
 
 1) AID
 Respondent Indentifier
@@ -797,19 +799,19 @@ What grade were you in the last time this happened?
 
 
 200) H1ED11
-[If H1GI18 was ‘yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in English or language arts?
+[If H1GI18 was 'yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in English or language arts?
 
 
 201) H1ED12
-[If H1GI18 was ‘yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in mathematics?
+[If H1GI18 was 'yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in mathematics?
 
 
 202) H1ED13
-[If H1GI18 was ‘yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in history or social studies?
+[If H1GI18 was 'yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in history or social studies?
 
 
 203) H1ED14
-[If H1GI18 was ‘yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in science?
+[If H1GI18 was 'yes'] At the [MOST RECENT GRADING PERIOD/LAST GRADING PERIOD IN THE SPRING], what was your grade in science?
 
 
 204) H1ED15
@@ -1261,7 +1263,7 @@ Which description best fits [NAME]'s relationship to you?
 
 
 316) H1HR6A
-[If REL = ‘father' or ‘mother'] Which description best fits [NAME]'s relationship to you?
+[If REL = 'father' or 'mother'] Which description best fits [NAME]'s relationship to you?
 
 
 317) H1HR7A
@@ -1301,7 +1303,7 @@ Which description best fits [NAME]'s relationship to you?
 
 
 326) H1HR6B
-[If REL = ‘father' or ‘mother']Which description best fits [NAME]'s relationship to you?
+[If REL = 'father' or 'mother']Which description best fits [NAME]'s relationship to you?
 
 
 327) H1HR7B
@@ -2389,7 +2391,7 @@ On how many of the past seven days was at least one of your parents in the room 
 
 
 598) H1WP9
-How close do you feel to your [MOTHER/ADOPTIVE MOTHER/ STEP-MOTHER/ FOSTER MOTHER/etc.]?
+How close do you feel to your [MOTHER/ADOPTIVE MOTHER/ STEP-MOTHER/ FOSTER MOTHER/etc] ?
 
 
 599) H1WP10
@@ -2405,7 +2407,7 @@ On a scale of 1 to 5, where 1 is low and 5 is high, how disappointed would she b
 
 
 602) H1WP13
-How close do you feel to your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.]?
+How close do you feel to your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] ?
 
 
 603) H1WP14
@@ -2421,91 +2423,91 @@ On a scale of 1 to 5, where 1 is low and 5 is high, how disappointed would he be
 
 
 606) H1WP17A
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Gone shopping.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Gone shopping.
 
 
 607) H1WP17B
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Played a sport.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Played a sport.
 
 
 608) H1WP17C
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Gone to a religious service or church-related event.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Gone to a religious service or church-related event.
 
 
 609) H1WP17D
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Talked about someone you're dating, or a party you went to.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Talked about someone you're dating, or a party you went to.
 
 
 610) H1WP17E
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Gone to a movie, play, museum, concert, or sports event.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Gone to a movie, play, museum, concert, or sports event.
 
 
 611) H1WP17F
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Had a talk about a personal problem you were having.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Had a talk about a personal problem you were having.
 
 
 612) H1WP17G
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Had a serious argument about your behavior.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Had a serious argument about your behavior.
 
 
 613) H1WP17H
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Talked about your school work or grades.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Talked about your school work or grades.
 
 
 614) H1WP17I
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Worked on a project for school.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Worked on a project for school.
 
 
 615) H1WP17J
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? Talked about other things you're doing in school.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? Talked about other things you're doing in school.
 
 
 616) H1WP17K
-Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc.] in the past four weeks? None.
+Which of the things listed on this card have you done with your [MOTHER/ADOPTIVE MOTHER/STEP-MOTHER/FOSTER MOTHER/etc] in the past four weeks? None.
 
 
 617) H1WP18A
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Gone shopping.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Gone shopping.
 
 
 618) H1WP18B
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Played a sport.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Played a sport.
 
 
 619) H1WP18C
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Gone to a religious service or church-related event.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Gone to a religious service or church-related event.
 
 
 620) H1WP18D
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Talked about someone you're dating or a party you went to.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Talked about someone you're dating or a party you went to.
 
 
 621) H1WP18E
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Gone to a movie, play, museum, concert, or sports event.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Gone to a movie, play, museum, concert, or sports event.
 
 
 622) H1WP18F
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Had a talk about a personal problem you were having.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Had a talk about a personal problem you were having.
 
 
 623) H1WP18G
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Had a serious argument about your behavior.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Had a serious argument about your behavior.
 
 
 624) H1WP18H
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Talked about your school work or grades.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Talked about your school work or grades.
 
 
 625) H1WP18I
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Worked on a project for school.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Worked on a project for school.
 
 
 626) H1WP18J
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? Talked about other things you're doing in school.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? Talked about other things you're doing in school.
 
 
 627) H1WP18K
-Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc.] in the past four weeks? None.
+Which of the things listed on this card have you done with your [FATHER/ADOPTIVE FATHER/STEP-FATHER/FOSTER FATHER/etc] in the past four weeks? None.
 
 
 628) H1MO1
@@ -3833,7 +3835,7 @@ Enter the next [18th] thing that happened in your relationship with [INITIALS].
 
 
 959) H1RI26M1
-[If H1RI21O1 is ‘card kept'] In what month [and year] did you have sexual intercourse with [INITIALS] most recently?
+[If H1RI21O1 is 'card kept'] In what month [and year] did you have sexual intercourse with [INITIALS] most recently?
 
 
 960) H1RI26Y1
@@ -10645,7 +10647,7 @@ Have you talked with any of [NAME]'s teachers about (his/her) school work this s
 
 
 2662) PC28
-During this school year, have you participated in school fund-raising or done volunteer work for [NAME]'s school-such as supervising lunch, chaperoning a field trip, etc.?
+During this school year, have you participated in school fund-raising or done volunteer work for [NAME]'s school-such as supervising lunch, chaperoning a field trip, etc?
 
 
 2663) PC29A
