@@ -9,12 +9,13 @@ import edu.stanford.nlp.process.Tokenizer;
 import java.io.Reader;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
 public class Sentenizer implements Tokenizer<String> {
 
-    private String[] puncWord = new String[]{".", "?", "!"};
+    private String[] puncWord = new String[]{".", "?", "!", ":"};
     private DocumentPreprocessor dp;
     private String ptb3Escaping = "false";
     private List<String> sentences;
@@ -22,6 +23,7 @@ public class Sentenizer implements Tokenizer<String> {
     private int index = 0;
 
     public Sentenizer(Reader input) {
+
 
         dp = new DocumentPreprocessor(input);
         dp.setSentenceFinalPuncWords(puncWord);
@@ -74,6 +76,7 @@ public class Sentenizer implements Tokenizer<String> {
     }
 
     public static void main(String[] args) {
-        Sentenizer sentenizer = new Sentenizer(new StringReader("What is your Asian background? You may give more than one answer: Chinese.\n"));
+        Sentenizer sentenizer = new Sentenizer(new StringReader("Interviewer: Is the (1994-1995) school year currently in session for this R's school?\n"));
+        System.out.println(Arrays.asList(sentenizer.tokenize()));
     }
 }

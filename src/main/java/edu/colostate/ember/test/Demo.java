@@ -24,11 +24,28 @@ public class Demo {
 
     public static String inputPath = "input/Add Health Wave I.TXT";
 
+
     public static void main(String[] args) {
 
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
         Properties props = new Properties();
+//        String modPath = "model/edu/stanford/nlp/models/";
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref, depparse, natlog, openie");
+//        props.put("pos.model", modPath + "pos-tagger/english-left3words/english-left3words-distsim.tagger");
+//        props.put("ner.model", modPath + "ner/english.all.3class.distsim.crf.ser.gz");
+//        props.put("parse.model", modPath + "lexparser/englishPCFG.ser.gz");
+////        props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
+//        props.put("sutime.binders", "0");
+//        props.put("sutime.rules", modPath + "sutime/defs.sutime.txt, " + modPath + "sutime/english.sutime.txt");
+//        props.put("dcoref.demonym", modPath + "dcoref/demonyms.txt");
+//        props.put("dcoref.states", modPath + "dcoref/state-abbreviations.txt");
+//        props.put("dcoref.animate", modPath + "dcoref/animate.unigrams.txt");
+//        props.put("dcoref.inanimate", modPath + "dcoref/inanimate.unigrams.txt");
+//        props.put("dcoref.big.gender.number", modPath + "dcoref/gender.data.gz");
+//        props.put("dcoref.countries", modPath + "dcoref/countries");
+//        props.put("dcoref.states.provinces", modPath + "dcoref/statesandprovinces");
+//        props.put("dcoref.singleton.model", modPath + "dcoref/singleton.predictor.ser");
+
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         // read some text in the text variable
