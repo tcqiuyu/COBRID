@@ -1,8 +1,6 @@
 package edu.colostate.ember.util;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -20,8 +18,9 @@ public class NLSYUtil {
 
 //            System.out.println(bufferedReader.readLine());
             String line;
-            String ref;
+            String ref, year;
             String title, text;
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("input/NLSY_question_text.txt", true));
 
             while ((line = bufferedReader.readLine()) != null) {
 
@@ -29,19 +28,28 @@ public class NLSYUtil {
 //                line = bufferedReader.readLine();
 
                 if (line.matches(StaticFields.NLSY_REF_PATTERN)) {
-                    ref = line.split("\\s")[0].replace(".", "");
+                    ref = line.split("\\s+")[0].replace(".", "");
+                    year = line.split("\\s+")[4];
+                    if (!year.matches("\\d+")) {
+                        continue;
+                    }
                     skipLines(bufferedReader, 3);
-                    title = bufferedReader.readLine();
-                    System.out.println(path + ":" + ref + ":" + title);
+                    title = bufferedReader.readLine().trim();
+//                    System.out.println(path + ":" + ref + ":" + title);
                     skipLines(bufferedReader, 1);
-                    text = appendUntil(bufferedReader, StaticFields.NLSY_FREQ_TABLE_PATTERN);
-                    System.out.println(text);
+                    text = appendUntil(bufferedReader, StaticFields.NLSY_FREQ_TABLE_PATTERN).trim();
+//                    System.out.println(text);
                     String[] counts = readUntil(bufferedReader, StaticFields.NLSY_COUNT_PATTERN).split("\\s+");
-                    Integer totalCount = Integer.parseInt(counts[StaticFields.NLSY_COUNT_TOTAL_IDX]);
-                    Integer skipCount = Integer.parseInt(counts[StaticFields.NLSY_COUNT_SKIP_IDX]);
-                    Integer nonInterviewCount = Integer.parseInt(counts[StaticFields.NLSY_COUNT_NON_INTERVIEW_IDX]);
-                    LogUtil.printErr(totalCount + ":" + skipCount + ":" + nonInterviewCount);
+                    Double totalCount = Double.parseDouble(counts[StaticFields.NLSY_COUNT_TOTAL_IDX]);
+                    Double skipCount = Double.parseDouble(counts[StaticFields.NLSY_COUNT_SKIP_IDX]);
+                    Double nonInterviewCount = Double.parseDouble(counts[StaticFields.NLSY_COUNT_NON_INTERVIEW_IDX]);
+//                    LogUtil.printErr(totalCount + ":" + skipCount + ":" + nonInterviewCount);
                     readUntil(bufferedReader, StaticFields.NLSY_DASH_PATTERN);
+
+                    Double validPercent = totalCount / (totalCount + skipCount + nonInterviewCount);
+                    if (validPercent >= StaticFields.NLSY_VALID_QUESTIONNAIRE_THRESHOLD) {
+                        bufferedWriter.write(ref + "|" + title + "|" + text + "\n");
+                    }
 
                 }
 
@@ -65,7 +73,7 @@ public class NLSYUtil {
             if (line.matches(pattern)) {
                 return out;
             }
-            out = out.concat(line);
+            out = out.concat(" " + line);
         }
         return null;
     }

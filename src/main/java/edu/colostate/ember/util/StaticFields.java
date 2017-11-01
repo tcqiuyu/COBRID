@@ -22,20 +22,22 @@ public class StaticFields {
 
 
     public static final String NLSY_REF_PATTERN = "^[A-Z][0-9]{5}.[0-9]{2}.*$";
-    public static final String NLSY_FREQ_TABLE_PATTERN = "^\\s+\\d+.*";
+    public static final String NLSY_FREQ_TABLE_PATTERN = "^Refusal\\(-1\\).*|^\\s+\\d+.*";
     public static final String NLSY_DASH_PATTERN = "^-+";
     public static final String NLSY_COUNT_PATTERN = "^TOTAL =+>\\s+\\d+\\s+VALID SKIP\\(-4\\)\\s+\\d+\\s+NON-INTERVIEW\\(-5\\)\\s+\\d+.*";
     public static final int NLSY_COUNT_TOTAL_IDX = 2;
     public static final int NLSY_COUNT_SKIP_IDX = 5;
     public static final int NLSY_COUNT_NON_INTERVIEW_IDX = 7;
+    public static final double NLSY_VALID_QUESTIONNAIRE_THRESHOLD = 0.8;
 
     public static final String ADDHEALTH_WEBPAGE_URLBASE = "http://www.cpc.unc.edu/projects/addhealth/documentation/ace/tool/codebookssearch?field=varname&match=contains&text=";
 
 
     public static void main(String[] args) {
-        String a = "TOTAL =========>    4709   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4275";
-        String[] b = a.split("\\s+");
-        System.out.println(b[2] + "," + b[5] + "," + b[7]);
+        String a = "       1           1 TO 999";
+        System.out.println(a.matches(NLSY_FREQ_TABLE_PATTERN));
+//        String[] b = a.split("\\s+");
+//        System.out.println(b[2] + "," + b[5] + "," + b[7]);
 
     }
 }
