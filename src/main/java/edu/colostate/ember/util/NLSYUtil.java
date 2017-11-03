@@ -20,7 +20,7 @@ public class NLSYUtil {
             String line;
             String ref, year;
             String title, text;
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("input/NLSY_question_text.txt", true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("input/NLSY_question_text", true));
 
             while ((line = bufferedReader.readLine()) != null) {
 
@@ -29,12 +29,16 @@ public class NLSYUtil {
 
                 if (line.matches(StaticFields.NLSY_REF_PATTERN)) {
                     ref = line.split("\\s+")[0].replace(".", "");
+
                     year = line.split("\\s+")[4];
                     if (!year.matches("\\d+")) {
                         continue;
                     }
                     skipLines(bufferedReader, 3);
                     title = bufferedReader.readLine().trim();
+                    if (title.contains("ROS ITEM")) {
+                        continue;
+                    }
 //                    System.out.println(path + ":" + ref + ":" + title);
                     skipLines(bufferedReader, 1);
                     text = appendUntil(bufferedReader, StaticFields.NLSY_FREQ_TABLE_PATTERN).trim();
@@ -54,6 +58,10 @@ public class NLSYUtil {
                 }
 
             }
+            bufferedReader.close();
+            bufferedWriter.flush();
+            bufferedWriter.close();
+
         } catch (IOException e1) {
             e1.printStackTrace();
         }
@@ -89,10 +97,16 @@ public class NLSYUtil {
     }
 
     private static boolean filterCodebook(Path path) {
-        return path.toString().endsWith("cdb");
+        return path.toString().matches(".*(?<!Survey-Methodology)\\.cdb");
     }
 
     public static void main(String[] args) {
+        File out = new File("input/NLSY_question_text");
+        if (out.exists()) {
+            System.out.println("HAHHAHAH");
+            out.delete();
+        }
+
         try (Stream<Path> paths = Files.walk(Paths.get(nlsyroot))) {
             paths.filter(NLSYUtil::filterCodebook)
                     .forEach(NLSYUtil::processNLSYCodebook);

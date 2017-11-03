@@ -44,5 +44,8 @@ public class WebpageParser {
                 }
             }
         }
+        bufferedReader.close();
+        bufferedWriter.flush();
+        bufferedWriter.close();
     }
 }

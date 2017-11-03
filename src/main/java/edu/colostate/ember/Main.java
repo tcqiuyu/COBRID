@@ -56,7 +56,6 @@ public class Main {
                 } else if (sentence.contains("?") && !firstLabel.matches("SBARQ|SINV|SQ")) {
 //                    System.out.println(StaticFields.ANSI_RED + sentence + StaticFields.ANSI_RESET);
                     LogUtil.printErr(sentence);
-                    System.out.println("_____________________________---------------------____");
                     parseTree.pennPrint();
                 }
 
