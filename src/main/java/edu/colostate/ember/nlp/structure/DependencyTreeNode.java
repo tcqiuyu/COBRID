@@ -1,7 +1,9 @@
 package edu.colostate.ember.nlp.structure;
 
+import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.IndexedWord;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class DependencyTreeNode {
@@ -12,9 +14,21 @@ public class DependencyTreeNode {
     private Collection<DependencyTreeEdge> edges;
     private IndexedWord word;
     private int level;
+    private int wordIdx;
 
     public DependencyTreeNode(IndexedWord word) {
         this.word = word;
+        this.wordIdx = word.get(CoreAnnotations.IndexAnnotation.class);
+        this.children = new ArrayList<>();
+        this.edges = new ArrayList<>();
+    }
+
+    public IndexedWord getWord() {
+        return word;
+    }
+
+    public int getWordIndex() {
+        return wordIdx;
     }
 
     public DependencyTreeEdge getParentEdge() {

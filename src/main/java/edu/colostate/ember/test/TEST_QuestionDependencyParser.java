@@ -1,5 +1,7 @@
 package edu.colostate.ember.test;
 
+import edu.colostate.ember.nlp.structure.DependencyTreeFactory;
+import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
@@ -11,6 +13,7 @@ import edu.stanford.nlp.trees.TypedDependency;
 import edu.stanford.nlp.util.logging.Redwood;
 
 import java.io.StringReader;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -49,9 +52,15 @@ public class TEST_QuestionDependencyParser {
             Collection<TypedDependency> dependencies = gs.typedDependencies();
 
             TreeGraphNode root = gs.root();
+            for (TypedDependency dependency : dependencies) {
+                System.out.println(dependency.gov().get(CoreAnnotations.IndexAnnotation.class));
+
+            }
 //             Print typed dependencies
 //            log.info(gs);
+            ArrayList<TypedDependency> dependencies1 = (ArrayList<TypedDependency>) gs.typedDependencies(GrammaticalStructure.Extras.NONE);
 
+            DependencyTreeFactory.constructDependencyTree(dependencies1);
             gs.root().pennPrint();
             System.out.println(gs);
         }
