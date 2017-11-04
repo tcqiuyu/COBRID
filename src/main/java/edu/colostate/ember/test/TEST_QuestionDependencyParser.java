@@ -1,7 +1,6 @@
 package edu.colostate.ember.test;
 
 import edu.colostate.ember.nlp.structure.DependencyTreeFactory;
-import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
@@ -53,7 +52,7 @@ public class TEST_QuestionDependencyParser {
 
             TreeGraphNode root = gs.root();
             for (TypedDependency dependency : dependencies) {
-                System.out.println(dependency.gov().get(CoreAnnotations.IndexAnnotation.class));
+//                System.out.println(dependency.gov().get(CoreAnnotations.IndexAnnotation.class));
 
             }
 //             Print typed dependencies

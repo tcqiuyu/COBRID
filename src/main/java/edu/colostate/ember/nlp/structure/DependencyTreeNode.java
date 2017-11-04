@@ -21,6 +21,7 @@ public class DependencyTreeNode {
         this.wordIdx = word.get(CoreAnnotations.IndexAnnotation.class);
         this.children = new ArrayList<>();
         this.edges = new ArrayList<>();
+        this.level = 0;
     }
 
     public IndexedWord getWord() {
@@ -29,6 +30,14 @@ public class DependencyTreeNode {
 
     public int getWordIndex() {
         return wordIdx;
+    }
+
+    public void incrementLevel() {
+        level++;
+    }
+
+    public void decrementLevel() {
+        level--;
     }
 
     public DependencyTreeEdge getParentEdge() {
@@ -64,5 +73,11 @@ public class DependencyTreeNode {
         return edges;
     }
 
+    public int getLevel() {
+        return level;
+    }
 
+    public void setLevel(int level) {
+        this.level = level;
+    }
 }

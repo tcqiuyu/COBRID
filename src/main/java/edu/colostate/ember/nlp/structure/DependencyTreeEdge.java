@@ -15,8 +15,11 @@ public class DependencyTreeEdge {
         this.reln = reln;
         gov.addChild(dep);
         gov.addChildrenEdge(this);
+
         dep.setParent(gov);
         dep.setParentEdge(this);
+
+        dep.setLevel(gov.getLevel() + 1);
     }
 
     public DependencyTreeEdge(TypedDependency dependency) {
