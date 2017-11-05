@@ -30,11 +30,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-.idea/
+data/
 model/
-output/
 lib/
 target/
-input/
 
 

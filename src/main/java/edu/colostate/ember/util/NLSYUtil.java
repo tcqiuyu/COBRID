@@ -8,7 +8,9 @@ import java.util.stream.Stream;
 
 public class NLSYUtil {
 
-    private static String nlsyroot = "rawData/NLSY97/NLSY97_Public";
+    //    private static String nlsyoutput = "data/input/NLSY_question_text_response";
+//    private static String nlsyroot = "rawData/NLSY97/NLSY97_Public";
+//    private static String nlsyoutput = "data/input/NLSY_question_text";
 
     private static void processNLSYCodebook(Path path) {
 
@@ -20,7 +22,7 @@ public class NLSYUtil {
             String line;
             String ref, year;
             String title, text;
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("input/NLSY_question_text", true));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(StaticFields.NLSY_INPUT_PATH, true));
 
             while ((line = bufferedReader.readLine()) != null) {
 
@@ -98,23 +100,43 @@ public class NLSYUtil {
 
     private static boolean filterCodebook(Path path) {
         return path.toString().matches(".*(?<!Survey-Methodology)\\.cdb");
+//        System.out.println(path);
+//        return path.toString().endsWith("cdb");
     }
 
-    public static void main(String[] args) {
-        File out = new File("input/NLSY_question_text");
+    private void phase1() {
+        File out = new File(StaticFields.NLSY_INPUT_PATH);
         if (out.exists()) {
             System.out.println("HAHHAHAH");
             out.delete();
         }
 
-        try (Stream<Path> paths = Files.walk(Paths.get(nlsyroot))) {
+        try (Stream<Path> paths = Files.walk(Paths.get(StaticFields.NLSY_RAW_PATH))) {
             paths.filter(NLSYUtil::filterCodebook)
                     .forEach(NLSYUtil::processNLSYCodebook);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(TextUtil.removePuncWordInBracket("sadfa.asdfad:(aaa:as.fasf)adfjaklsd,adsf:"));
+
+    }
+
+    private void phase2() throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(StaticFields.NLSY_INPUT_PATH));
+        File out = new File(StaticFields.NLSY_INTERMEDIATE_PATH);
+        if (out.exists()) {
+            System.out.println(StaticFields.NLSY_INTERMEDIATE_PATH + " exists. Deleted");
+            out.delete();
+        }
+        String line;
+
+        while ((line = bufferedReader.readLine()) != null) {
+
+        }
+
+    }
+
+    public static void main(String[] args) {
 
     }
 

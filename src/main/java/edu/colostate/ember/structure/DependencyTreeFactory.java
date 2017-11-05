@@ -1,9 +1,10 @@
-package edu.colostate.ember.nlp.structure;
+package edu.colostate.ember.structure;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.trees.TypedDependency;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.function.Consumer;
@@ -46,13 +47,30 @@ public class DependencyTreeFactory {
 
             }
         }
-        bfsDependencyTree(node[0], (nod) -> System.out.println(nod.getWordIndex()));
+        resetDependencyTreeLevel(node[0]);
+        getDependencyTreeNodeByLevel(node[0], 4).forEach(nod -> System.out.println(nod.getWord()));
         return node[0];
+    }
+
+    private static void resetDependencyTreeLevel(DependencyTreeNode root) {//using bfs traverse
+        Queue<DependencyTreeNode> queue = new LinkedList<>();
+        root.setLevel(0);
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            DependencyTreeNode tmpNode = queue.poll();
+
+            if (!tmpNode.getChildren().isEmpty()) {
+                tmpNode.getChildren().forEach(node -> node.setLevel(tmpNode.getLevel() + 1));
+
+                queue.addAll(tmpNode.getChildren());
+
+            }
+        }
     }
 
     public static void bfsDependencyTree(DependencyTreeNode root, Consumer<? super DependencyTreeNode> func) {
         Queue<DependencyTreeNode> queue = new LinkedList<>();
-        root.setLevel(0);
         queue.add(root);
 
         while (!queue.isEmpty()) {
@@ -60,15 +78,22 @@ public class DependencyTreeFactory {
             func.accept(tmpNode);
 
             if (!tmpNode.getChildren().isEmpty()) {
-                tmpNode.getChildren().forEach(node -> node.setLevel(tmpNode.getLevel() + 1));
                 queue.addAll(tmpNode.getChildren());
-
             }
         }
     }
 
+    public static Collection<DependencyTreeNode> getDependencyTreeNodeByLevel(DependencyTreeNode root, int level) {
+        Collection<DependencyTreeNode> nodes = new ArrayList<>();
+        bfsDependencyTree(root, node -> {
+            if (node.getLevel() == level) {
+                nodes.add(node);
+            }
+        });
+        return nodes;
+    }
+
     public static void main(String[] args) {
         DependencyTreeNode[] node = new DependencyTreeNode[13 + 1];
-
     }
 }

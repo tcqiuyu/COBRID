@@ -1,4 +1,4 @@
-package edu.colostate.ember.networking;
+package edu.colostate.ember.util.networking;
 
 import edu.colostate.ember.util.StaticFields;
 import org.jsoup.Jsoup;

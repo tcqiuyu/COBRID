@@ -1,8 +1,5 @@
 package edu.colostate.ember.util;
 
-import edu.colostate.ember.nlp.QuestionLexParser;
-import edu.stanford.nlp.trees.Tree;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -25,38 +22,22 @@ public class TextUtil {
         return patterns;
     }
 
-    public static String parsingBrackets(String input, QuestionLexParser qp) {
-        List<String> brackets = extractPatterns(input, StaticFields.BRACKETORPAREN_PATTERN);
-        List<String> subs = new ArrayList<>();
-
-        for (String bracket : brackets) {
-            Tree parse = qp.parseToken(bracket);
-
-            bracket = bracket.substring(1, bracket.length() - 1).trim();
-
-            if (bracket.contains("/")) {
-                subs.add(bracket.split("\\/")[0].trim());
-            } else if (bracket.matches("[A-Z]*")) {
-                subs.add("John");
-            } else if (parse.firstChild().label().toString().equals("NP")) {
-                subs.add(bracket);
-            } else {
-                subs.add("");
-            }
-        }
-
-        for (String sub : subs) {
-//            System.out.println(StaticFields.ANSI_RED + sub + StaticFields.ANSI_RESET);
-            input = input.replaceFirst(StaticFields.BRACKETORPAREN_PATTERN, sub);
-//            LogUtil.printErr(input);
-        }
-        return input;
-    }
-
     public static String removePuncWordInBracket(String input) {
         input = input.replaceAll(StaticFields.PUNCWORDINBRACKET_PATTERN, "");
 
         return input;
+    }
+
+    public static String listToString(List<String> list) {
+        String out = "";
+        if (list.size() == 0) {
+            return out;
+        } else {
+            for (String s : list) {
+                out = out.concat(s).concat("|");
+            }
+            return out.substring(0, out.length() - 1);
+        }
     }
 
 

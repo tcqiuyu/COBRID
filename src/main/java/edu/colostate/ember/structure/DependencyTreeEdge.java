@@ -1,4 +1,4 @@
-package edu.colostate.ember.nlp.structure;
+package edu.colostate.ember.structure;
 
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.trees.TypedDependency;
