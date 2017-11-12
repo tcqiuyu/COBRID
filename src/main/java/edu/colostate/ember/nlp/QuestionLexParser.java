@@ -69,10 +69,14 @@ public class QuestionLexParser {
 
     public static void main(String[] args) throws FileNotFoundException {
 ////        SentenceTokenizer qt = new SentenceTokenizer(new FileReader(StaticFields.INPUT_PATH));
-//        SentenceTokenizer qt = new SentenceTokenizer(new StringReader("If Asian"));
-//        QuestionLexParser lexParser = new QuestionLexParser();
-////        List<List<HasWord>> sentences = qt.tokenize();
+        SentenceTokenizer qt = new SentenceTokenizer("( this school )");
+        QuestionLexParser lexParser = new QuestionLexParser();
+        List<Word> sentences = qt.tokenize();
+        Tree tree = lexParser.parseToken(sentences);
+        System.out.println("HE");
+
 //
+
 //        lexParser.parseToken("If Asian or Pacific Islander").pennPrint();
 //
 //

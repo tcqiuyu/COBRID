@@ -48,7 +48,7 @@ public class DependencyTreeFactory {
             }
         }
         resetDependencyTreeLevel(node[0]);
-        getDependencyTreeNodeByLevel(node[0], 4).forEach(nod -> System.out.println(nod.getWord()));
+//        getDependencyTreeNodeByLevel(node[0], 4).forEach(nod -> System.out.println(nod.getWord()));
         return node[0];
     }
 
@@ -56,17 +56,25 @@ public class DependencyTreeFactory {
         Queue<DependencyTreeNode> queue = new LinkedList<>();
         root.setLevel(0);
         queue.add(root);
-
+        int maxDepth = 0;
         while (!queue.isEmpty()) {
             DependencyTreeNode tmpNode = queue.poll();
 
             if (!tmpNode.getChildren().isEmpty()) {
                 tmpNode.getChildren().forEach(node -> node.setLevel(tmpNode.getLevel() + 1));
 
+                if (tmpNode.getLevel() > maxDepth) {
+                    maxDepth = tmpNode.getLevel();
+                }
+
                 queue.addAll(tmpNode.getChildren());
 
             }
         }
+        int finalMaxDepth = maxDepth;
+        bfsDependencyTree(root, n -> {
+            n.setDepth(finalMaxDepth - n.getLevel());
+        });
     }
 
     public static void bfsDependencyTree(DependencyTreeNode root, Consumer<? super DependencyTreeNode> func) {
@@ -94,6 +102,6 @@ public class DependencyTreeFactory {
     }
 
     public static void main(String[] args) {
-        DependencyTreeNode[] node = new DependencyTreeNode[13 + 1];
+//        DependencyTreeNode[] node = new DependencyTreeNode[13 + 1];
     }
 }

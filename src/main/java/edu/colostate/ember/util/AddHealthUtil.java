@@ -39,7 +39,7 @@ public class AddHealthUtil {
     }
 
 
-    public static void main(String[] args) throws IOException {
+    private static void phase1() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader(StaticFields.ADDHEALTH_INPUT_PATH));
 
         String line = "";
@@ -65,20 +65,17 @@ public class AddHealthUtil {
             ref = line.split("\\|")[0];
             line = TextUtil.removePuncWordInBracket(line.split("\\|")[1]);
 
-            List<String> sentences = new Sentenizer(new StringReader(line)).tokenize();
+            List<String> sentences = new Sentenizer(new StringReader(line)).parseSentences().tokenize();
 
-            if (ref.equals("H1GI5A")) {
-                System.out.println("HERE");
-            }
             if (sentences.size() == 1) {
                 hasQuestion = true;
                 main_text = sentences.get(0);
-                if (main_text.matches(StaticFields.HASBRACKET_PATTERN)) {
+                if (main_text.matches(StaticFields.BRACKET_PATTERN)) {
                     main_text = parsingBrackets(main_text, qp);
                 }
             } else {
                 for (String sentence : sentences) {
-                    if (sentence.matches(StaticFields.HASBRACKET_PATTERN)) {
+                    if (sentence.matches(StaticFields.BRACKET_PATTERN)) {
                         sentence = parsingBrackets(sentence, qp);
 //                        System.out.println(sentence);
                     }
@@ -107,6 +104,11 @@ public class AddHealthUtil {
         bufferedReader.close();
         bufferedWriter.flush();
         bufferedWriter.close();
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        phase1();
     }
 
 

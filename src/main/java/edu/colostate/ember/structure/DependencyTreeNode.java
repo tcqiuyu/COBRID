@@ -1,3 +1,4 @@
+
 package edu.colostate.ember.structure;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
@@ -15,6 +16,7 @@ public class DependencyTreeNode {
     private IndexedWord word;
     private int level;
     private int wordIdx;
+    private int depth;
 
     public DependencyTreeNode(IndexedWord word) {
         this.word = word;
@@ -79,5 +81,13 @@ public class DependencyTreeNode {
 
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
     }
 }

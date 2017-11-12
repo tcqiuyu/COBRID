@@ -1,4 +1,4 @@
-package edu.colostate.ember.test;
+package edu.colostate.ember.nlp;
 
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.HasWord;
@@ -90,11 +90,11 @@ public class TEST_ParserDemo {
      * Simply call loadModel and specify the path of a serialized grammar
      * model, which can be a file, a resource on the classpath, or even a URL.
      * For example, this demonstrates loading a grammar from the models jar
-     * file, which you therefore need to include on the classpath for TEST_ParserDemo
+     * file, which you therefore need to include on the classpath for ParserDemo
      * to work.
      * <p>
-     * Usage: {@code java TEST_ParserDemo [[model] textFile]}
-     * e.g.: java TEST_ParserDemo edu/stanford/nlp/models/lexparser/chineseFactored.ser.gz data/chinese-onesent-utf8.txt
+     * Usage: {@code java ParserDemo [[model] textFile]}
+     * e.g.: java ParserDemo edu/stanford/nlp/models/lexparser/chineseFactored.ser.gz data/chinese-onesent-utf8.txt
      */
     public static void main(String[] args) {
         String parserModel = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";

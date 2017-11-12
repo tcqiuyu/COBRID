@@ -1,6 +1,7 @@
 package edu.colostate.ember.test;
 
 import edu.colostate.ember.structure.DependencyTreeFactory;
+import edu.colostate.ember.util.StaticFields;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
@@ -39,11 +40,11 @@ public class TEST_QuestionDependencyParser {
             }
         }
 
-        String text = "What other method of birth control did you or your partner use?";
+        String text = "$ 23,000 for this variable";
 
 //        String text = "How many PARTNERS have you had sexual intercourse with since the last interview  on [date of last interview]?";
-        MaxentTagger tagger = new MaxentTagger(taggerPath);
-        DependencyParser parser = DependencyParser.loadFromModelFile(modelPath);
+        MaxentTagger tagger = new MaxentTagger(StaticFields.POS_TAGGER_MODEL);
+        DependencyParser parser = DependencyParser.loadFromModelFile(StaticFields.DEPENDENCY_PARSER_MODEL);
         DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(text));
         for (List<HasWord> sentence : tokenizer) {
             List<TaggedWord> tagged = tagger.tagSentence(sentence);

@@ -1,16 +1,37 @@
 package edu.colostate.ember.util;
 
+import edu.colostate.ember.nlp.QuestionLexParser;
+import edu.colostate.ember.nlp.SentenceTokenizer;
+import edu.colostate.ember.nlp.Sentenizer;
+import edu.colostate.ember.structure.DependencyTreeFactory;
+import edu.colostate.ember.structure.DependencyTreeNode;
+import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.ling.TaggedWord;
+import edu.stanford.nlp.parser.nndep.DependencyParser;
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+import edu.stanford.nlp.trees.GrammaticalStructure;
+import edu.stanford.nlp.trees.Tree;
+import edu.stanford.nlp.trees.TypedDependency;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 public class NLSYUtil {
 
-    //    private static String nlsyoutput = "data/input/NLSY_question_text_response";
 //    private static String nlsyroot = "rawData/NLSY97/NLSY97_Public";
 //    private static String nlsyoutput = "data/input/NLSY_question_text";
+
+    private static MaxentTagger tagger = new MaxentTagger(StaticFields.POS_TAGGER_MODEL);
+    private static DependencyParser parser = DependencyParser.loadFromModelFile(StaticFields.DEPENDENCY_PARSER_MODEL);
+    private static QuestionLexParser qp = new QuestionLexParser();
 
     private static void processNLSYCodebook(Path path) {
 
@@ -82,6 +103,8 @@ public class NLSYUtil {
         while ((line = reader.readLine()) != null) {
             if (line.matches(pattern)) {
                 return out;
+            } else if (line.trim().equals("")) {
+                out = out.concat("\t");
             }
             out = out.concat(" " + line);
         }
@@ -104,10 +127,10 @@ public class NLSYUtil {
 //        return path.toString().endsWith("cdb");
     }
 
-    private void phase1() {
+    private static void phase1() {
         File out = new File(StaticFields.NLSY_INPUT_PATH);
         if (out.exists()) {
-            System.out.println("HAHHAHAH");
+            System.out.println(StaticFields.NLSY_INPUT_PATH + " exists. Deleted");
             out.delete();
         }
 
@@ -121,23 +144,133 @@ public class NLSYUtil {
 
     }
 
-    private void phase2() throws IOException {
+    private static DependencyTreeNode extractDependencyTree(String input) {
+        List<? extends HasWord> words = new SentenceTokenizer(input).tokenize();
+        List<TaggedWord> taggedWords = tagger.tagSentence(words);
+        GrammaticalStructure gs = parser.predict(taggedWords);
+        Collection<TypedDependency> dependencies = gs.typedDependencies();
+
+        DependencyTreeNode dependencyTree = DependencyTreeFactory.constructDependencyTree((ArrayList<TypedDependency>) dependencies);
+        return dependencyTree;
+    }
+
+    private static String getCoreforNP(String input) {
+        DependencyTreeNode tree = extractDependencyTree(input);
+        return tree.getChildren().iterator().next().getWord().value();
+    }
+
+    private static String parsingBrackets(String input) {
+        List<String> brackets = TextUtil.extractPatterns(input, StaticFields.PAREN_PATTERN);
+        List<String> subs = new ArrayList<>();
+
+        for (String bracket : brackets) {
+            bracket = bracket.replaceAll("[\\(\\[\\{\\)\\]\\}]", "").trim();
+            Tree parse = qp.parseToken(bracket);
+
+            String firstLabel = parse.firstChild().label().value();
+
+            if (bracket.equals("loop") || bracket.equals("figure") || TextUtil.isUpperCase(bracket)) {
+                subs.add("");
+            } else if (bracket.contains("/")) {
+                subs.add(bracket.split("\\/")[0].trim());
+            } else if (firstLabel.equals("FRAG")) {
+                String secondLabel = parse.firstChild().firstChild().label().value();
+                if (secondLabel.equals("NP")) {
+                    subs.add(getCoreforNP(bracket));
+                } else {
+                    subs.add("");
+                }
+            } else if (firstLabel.equals("NP")) {
+                subs.add(getCoreforNP(bracket).replaceAll("\\$", ""));
+            } else {
+                subs.add("");
+            }
+        }
+
+        for (String sub : subs) {
+            input = input.replaceFirst(StaticFields.PAREN_PATTERN, sub);
+        }
+//        LogUtil.printInfo(input);
+        return input;
+
+
+    }
+
+    private static void phase2() throws IOException {
+
         BufferedReader bufferedReader = new BufferedReader(new FileReader(StaticFields.NLSY_INPUT_PATH));
         File out = new File(StaticFields.NLSY_INTERMEDIATE_PATH);
         if (out.exists()) {
             System.out.println(StaticFields.NLSY_INTERMEDIATE_PATH + " exists. Deleted");
             out.delete();
         }
-        String line;
+
+        String line, ref, main_text;
+        List<String> supplement;
+
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(StaticFields.NLSY_INTERMEDIATE_PATH, true));
 
         while ((line = bufferedReader.readLine()) != null) {
+            String[] parts = line.split("\\|");
+            ref = parts[0];
+            main_text = "";
+            supplement = new ArrayList<>();
+            // Deal with nested bracket, some stupid lines like: "When did you start [ ( kindergarten , first grade , . . . nth year in college ) ] for [ this school ] ( [ ( loop ) ] ) for the enrollment period [ beginning on date/ending on date/from start to end date/at this school ] ( [ ( loop ) ] :[ ( loop ) ] ) ?"
+            // Replace all brackets to paren, then replace nested with single ones.
+            line = parts[2].replaceAll("[\\[\\{]", "(").replaceAll("[\\]\\}]", ")").replaceAll("(\\(\\s*)+", " ( ").replaceAll("(\\)\\s*)+", ") ");
+
+            if (ref.equals("R4228600")) {
+                System.out.println();
+            }
+            //extract response choice
+            Pattern p = Pattern.compile(StaticFields.NLSY_RESPONSE_PATTERN);
+            Matcher m = p.matcher(line);
+            while (m.find()) {
+                String group = m.group();
+                line = line.replace(group, "");
+//                System.out.println(group);
+                supplement.add(group);
+            }
+
+//            System.out.println(line);
+            List<String> sentences = new Sentenizer(new StringReader(line)).setPuncWord(new String[]{".", "?", "!", "\t"}).parseSentences().tokenize();
+//            sentences.forEach(LogUtil::printErr);
+            for (String sentence : sentences) {
+
+                if (sentences.size() == 1) {
+                    main_text = sentence;
+                }
+
+                if (sentence.matches("^.*(UNIVERSE|COMMENT) :.*")) {//Skip Universe/Comment
+                    continue;
+                } else if (sentence.matches(StaticFields.BRACKETORPAREN_PATTERN)) {// Skip paren/bracket
+                    continue;
+//                    LogUtil.printErr(sentence);
+                } else if (TextUtil.isUpperCase(sentence)) {// Skip Upper case
+                    continue;
+                }
+                sentence = parsingBrackets(sentence).trim();
+
+                if (sentence.contains("?")) {
+                    main_text = sentence;
+                } else {
+                    supplement.add(sentence);
+                }
+//                System.out.println(sentence);
+            }
+            main_text = main_text.replaceAll("\\s+", " ").replaceAll("^\\W", "");
+
+            bufferedWriter.write(ref + "|" + main_text + "|" + TextUtil.listToString(supplement) + "\n");
 
         }
-
+        bufferedWriter.flush();
+        bufferedWriter.close();
+        bufferedReader.close();
     }
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        phase1();
+        phase2();
     }
 
 }

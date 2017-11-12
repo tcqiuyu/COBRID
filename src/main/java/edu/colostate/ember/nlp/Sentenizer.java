@@ -15,16 +15,24 @@ import java.util.List;
 
 public class Sentenizer implements Tokenizer<String> {
 
-    private String[] puncWord = new String[]{".", "?", "!", ":"};
+    private String[] puncWord = new String[]{".", "?", "!", ":", "\t"};
     private DocumentPreprocessor dp;
     private String ptb3Escaping = "false";
     private List<String> sentences;
     private Iterator<String> iter;
     private int index = 0;
+    private Reader input;
 
     public Sentenizer(Reader input) {
+        this.input = input;
+    }
 
+    public Sentenizer setPuncWord(String[] puncWordList) {
+        this.puncWord = puncWordList;
+        return this;
+    }
 
+    public Sentenizer parseSentences() {
         dp = new DocumentPreprocessor(input);
         dp.setSentenceFinalPuncWords(puncWord);
         dp.setTokenizerFactory(PTBTokenizer.coreLabelFactory("ptb3Escaping=" + ptb3Escaping));
@@ -37,15 +45,7 @@ public class Sentenizer implements Tokenizer<String> {
 
 
         iter = sentences.iterator();
-
-    }
-
-    public void setPuncWord(String[] puncWordList) {
-        puncWord = puncWord;
-    }
-
-    public void parseSentences() {
-
+        return this;
     }
 
 
@@ -76,7 +76,8 @@ public class Sentenizer implements Tokenizer<String> {
     }
 
     public static void main(String[] args) {
-        Sentenizer sentenizer = new Sentenizer(new StringReader("Interviewer: Is the (1994-1995) school year currently in session for this R's school?\n"));
+        Sentenizer sentenizer = new Sentenizer(new StringReader("Which of the following [is/was] that person?   (SELECT ALL THAT APPLY.)   UNIVERSE: R >= 14 has valid employer; not military; employer stopdate >= 16; job last 13+ weeks; job last 2+ weeks since DLI; not self-employed; has supervisor   RESPONSE CHOICE: \"Asian\"\n"));
+        List<String> a = sentenizer.tokenize();
         System.out.println(Arrays.asList(sentenizer.tokenize()));
     }
 }

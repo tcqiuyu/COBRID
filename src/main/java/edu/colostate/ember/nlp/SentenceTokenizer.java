@@ -50,12 +50,12 @@ public class SentenceTokenizer implements Tokenizer<Word> {
 //        iter = sentences.iterator();
 //    }
 
-    public SentenceTokenizer(String questionnaire) {
-        this(questionnaire, "");
+    public SentenceTokenizer(String input) {
+        this(input, "");
     }
 
-    public SentenceTokenizer(String questionnaire, String option) {
-        PTBTokenizer<Word> tokenizer = new PTBTokenizer<>(new StringReader(questionnaire), new WordTokenFactory(), option);
+    public SentenceTokenizer(String input, String option) {
+        PTBTokenizer<Word> tokenizer = new PTBTokenizer<>(new StringReader(input), new WordTokenFactory(), option);
         this.tokens = tokenizer.tokenize();
         this.iter = tokens.iterator();
     }
