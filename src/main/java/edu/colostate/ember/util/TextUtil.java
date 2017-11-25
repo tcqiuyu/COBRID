@@ -41,7 +41,7 @@ public class TextUtil {
             return out;
         } else {
             for (String s : list) {
-                out = out.concat(s.replaceAll("\\s+", " ").replaceAll("^\\W", "")).concat("|");
+                out = out.concat(s.replaceAll("\\s+", " ").replaceAll("^\\W", "")).replaceAll("[\\(\\)]", "").concat("|");
             }
             return out.substring(0, out.length() - 1);
         }

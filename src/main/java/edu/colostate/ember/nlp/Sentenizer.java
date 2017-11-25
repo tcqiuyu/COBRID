@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Sentenizer implements Tokenizer<String> {
 
-    private String[] puncWord = new String[]{".", "?", "!", ":", "\t"};
+    private String[] puncWord = new String[]{".", "?", "!", "\n"};
     private DocumentPreprocessor dp;
     private String ptb3Escaping = "false";
     private List<String> sentences;
@@ -76,7 +76,7 @@ public class Sentenizer implements Tokenizer<String> {
     }
 
     public static void main(String[] args) {
-        Sentenizer sentenizer = new Sentenizer(new StringReader("Which of the following [is/was] that person?   (SELECT ALL THAT APPLY.)   UNIVERSE: R >= 14 has valid employer; not military; employer stopdate >= 16; job last 13+ weeks; job last 2+ weeks since DLI; not self-employed; has supervisor   RESPONSE CHOICE: \"Asian\"\n"));
+        Sentenizer sentenizer = new Sentenizer(new StringReader(" ( current survey round) == 11|   UNIVERSE: R's bio/adoptive dad alive; has been in contact with R since R1|   COMMENT: this is round 11")).parseSentences();
         List<String> a = sentenizer.tokenize();
         System.out.println(Arrays.asList(sentenizer.tokenize()));
     }

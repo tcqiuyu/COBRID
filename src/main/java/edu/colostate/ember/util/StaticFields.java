@@ -37,7 +37,7 @@ public class StaticFields {
     public static final int NLSY_COUNT_TOTAL_IDX = 2;
     public static final int NLSY_COUNT_SKIP_IDX = 5;
     public static final int NLSY_COUNT_NON_INTERVIEW_IDX = 7;
-    public static final double NLSY_VALID_QUESTIONNAIRE_THRESHOLD = 0.3;
+    public static final double NLSY_VALID_QUESTIONNAIRE_THRESHOLD = 0.1;
 
     public static final String ADDHEALTH_WEBPAGE_URLBASE = "http://www.cpc.unc.edu/projects/addhealth/documentation/ace/tool/codebookssearch?field=varname&match=contains&text=";
 

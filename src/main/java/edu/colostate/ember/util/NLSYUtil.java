@@ -169,7 +169,7 @@ public class NLSYUtil {
 
             String firstLabel = parse.firstChild().label().value();
 
-            if (bracket.equals("loop") || bracket.equals("figure") || TextUtil.isUpperCase(bracket)) {
+            if (bracket.contains("loop") || bracket.equals("figure") || TextUtil.isUpperCase(bracket)) {
                 subs.add("");
             } else if (bracket.contains("/")) {
                 subs.add(bracket.split("\\/")[0].trim());
@@ -217,9 +217,9 @@ public class NLSYUtil {
             supplement = new ArrayList<>();
             // Deal with nested bracket, some stupid lines like: "When did you start [ ( kindergarten , first grade , . . . nth year in college ) ] for [ this school ] ( [ ( loop ) ] ) for the enrollment period [ beginning on date/ending on date/from start to end date/at this school ] ( [ ( loop ) ] :[ ( loop ) ] ) ?"
             // Replace all brackets to paren, then replace nested with single ones.
-            line = parts[2].replaceAll("[\\[\\{]", "(").replaceAll("[\\]\\}]", ")").replaceAll("(\\(\\s*)+", " ( ").replaceAll("(\\)\\s*)+", ") ");
+            line = parts[2].replaceAll("[\\[\\{]", "(").replaceAll("[\\]\\}]", ")").replaceAll("(\\(\\s*)+", " ( ").replaceAll("(\\)\\s*)+", ") ").replaceAll("\t", "\n");
 
-            if (ref.equals("R4228600")) {
+            if (ref.equals("S3701000")) {
                 System.out.println();
             }
             //extract response choice
@@ -233,7 +233,7 @@ public class NLSYUtil {
             }
 
 //            System.out.println(line);
-            List<String> sentences = new Sentenizer(new StringReader(line)).setPuncWord(new String[]{".", "?", "!", "\t"}).parseSentences().tokenize();
+            List<String> sentences = new Sentenizer(new StringReader(line)).setPuncWord(new String[]{".", "?", "!"}).parseSentences().tokenize();
 //            sentences.forEach(LogUtil::printErr);
             for (String sentence : sentences) {
 
@@ -258,7 +258,11 @@ public class NLSYUtil {
                 }
 //                System.out.println(sentence);
             }
-            main_text = main_text.replaceAll("\\s+", " ").replaceAll("^\\W", "");
+            main_text = main_text.replaceAll("\\s+", " ").replaceAll("^[\\W\\(]", "").replaceAll("[\\(\\)]", "");
+
+            if (main_text.equals("") && supplement.size() == 0) {
+                continue;
+            }
 
             bufferedWriter.write(ref + "|" + main_text + "|" + TextUtil.listToString(supplement) + "\n");
 
@@ -269,7 +273,7 @@ public class NLSYUtil {
     }
 
     public static void main(String[] args) throws IOException {
-        phase1();
+//        phase1();
         phase2();
     }
 
